@@ -1,0 +1,1504 @@
+id,tipo_documento,documento,nombres,apellidos,sexo,fecha_nacimiento,telefono,eps,regimen,sede_id
+1,CC,43527891,María Ofelia,Restrepo de Gómez,F,1952-03-14,3104567812,Savia Salud,subsidiado,050010217815
+2,CC,8345678,José Aníbal,Zapata Ríos,M,1945-03-14,3157894561,Nueva EPS,subsidiado,050010217808
+3,CC,32456789,Rosa Elena,Cardona Muñoz,F,1958-03-14,3006543217,Sura,contributivo,050010217804
+4,CC,29285772,Luz,Narváez Arango,F,1962-07-08,3118545410,Savia Salud,subsidiado,050010217857
+5,CC,9907029,Marcos,Ortiz Muñoz,M,1953-07-14,3155368826,Savia Salud,subsidiado,050010217861
+6,CC,26023217,Victoria,Navarro Suárez,F,1952-09-04,3243767372,Savia Salud,subsidiado,050010217802
+7,CC,32310065,Flor,Medina Castaño,F,1962-11-09,3067772556,Savia Salud,subsidiado,050010217826
+8,CC,4883674,Luis,Torres Galeano,M,1942-02-05,3254039998,Savia Salud,subsidiado,050010217849
+9,CC,38239644,Gloria,Muñoz Cifuentes,F,1947-12-18,3194660585,Savia Salud,subsidiado,050010217818
+10,CC,5018457,Víctor,Sánchez Caicedo,M,1964-07-03,3027910015,Savia Salud,subsidiado,050010217807
+11,CC,10433482,Álvaro,Pérez Arango,M,1961-02-23,3178714600,Savia Salud,subsidiado,050010217813
+12,CC,29602633,Luz,Quintero García,F,1956-03-27,3199205018,Savia Salud,subsidiado,050010217804
+13,CC,40174585,Sandra,Mantilla Parra,F,1964-04-11,3268098613,Savia Salud,subsidiado,050010217802
+14,CC,70552680,Ancizar,Mendoza Calderón,M,1954-06-24,3088872835,Savia Salud,subsidiado,050010217843
+15,CC,22166983,Shirley,Pacheco González,F,1966-08-16,3099500478,Savia Salud,subsidiado,050010217811
+16,CC,29440103,Elizabeth,Acevedo Díaz,F,1939-10-02,3031029887,Savia Salud,subsidiado,050010217810
+17,CC,27120384,Luz,Pulido Molina,F,1944-07-23,3255888458,Savia Salud,subsidiado,050010217837
+18,CC,39827840,Diana,Cárdenas Torres,F,1946-01-26,3084310629,Savia Salud,subsidiado,050010217861
+19,CC,39318774,Pilar,Sierra López,F,1958-02-14,3171529379,Savia Salud,contributivo,050010217810
+20,CC,70187942,Ferney,López Castro,M,1943-10-07,3024549387,Savia Salud,subsidiado,050010217811
+21,CC,9683830,José,Mena González,M,1957-07-16,3268024659,Savia Salud,subsidiado,050010217808
+22,CC,15470147,Cristian,López Ramos,M,1965-11-14,3051776607,Savia Salud,subsidiado,050010217826
+23,CC,8714515,Héctor,Lozano Cárdenas,M,1958-05-21,3282623238,Savia Salud,subsidiado,050010217853
+24,CC,22726861,Olga,Mendoza Hurtado,F,1965-12-27,3006120117,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217804
+25,CC,26028681,Luz,Ortega Moreno,F,1932-11-28,3179860865,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217802
+26,CC,29327295,Karol,Rico Martínez,F,1964-07-01,3281009667,Savia Salud,subsidiado,050010217822
+27,CC,33021921,Patricia,Narváez Jaramillo,F,1951-09-30,3168472810,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+28,CC,3790876,José,Rueda Barbosa,M,1954-07-04,3244628177,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217821
+29,CC,3728433,Alejandro,Romero Jaramillo,M,1948-04-16,3198088478,Savia Salud,subsidiado,050010217810
+30,CC,27695665,Yuly,Ortiz Suárez,F,1948-11-11,3275101538,Savia Salud,subsidiado,050010217865
+31,CC,7025464,Juan,Méndez Correa,M,1961-08-16,3032517895,Savia Salud,subsidiado,050010217814
+32,CC,70397820,Antonio,Giraldo Gómez,M,1956-04-21,3212248032,Savia Salud,subsidiado,050010217835
+33,CC,11032445,Alexander,Riascos Orozco,M,1964-05-10,3174658417,Savia Salud,subsidiado,050010217839
+34,CC,38924870,Isabel,Rubio Mosquera,F,1958-06-18,3273233359,Savia Salud,subsidiado,050010217852
+35,CC,8415275,Antonio,Gómez Sánchez,M,1948-09-09,3049156055,Savia Salud,subsidiado,050010217861
+36,CC,25408704,Diana,Torres Arboleda,F,1960-11-11,3024827107,Savia Salud,subsidiado,050010217852
+37,CC,40829634,Marcela,Vargas Agudelo,F,1958-03-26,3126895872,Savia Salud,contributivo,050010217810
+38,CC,32251364,Dolores,Jiménez Castellanos,F,1944-03-05,3111255213,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217802
+39,CC,26766168,Rosa,Londoño Hurtado,F,1944-06-27,3019592827,Savia Salud,subsidiado,050010217847
+40,CC,71246505,Edwar,Uribe Palacios,M,1963-09-27,3072288252,Savia Salud,subsidiado,050010217836
+41,CC,22987650,Marisol,Morales Flórez,F,1955-01-27,3287322461,Savia Salud,subsidiado,050010217809
+42,CC,42017978,Geraldine,Vásquez Perdomo,F,1964-03-23,3014871412,Nueva EPS,contributivo,050010217810
+43,CC,36870958,Cecilia,Ceballos Ávila,F,1940-02-18,3182083146,Savia Salud,subsidiado,050010217831
+44,CC,25094359,Paola,Saavedra Correa,F,1944-03-14,3128629314,Savia Salud,subsidiado,050010217818
+45,CC,13912716,Enrique,Muñoz López,M,1956-02-24,3009976154,Savia Salud,subsidiado,050010217861
+46,CC,9229048,Alberto,Aguirre Hernández,M,1966-07-02,3018101920,Savia Salud,subsidiado,050010217830
+47,CC,71844630,Antonio,Cardona Vásquez,M,1960-09-06,3288076002,Savia Salud,contributivo,050010217857
+48,CC,6932723,Eduardo,Serna Muñoz,M,1964-07-15,3204432617,Savia Salud,subsidiado,050010217808
+49,CC,28855268,Rosa,Salazar Hernández,F,1961-07-29,3241578938,Savia Salud,subsidiado,050010217851
+50,CC,32186199,Martha,Sánchez Bonilla,F,1955-09-17,3121048815,Savia Salud,subsidiado,050010217823
+51,CC,71983594,Carlos,Camacho Torres,M,1947-04-10,3209300569,Savia Salud,contributivo,050010217850
+52,CC,71058002,Armando,Hoyos Romero,M,1959-09-22,3109019465,Savia Salud,subsidiado,050010217859
+53,CC,31699425,Liceth,Hoyos Velásquez,F,1958-06-29,3211241425,Savia Salud,subsidiado,050010217860
+54,CC,27336101,María,Parra Ortiz,F,1965-04-12,3167451053,Savia Salud,subsidiado,050010217802
+55,CC,30627366,Leidy,Saavedra Alvarado,F,1956-10-08,3239724488,Savia Salud,subsidiado,050010217818
+56,CC,36244636,María,Duarte Betancur,F,1938-06-13,3275450970,Savia Salud,subsidiado,050010217865
+57,CC,25256302,Luisa,López Gaviria,F,1961-06-28,3271924370,Savia Salud,subsidiado,050010217810
+58,CC,5621040,Alejandro,Puentes Pulido,M,1946-01-27,3227457565,Savia Salud,subsidiado,050010217802
+59,CC,32009022,Fabiola,Granados García,F,1961-06-10,3002790520,Savia Salud,subsidiado,050010217837
+60,CC,28469506,Catalina,Suárez Hernández,F,1956-02-11,3056609489,Savia Salud,subsidiado,050010217824
+61,CC,34916638,Liliana,Fernández Rodríguez,F,1947-01-18,3271350739,Savia Salud,subsidiado,050010217852
+62,CC,35398408,Lorena,Páez Zapata,F,1966-08-16,3022724893,Savia Salud,subsidiado,050010217857
+63,CC,27447633,Lina,Jiménez Domínguez,F,1962-03-29,3125191368,Savia Salud,contributivo,050010217811
+64,CC,70406120,Antonio,Duarte Jaimes,M,1962-12-12,3084116316,Savia Salud,subsidiado,050010217842
+65,CC,11313334,José,Orjuela Moreno,M,1959-10-14,3174029929,Savia Salud,subsidiado,050010217809
+66,CC,31609517,Mirian,Chaparro Galeano,F,1952-12-28,3166767093,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217802
+67,CC,38123014,Yadira,Medina Marín,F,1957-07-21,3006523752,Savia Salud,subsidiado,050010217804
+68,CC,32258922,Carolina,Rubio Gómez,F,1950-01-21,3263189080,Savia Salud,subsidiado,050010217857
+69,CC,71879363,Carlos,Arteaga Arévalo,M,1965-05-02,3116964937,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217830
+70,CC,30006316,Dayana,Bolaños Guzmán,F,1951-12-18,3131719377,Savia Salud,subsidiado,050010217853
+71,CC,24693994,Omaira,Marín Galeano,F,1943-05-13,3166589556,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217807
+72,CC,42639937,María,Mendoza Escobar,F,1959-08-01,3016392786,Savia Salud,subsidiado,050010217818
+73,CC,71162661,Yesid,Salazar Duarte,M,1961-02-14,3226735712,Savia Salud,subsidiado,050010217823
+74,CC,71411604,Marino,Guerrero Ramírez,M,1949-10-12,3141012273,Savia Salud,subsidiado,050010217857
+75,CC,30380449,María,Prieto Acosta,F,1938-06-19,3022435926,Savia Salud,subsidiado,050010217811
+76,CC,26620145,Elena,Delgado González,F,1952-08-16,3239914896,Savia Salud,contributivo,050010217865
+77,CC,24336950,Martha,Moreno Muñoz,F,1959-10-03,3276375955,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217807
+78,CC,34547496,Ruby,Vargas López,F,1960-04-08,3247011367,Savia Salud,subsidiado,050010217829
+79,CC,34424472,Bibiana,Velásquez Gómez,F,1958-07-06,3164020685,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+80,CC,34709987,Gladys,Duque Bernal,F,1948-05-16,3298516358,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+81,CC,11300887,Sergio,Salazar Torres,M,1946-10-03,3003882536,Savia Salud,subsidiado,050010217826
+82,CC,13214280,Alfredo,Pineda Rueda,M,1951-09-26,3133819613,Savia Salud,subsidiado,050010217834
+83,CC,8772176,Juan,Arias Barrios,M,1963-02-06,3172942315,Savia Salud,contributivo,050010217809
+84,CC,15656126,Eduardo,Agudelo Ortega,M,1960-06-16,3123217910,Savia Salud,subsidiado,050010217851
+85,CC,11867396,Henry,Romero Zapata,M,1964-04-14,3046908444,Sura,contributivo,050010217820
+86,CC,4550566,Néstor,Álvarez Díaz,M,1952-04-14,3242127230,Savia Salud,subsidiado,050010217828
+87,CC,71726334,Leonardo,Hernández Zuluaga,M,1956-03-19,3134297012,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217804
+88,CC,43322929,Marcela,Rentería Lozano,F,1957-11-18,3265899651,Savia Salud,subsidiado,050010217828
+89,CC,4053405,Carlos,Guzmán Carrillo,M,1963-05-08,3131578141,Savia Salud,subsidiado,050010217822
+90,CC,30107205,Olga,Acevedo Arias,F,1932-04-06,3025692400,Savia Salud,subsidiado,050010217823
+91,CC,30917096,Carol,Pérez Bautista,F,1960-10-16,3168603185,Savia Salud,subsidiado,050010217802
+92,CC,10501797,José,Palacios Martínez,M,1957-02-03,3111494400,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217808
+93,CC,22702419,Patricia,Fernández Rentería,F,1952-04-15,3262185809,Savia Salud,subsidiado,050010217822
+94,CC,23152874,Lucía,Castillo Acosta,F,1953-01-31,3211772368,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217855
+95,CC,9371903,Ricardo,Romero Romero,M,1935-08-04,3215092292,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217810
+96,CC,70596613,Alirio,Cortés Romero,M,1965-08-07,3007521127,Savia Salud,subsidiado,050010217807
+97,CC,15551107,Ferney,Anaya Mejía,M,1949-05-06,3107012634,Savia Salud,subsidiado,050010217860
+98,CC,15571868,José,Suárez Burbano,M,1966-05-30,3108024076,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217809
+99,CC,30421351,Andrea,Ramírez Mercado,F,1957-09-18,3032675737,Savia Salud,subsidiado,050010217807
+100,CC,27777851,Luz,Gaitán Torres,F,1950-06-15,3274897439,Savia Salud,subsidiado,050010217857
+101,CC,40540424,Elena,Hurtado González,F,1955-04-15,3112179784,Savia Salud,subsidiado,050010217838
+102,CC,24578932,Ximena,Mendoza Fuentes,F,1961-02-11,3201813882,Savia Salud,subsidiado,050010217815
+103,CC,41058928,Nidia,García Pinto,F,1953-11-23,3227515070,Savia Salud,contributivo,050010217851
+104,CC,71755268,Steven,Vargas Vega,M,1965-05-23,3192999122,Savia Salud,subsidiado,050010217844
+105,CC,71718996,Alberto,Montoya Espinosa,M,1951-02-21,3238325761,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217820
+106,CC,32001930,Liliana,Lozano Hernández,F,1952-05-12,3086754029,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217860
+107,CC,40333831,Libia,Pineda Serrano,F,1944-10-29,3217210308,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217865
+108,CC,23936325,María,Sarmiento López,F,1956-09-05,3242385227,Savia Salud,contributivo,050010217819
+109,CC,70514329,Jaime,Moreno Galeano,M,1961-08-22,3138687416,Savia Salud,subsidiado,050010217804
+110,CC,40743151,Luz,Ortega Ortega,F,1959-11-27,3225932117,Savia Salud,subsidiado,050010217828
+111,CC,29257280,Elena,Martínez Soto,F,1947-12-16,3278893377,Savia Salud,subsidiado,050010217865
+112,CC,70796588,Yamid,Mosquera Maldonado,M,1962-07-31,3133153378,Savia Salud,subsidiado,050010217807
+113,CC,39423874,Carolina,Castro Cárdenas,F,1945-05-12,3122862424,Savia Salud,contributivo,050010217808
+114,CC,31251849,Denis,Patiño Barrera,F,1941-02-09,3057893424,Savia Salud,subsidiado,050010217857
+115,CC,28287504,María,Cardona Rodríguez,F,1962-09-03,3064904353,Savia Salud,subsidiado,050010217832
+116,CC,43788425,María,Rivera Vargas,F,1954-12-08,3125546029,Savia Salud,subsidiado,050010217846
+117,CC,25420738,Luz,Molina Ocampo,F,1963-10-04,3262348300,Savia Salud,subsidiado,050010217808
+118,CC,71701854,Uriel,Ceballos Osorio,M,1957-12-02,3005340543,Savia Salud,subsidiado,050010217808
+119,CC,31362596,Andrea,Corredor Salazar,F,1961-10-11,3178911502,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217820
+120,CC,6827532,Enrique,Bravo Velásquez,M,1962-07-04,3201721180,Savia Salud,subsidiado,050010217804
+121,CC,31198585,Delia,Narváez Monroy,F,1960-05-05,3084087563,Savia Salud,subsidiado,050010217808
+122,CC,29656122,Ana,Barbosa Ríos,F,1962-07-10,3236207088,Savia Salud,subsidiado,050010217809
+123,CC,7810581,Gustavo,Suárez Vargas,M,1964-03-10,3056040077,Savia Salud,subsidiado,050010217843
+124,CC,39918429,Milena,Pérez Salamanca,F,1949-10-03,3295505364,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217809
+125,CC,15568949,Luis,Vargas Barrera,M,1947-03-24,3238424038,Savia Salud,contributivo,050010217809
+126,CC,29846034,Sandra,Rojas Muñoz,F,1964-05-04,3189632749,Savia Salud,subsidiado,050010217804
+127,CC,39984424,Martha,Rodríguez Mena,F,1966-05-20,3192720170,Savia Salud,subsidiado,050010217835
+128,CC,9202408,Álvaro,Álvarez Maldonado,M,1956-09-10,3252433305,Savia Salud,subsidiado,050010217861
+129,CC,30893843,Blanca,Torres Alfonso,F,1958-05-31,3174630092,Savia Salud,subsidiado,050010217814
+130,CC,4197764,David,Montes Ayala,M,1963-06-11,3178956998,Savia Salud,subsidiado,050010217802
+131,CC,70151579,José,Sanabria Salazar,M,1963-12-20,3067645184,Savia Salud,subsidiado,050010217811
+132,CC,38452489,Tatiana,Monroy Cárdenas,F,1950-07-18,3089734521,Savia Salud,subsidiado,050010217838
+133,CC,31298367,Paola,Martínez Rivas,F,1961-04-11,3164246679,Savia Salud,subsidiado,050010217804
+134,CC,70592281,Miguel,Amaya Bedoya,M,1949-05-08,3016525748,Savia Salud,subsidiado,050010217853
+135,CC,32565941,Emilse,Rubio Rubio,F,1952-08-12,3046631116,Savia Salud,subsidiado,050010217810
+136,CC,10720112,Alfonso,Chávez Suárez,M,1957-10-08,3009036551,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217809
+137,CC,22001729,Luz,Henao Gómez,F,1965-11-13,3011175331,Savia Salud,subsidiado,050010217850
+138,CC,42114592,Yury,Valencia Salazar,F,1955-09-15,3004501536,Savia Salud,subsidiado,050010217845
+139,CC,37881558,Milena,Ruiz Montoya,F,1945-05-09,3092159596,Savia Salud,subsidiado,050010217804
+140,CC,71752190,Raúl,Rodríguez Herrera,M,1965-11-22,3043071305,Savia Salud,subsidiado,050010217846
+141,CC,25852874,Paola,Bustos Mendoza,F,1958-11-11,3156437763,Savia Salud,subsidiado,050010217829
+142,CC,38797462,Inés,Cuesta Giraldo,F,1963-10-07,3046678854,Savia Salud,subsidiado,050010217861
+143,CC,31266754,Liliana,Castillo Moreno,F,1956-05-02,3249452446,Savia Salud,subsidiado,050010217839
+144,CC,3678691,Hernando,Gutiérrez Palacios,M,1946-01-03,3049279260,Savia Salud,contributivo,050010217808
+145,CC,26055436,Alexandra,Castañeda Mena,F,1960-09-02,3027630035,Savia Salud,subsidiado,050010217808
+146,CC,28265080,Daniela,Quiroga Monroy,F,1959-05-29,3193661164,Savia Salud,subsidiado,050010217802
+147,CC,71861462,Eder,Forero Cárdenas,M,1929-08-23,3168460523,Savia Salud,subsidiado,050010217815
+148,CC,42486237,Gloria,Estrada Ortega,F,1949-07-12,3049877146,Savia Salud,subsidiado,050010217807
+149,CC,33467043,Katherine,Giraldo Morales,F,1955-12-04,3075559956,Savia Salud,subsidiado,050010217854
+150,CC,70135920,José,Ariza Gutiérrez,M,1944-11-07,3102863639,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217833
+151,CC,70376872,Mauricio,Bonilla Roa,M,1952-06-08,3067661075,Savia Salud,subsidiado,050010217807
+152,CC,23719956,Zoraida,Vergara Moreno,F,1966-10-02,3226748084,Savia Salud,subsidiado,050010217830
+153,CC,36391724,Margoth,Martínez Peña,F,1934-03-15,3028754804,Savia Salud,subsidiado,050010217852
+154,CC,71714127,Uriel,Meza Hurtado,M,1965-05-27,3271856836,Savia Salud,subsidiado,050010217804
+155,CC,24554032,Katerine,Díaz Gómez,F,1961-12-16,3254816651,Savia Salud,subsidiado,050010217836
+156,CC,34135550,Milena,Granados Gómez,F,1963-09-28,3235381569,Savia Salud,contributivo,050010217810
+157,CC,35182781,Cecilia,Palacios Rojas,F,1960-06-08,3108339668,Savia Salud,subsidiado,050010217865
+158,CC,11111907,Freddy,González García,M,1949-07-19,3093076498,Savia Salud,subsidiado,050010217808
+159,CC,7462230,Wilfrido,Rodríguez Torres,M,1956-11-23,3139236766,Savia Salud,subsidiado,050010217842
+160,CC,70510618,Diego,Rangel Quintero,M,1953-04-14,3164351035,Savia Salud,subsidiado,050010217855
+161,CC,27704188,Alexandra,Cifuentes Beltrán,F,1966-09-25,3059666066,Savia Salud,contributivo,050010217819
+162,CC,14561232,Albeiro,Rodríguez Ríos,M,1958-11-14,3278719708,Savia Salud,subsidiado,050010217811
+163,CC,34010093,María,Melo Rodríguez,F,1960-07-02,3215820150,Savia Salud,subsidiado,050010217810
+164,CC,35391203,Luz,Osorio Beltrán,F,1964-02-15,3175151919,Savia Salud,subsidiado,050010217839
+165,CC,37541561,María,Bedoya López,F,1944-10-08,3145445646,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+166,CC,10505311,Alexander,Gómez Bonilla,M,1962-08-22,3176195798,Savia Salud,contributivo,050010217859
+167,CC,8176575,Albeiro,Solano Ruiz,M,1964-01-01,3024389042,Savia Salud,subsidiado,050010217811
+168,CC,26983402,Carmen,Burgos Ayala,F,1965-08-28,3017903016,Savia Salud,subsidiado,050010217815
+169,CC,15678922,Erick,Guerrero Cuéllar,M,1954-03-09,3281283706,Savia Salud,subsidiado,050010217861
+170,CC,5700954,Pedro,Serna Molina,M,1946-06-07,3055578272,Savia Salud,subsidiado,050010217811
+171,CC,26794858,Socorro,Sierra Ortiz,F,1953-10-05,3241148022,Savia Salud,subsidiado,050010217840
+172,CC,12197463,Jairo,Gómez Gil,M,1952-07-27,3284464843,Savia Salud,subsidiado,050010217804
+173,CC,29954442,Claudia,Díaz Alzate,F,1961-09-17,3043662713,Savia Salud,subsidiado,050010217835
+174,CC,30784022,Lina,Ruiz Caballero,F,1958-11-07,3233219904,Savia Salud,subsidiado,050010217831
+175,CC,37741166,Yéssica,Salazar Vásquez,F,1955-09-22,3021961136,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217857
+176,CC,35714409,María,Mosquera Ojeda,F,1961-02-01,3045875227,Savia Salud,subsidiado,050010217804
+177,CC,28741697,Rocío,Chacón Gómez,F,1957-05-27,3268125222,Savia Salud,subsidiado,050010217822
+178,CC,43615581,María,Martínez García,F,1964-10-01,3146579867,Savia Salud,contributivo,050010217808
+179,CC,10202911,Henry,Ojeda Castellanos,M,1961-09-08,3072943273,Savia Salud,subsidiado,050010217804
+180,CC,21144813,Angie,Flórez Flórez,F,1964-05-03,3133231220,Savia Salud,subsidiado,050010217856
+181,CC,37539516,Patricia,Medina González,F,1953-05-29,3203079498,Savia Salud,subsidiado,050010217865
+182,CC,35007540,Karina,Montoya Rivera,F,1934-08-26,3233935814,Nueva EPS,contributivo,050010217810
+183,CC,39433658,Jennifer,Suárez Bohórquez,F,1960-02-12,3112816765,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217814
+184,CC,36481976,Clara,Méndez Hurtado,F,1963-07-24,3265640619,Savia Salud,subsidiado,050010217808
+185,CC,70852384,Víctor,Pabón Barragán,M,1948-12-15,3211998856,Savia Salud,subsidiado,050010217818
+186,CC,70981218,Julio,Salamanca Vargas,M,1962-11-27,3095595363,Savia Salud,subsidiado,050010217809
+187,CC,30325346,Juana,Loaiza Henao,F,1955-02-27,3268350071,Savia Salud,subsidiado,050010217807
+188,CC,71358675,Luis,Murcia Rivera,M,1957-01-09,3192032138,Savia Salud,subsidiado,050010217857
+189,CC,8249500,Enrique,Angarita López,M,1950-05-02,3289098420,Savia Salud,subsidiado,050010217837
+190,CC,38756425,Paula,Torres Polo,F,1962-01-13,3164096302,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217852
+191,CC,29278259,Sandra,López Reyes,F,1951-12-10,3044883011,Savia Salud,subsidiado,050010217857
+192,CC,70581337,Miguel,Espinosa Castro,M,1945-02-08,3175676882,Savia Salud,subsidiado,050010217802
+193,CC,36264024,Milena,Jiménez Caicedo,F,1963-12-06,3008309549,Savia Salud,subsidiado,050010217811
+194,CC,70982052,Carlos,Londoño Fonseca,M,1958-09-07,3128450712,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217853
+195,CC,43458122,Nubia,Muñoz Ramos,F,1956-01-31,3071446655,Savia Salud,subsidiado,050010217843
+196,CC,42920975,Luz,Ortega Ochoa,F,1962-06-05,3085592272,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217847
+197,CC,36342269,María,Jaimes Cáceres,F,1963-09-01,3186522843,Savia Salud,subsidiado,050010217810
+198,CC,30538489,Isabel,Ruiz Duarte,F,1966-06-25,3196319579,Savia Salud,subsidiado,050010217865
+199,CC,34527967,Ana,Ortiz Garzón,F,1964-02-06,3294286694,Savia Salud,subsidiado,050010217837
+200,CC,9853103,Rafael,Pérez Ramírez,M,1947-05-04,3084620184,Savia Salud,subsidiado,050010217804
+201,CC,28044248,Esther,Gaviria Ramírez,F,1960-08-26,3257373969,Savia Salud,subsidiado,050010217861
+202,CC,30010792,Nubia,Contreras Castro,F,1942-06-14,3197429825,Savia Salud,subsidiado,050010217811
+203,CC,70080847,Camilo,Pinto López,M,1953-09-12,3002682953,Savia Salud,subsidiado,050010217808
+204,CC,42807011,Esperanza,Acosta González,F,1965-05-03,3261687190,Savia Salud,subsidiado,050010217861
+205,CC,5339122,Camilo,Pérez Parra,M,1966-02-22,3263191052,Savia Salud,subsidiado,050010217833
+206,CC,33548779,María,Ospina Cifuentes,F,1948-03-19,3246287925,Savia Salud,subsidiado,050010217811
+207,CC,22551636,Xiomara,Saavedra Vargas,F,1964-09-26,3094666156,Savia Salud,contributivo,050010217804
+208,CC,41351511,Pilar,Mosquera Forero,F,1962-05-08,3223548152,Savia Salud,contributivo,050010217865
+209,CC,71677018,Felipe,Villamizar Castillo,M,1964-09-03,3022890671,Savia Salud,subsidiado,050010217843
+210,CC,32298032,Carol,Correa Vera,F,1955-12-15,3015140026,Savia Salud,subsidiado,050010217850
+211,CC,21740965,Andrea,Padilla Rojas,F,1954-06-26,3298689586,Savia Salud,subsidiado,050010217865
+212,CC,70268400,Diego,Rivera Soto,M,1962-04-01,3196071472,Savia Salud,subsidiado,050010217839
+213,CC,70020748,Fabián,Castro Saavedra,M,1955-12-27,3051643730,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217809
+214,CC,5000940,José,Acosta Hernández,M,1962-10-12,3208136015,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217865
+215,CC,40567072,Luz,Torres Garcés,F,1956-08-22,3103625469,Savia Salud,subsidiado,050010217839
+216,CC,37523487,María,Pinzón Escobar,F,1961-09-08,3107384441,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217859
+217,CC,42220858,Omaira,Gaitán González,F,1954-01-19,3152745084,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217865
+218,CC,37151965,Lucero,Sánchez González,F,1962-08-13,3064606649,Savia Salud,subsidiado,050010217843
+219,CC,25054646,Paola,Benavides Córdoba,F,1955-04-29,3018804662,Savia Salud,subsidiado,050010217865
+220,CC,70896639,Santiago,Rojas Ortega,M,1956-12-28,3225440991,Savia Salud,subsidiado,050010217809
+221,CC,10205121,Alexander,Burgos Jaramillo,M,1965-09-23,3206399037,Savia Salud,subsidiado,050010217861
+222,CC,27481929,Doris,Cardona González,F,1958-04-08,3032310240,Savia Salud,subsidiado,050010217802
+223,CC,25881772,Luz,Torres Galvis,F,1966-06-13,3069557679,Savia Salud,subsidiado,050010217804
+224,CC,22223239,Diana,Ramos Herrera,F,1958-05-26,3092460446,Savia Salud,subsidiado,050010217865
+225,CC,30959298,Patricia,Arias Rincón,F,1962-02-14,3051418535,Savia Salud,subsidiado,050010217851
+226,CC,8125610,Andrey,Patiño Mejía,M,1965-08-12,3221827393,Savia Salud,subsidiado,050010217804
+227,CC,31685263,Milena,Moreno Romero,F,1940-08-07,3033962839,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217804
+228,CC,37697068,Mónica,Manrique García,F,1961-06-26,3168735489,Savia Salud,subsidiado,050010217810
+229,CC,70285540,Juan,Medina Ospina,M,1966-07-25,3142594754,Savia Salud,subsidiado,050010217834
+230,CC,30448066,María,Rodríguez Cortés,F,1960-06-13,3283596672,Savia Salud,subsidiado,050010217823
+231,CC,11379538,José,Bravo Sandoval,M,1963-08-25,3253954766,Savia Salud,contributivo,050010217819
+232,CC,31713565,Cristina,Bolívar Ramos,F,1947-06-01,3165332389,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217852
+233,CC,36878114,Enith,Torres García,F,1965-12-20,3137970542,Savia Salud,contributivo,050010217843
+234,CC,21313603,Laura,Contreras Vergara,F,1946-12-01,3035200110,Savia Salud,subsidiado,050010217824
+235,CC,37986009,Luz,Blanco Jiménez,F,1945-08-31,3054964593,Savia Salud,subsidiado,050010217845
+236,CC,4691042,Esneider,Bautista Perdomo,M,1963-01-05,3261033023,Savia Salud,subsidiado,050010217854
+237,CC,11367277,José,Martínez Gómez,M,1962-09-26,3069226388,Savia Salud,subsidiado,050010217861
+238,CC,71358806,Óscar,Gómez Sánchez,M,1959-11-14,3126256234,Savia Salud,subsidiado,050010217807
+239,CC,42619964,María,Portilla Correa,F,1951-09-24,3129424058,Savia Salud,contributivo,050010217821
+240,CC,27149203,Carmen,Sánchez Castro,F,1948-02-10,3268938421,Savia Salud,subsidiado,050010217826
+241,CC,25582045,Luz,Bautista Salgado,F,1953-01-03,3127345227,Savia Salud,subsidiado,050010217823
+242,CC,26009875,Julia,García Calderón,F,1965-05-06,3066591177,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217865
+243,CC,43817242,Graciela,Medina Patiño,F,1963-05-04,3078228265,Savia Salud,subsidiado,050010217832
+244,CC,21330715,María,Delgado Villamizar,F,1958-11-12,3277169923,Savia Salud,subsidiado,050010217856
+245,CC,25827276,Fernanda,López Domínguez,F,1946-06-25,3169178394,Savia Salud,subsidiado,050010217855
+246,CC,40282195,Mariana,Gutiérrez Ariza,F,1956-08-31,3145845310,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217847
+247,CC,71946721,Juan,Garzón Amaya,M,1953-01-27,3118558016,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217847
+248,CC,28553651,Karen,Mendoza Luna,F,1946-10-01,3074130013,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+249,CC,24485113,Adriana,García Sánchez,F,1962-03-09,3138269809,Savia Salud,subsidiado,050010217859
+250,CC,7468691,Carlos,Patiño Martínez,M,1956-06-15,3267670970,Savia Salud,subsidiado,050010217829
+251,CC,32044504,Rita,Escobar García,F,1958-12-01,3288271746,Savia Salud,subsidiado,050010217857
+252,CC,30187281,Zoraida,Cerón Moreno,F,1965-08-30,3064834548,Savia Salud,subsidiado,050010217804
+253,CC,35146616,Blanca,Moreno Hernández,F,1954-09-19,3119191348,Savia Salud,subsidiado,050010217813
+254,CC,6899665,Andrés,Rivas Torres,M,1940-03-02,3118213678,Savia Salud,contributivo,050010217861
+255,CC,9308096,Alberto,Díaz Gutiérrez,M,1964-03-11,3106029837,Savia Salud,subsidiado,050010217809
+256,CC,26809734,Enith,Rojas Díaz,F,1963-02-14,3227811221,Savia Salud,subsidiado,050010217826
+257,CC,42573165,María,Toro López,F,1966-03-16,3102113497,Savia Salud,subsidiado,050010217828
+258,CC,71829835,Steven,Ballesteros Castro,M,1964-12-10,3101627901,Savia Salud,subsidiado,050010217808
+259,CC,42000981,Cristina,Arenas Reyes,F,1965-02-25,3232073973,Savia Salud,subsidiado,050010217852
+260,CC,43148318,Cecilia,Ceballos Anaya,F,1956-12-07,3102575240,Savia Salud,contributivo,050010217856
+261,CC,29552413,Paola,Benítez Gómez,F,1964-10-29,3169158194,Savia Salud,subsidiado,050010217808
+262,CC,4880456,Yeison,Herrera Ospino,M,1964-04-30,3154935208,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217829
+263,CC,37683892,María,Rojas Parra,F,1947-01-14,3261976621,Savia Salud,subsidiado,050010217856
+264,CC,14262851,César,Perdomo Hernández,M,1958-02-22,3068207293,Savia Salud,subsidiado,050010217852
+265,CC,37902055,María,Moreno López,F,1954-06-23,3076831860,Savia Salud,subsidiado,050010217822
+266,CC,11517657,Abel,Molina Ramírez,M,1966-04-02,3226392492,Savia Salud,subsidiado,050010217842
+267,CC,70291903,Alexander,Ortiz Cárdenas,M,1955-02-28,3152142284,Savia Salud,subsidiado,050010217857
+268,CC,30598816,Cecilia,Pineda Rojas,F,1960-06-17,3026778904,Savia Salud,subsidiado,050010217846
+269,CC,70758344,Santiago,Caro Gallego,M,1959-06-06,3068481110,Savia Salud,subsidiado,050010217808
+270,CC,22721320,María,Ramos Fonseca,F,1962-10-04,3027881985,Savia Salud,subsidiado,050010217861
+271,CC,26245152,María,Rico González,F,1964-02-28,3271194217,Savia Salud,contributivo,050010217861
+272,CC,29333771,Luz,Rodríguez Andrade,F,1947-06-11,3057637556,Savia Salud,subsidiado,050010217861
+273,CC,24505032,María,Correa Fernández,F,1952-12-23,3142052424,Savia Salud,subsidiado,050010217850
+274,CC,26393744,Olga,Portilla Carvajal,F,1964-10-18,3007037943,Savia Salud,subsidiado,050010217860
+275,CC,13088661,José,Medina Sánchez,M,1954-09-21,3211270925,Savia Salud,subsidiado,050010217836
+276,CC,71354845,Gregorio,Torres Vergara,M,1964-12-06,3137027823,Savia Salud,subsidiado,050010217828
+277,CC,7840532,Óscar,Mendoza Montoya,M,1961-08-21,3102417625,Savia Salud,subsidiado,050010217832
+278,CC,35704144,Carmen,Jaimes Carvajal,F,1952-03-22,3042022875,Savia Salud,subsidiado,050010217812
+279,CC,28861518,Mariana,Ayala López,F,1937-05-13,3025081660,Savia Salud,subsidiado,050010217828
+280,CC,37164277,Amanda,Ruiz Cardozo,F,1965-01-21,3269877279,Savia Salud,subsidiado,050010217843
+281,CC,30405912,Alexandra,Ramírez Delgado,F,1954-06-14,3064918589,Savia Salud,contributivo,050010217809
+282,CC,21185017,Luisa,Palacios Flórez,F,1957-08-27,3001320423,Savia Salud,subsidiado,050010217850
+283,CC,37521019,Margarita,Ríos Bautista,F,1956-05-24,3132499069,Savia Salud,subsidiado,050010217861
+284,CC,71751973,Enrique,Cárdenas Rodríguez,M,1964-04-18,3041917439,Savia Salud,subsidiado,050010217835
+285,CC,26546720,Katherine,Martínez Pulido,F,1951-08-30,3054125040,Savia Salud,subsidiado,050010217834
+286,CC,71059193,Rafael,Jaramillo Giraldo,M,1957-05-15,3162725080,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217860
+287,CC,70245097,Jaime,López Sánchez,M,1958-10-02,3123045437,Savia Salud,subsidiado,050010217833
+288,CC,71214688,Sebastián,Suárez Mora,M,1962-11-14,3116537485,Savia Salud,subsidiado,050010217809
+289,CC,6337120,Mauricio,Mantilla Bernal,M,1955-02-11,3106745357,Savia Salud,subsidiado,050010217851
+290,CC,9984886,José,Vergara Ruiz,M,1964-08-14,3108097753,Savia Salud,subsidiado,050010217819
+291,CC,36760359,Andrea,Morales Lara,F,1962-05-28,3169778782,Savia Salud,subsidiado,050010217847
+292,CC,70811018,Johan,Cruz Estrada,M,1945-10-22,3268173926,Savia Salud,subsidiado,050010217828
+293,CC,30257736,Rocío,Sánchez Toro,F,1955-07-12,3177603419,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+294,CC,30447874,Libia,Duarte Jiménez,F,1955-07-19,3121853164,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217807
+295,CC,70122712,Jairo,Hernández Vargas,M,1963-08-24,3055305497,Savia Salud,subsidiado,050010217839
+296,CC,36348557,María,Alfonso Camargo,F,1947-07-20,3063923407,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+297,CC,43114920,Olga,Duque Vélez,F,1958-09-01,3125606366,Savia Salud,subsidiado,050010217810
+298,CC,28114527,Leidy,Vargas Rincón,F,1965-06-08,3239773226,Savia Salud,subsidiado,050010217815
+299,CC,22175019,Alba,Rivera Torres,F,1958-12-11,3087154732,Savia Salud,subsidiado,050010217861
+300,CC,23759585,Margarita,Bernal Moreno,F,1949-02-22,3084985549,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217824
+301,CC,70284843,Carlos,Tovar Rengifo,M,1957-06-19,3116812778,Savia Salud,subsidiado,050010217809
+302,CC,39318535,Dora,Pinto Bonilla,F,1960-11-28,3101603603,Savia Salud,subsidiado,050010217850
+303,CC,23782798,Elena,Murillo Cruz,F,1953-05-22,3295034727,Savia Salud,subsidiado,050010217847
+304,CC,28379841,Anyi,González Portilla,F,1958-09-07,3251284545,Savia Salud,subsidiado,050010217819
+305,CC,36251351,Patricia,Suárez Jaramillo,F,1951-07-26,3063162666,Savia Salud,subsidiado,050010217829
+306,CC,41160782,Jhoana,Cuéllar Ochoa,F,1955-03-11,3132282501,Savia Salud,subsidiado,050010217865
+307,CC,70878641,Armando,Gallego Suárez,M,1960-05-08,3078257281,Savia Salud,subsidiado,050010217845
+308,CC,28542492,María,Fernández Rojas,F,1927-06-21,3067814128,Savia Salud,subsidiado,050010217824
+309,CC,70065671,Miguel,Solano Mantilla,M,1965-08-02,3154245452,Savia Salud,subsidiado,050010217818
+310,CC,40305010,Patricia,Caballero Moreno,F,1966-06-28,3026635362,Nueva EPS,contributivo,050010217818
+311,CC,71198033,Rafael,Meneses Duarte,M,1956-01-23,3153145743,Savia Salud,subsidiado,050010217810
+312,CC,41985345,Liliana,Santos Pérez,F,1958-10-25,3083762477,Savia Salud,contributivo,050010217861
+313,CC,70853770,Yeison,Ospino Benítez,M,1959-11-18,3281526931,Savia Salud,subsidiado,050010217808
+314,CC,36838712,Luz,Giraldo López,F,1958-04-01,3266918406,Savia Salud,subsidiado,050010217831
+315,CC,33343597,Carolina,Castillo Pérez,F,1961-05-22,3226674091,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217829
+316,CC,23559767,Ángela,Palacio Durán,F,1942-08-31,3016707447,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217815
+317,CC,3668403,Jesús,González González,M,1962-07-12,3152330541,Savia Salud,subsidiado,050010217829
+318,CC,71910747,Eliecer,Muñoz Velásquez,M,1944-01-09,3257580491,Savia Salud,subsidiado,050010217826
+319,CC,41294576,Diana,Bermúdez García,F,1964-01-16,3061139829,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217828
+320,CC,11576905,Felipe,Mendoza Molina,M,1966-05-12,3126824013,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+321,CC,40867846,Sandra,Carrillo Bustos,F,1945-02-07,3212456911,Savia Salud,subsidiado,050010217843
+322,CC,39413888,Sandra,García Castro,F,1957-06-28,3194793216,Savia Salud,subsidiado,050010217808
+323,CC,41519016,Carolina,Alvarado Gómez,F,1947-06-08,3175627500,Savia Salud,subsidiado,050010217810
+324,CC,31739927,María,Lozano Correa,F,1943-11-07,3188203505,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217839
+325,CC,41209304,Sandra,Duque Medina,F,1955-01-18,3077844865,Sura,contributivo,050010217832
+326,CC,30903688,Michel,Rojas Silva,F,1953-08-12,3149430385,Savia Salud,subsidiado,050010217810
+327,CC,23061151,Patricia,López Pedraza,F,1953-11-17,3193655345,Savia Salud,subsidiado,050010217857
+328,CC,14688603,Vicente,Sarmiento Sierra,M,1963-10-20,3125429849,Savia Salud,subsidiado,050010217839
+329,CC,70264988,Fredy,Torres Díaz,M,1966-08-12,3097936713,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+330,CC,70361730,Alberto,Ortiz Medina,M,1949-08-14,3008481026,Savia Salud,subsidiado,050010217857
+331,CC,70089294,César,Ortiz Romero,M,1950-04-11,3024566116,Savia Salud,subsidiado,050010217847
+332,CC,39784741,Pilar,Vera Vargas,F,1943-03-07,3066244748,Savia Salud,subsidiado,050010217814
+333,CC,24301705,Blanca,González Méndez,F,1946-12-09,3198392905,Savia Salud,subsidiado,050010217830
+334,CC,36000275,Mercedes,Díaz Benítez,F,1966-07-22,3056482558,Savia Salud,contributivo,050010217831
+335,CC,70206961,Ricardo,Parada Ortiz,M,1964-10-23,3069923442,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+336,CC,71011410,Carlos,Castaño Zambrano,M,1960-03-28,3127872457,Savia Salud,subsidiado,050010217809
+337,CC,39871161,Martha,Marín Díaz,F,1957-10-25,3156514290,Savia Salud,subsidiado,050010217846
+338,CC,32870937,Cristina,Puentes Ortiz,F,1966-11-08,3034226811,Savia Salud,subsidiado,050010217853
+339,CC,71388089,Manuel,Gaviria Ospino,M,1964-10-06,3122275907,Savia Salud,subsidiado,050010217810
+340,CC,31103134,Rocío,Caicedo Mora,F,1959-10-05,3211704993,Savia Salud,subsidiado,050010217860
+341,CC,8965907,Hernando,Vallejo Alarcón,M,1956-12-03,3295186688,Savia Salud,subsidiado,050010217839
+342,CC,23170892,Amparo,Cruz Márquez,F,1951-05-29,3038019271,Savia Salud,subsidiado,050010217808
+343,CC,33551018,Gladys,Arroyo López,F,1963-06-24,3034535149,Savia Salud,subsidiado,050010217861
+344,CC,70037057,Gabriel,Vera Romero,M,1947-06-29,3254332419,Savia Salud,subsidiado,050010217861
+345,CC,5810404,José,Quintero Domínguez,M,1942-11-18,3092216117,Savia Salud,subsidiado,050010217839
+346,CC,70767083,Fabio,Quintero Gaitán,M,1943-05-09,3189103197,Savia Salud,contributivo,050010217804
+347,CC,21912697,María,Daza Cortés,F,1962-09-03,3043974592,Savia Salud,contributivo,050010217835
+348,CC,28567926,Jacqueline,Jiménez Romero,F,1952-02-15,3004364826,Savia Salud,subsidiado,050010217808
+349,CC,15171488,Javier,Mendoza Restrepo,M,1958-02-12,3128770116,Savia Salud,subsidiado,050010217854
+350,CC,31378290,Diana,Cardona Martínez,F,1940-04-24,3031274356,Savia Salud,subsidiado,050010217845
+351,CC,32738263,Eugenia,Perea Valencia,F,1962-06-15,3248892235,Savia Salud,subsidiado,050010217856
+352,CC,5890199,Daniel,Bolaños Perea,M,1934-02-08,3002223869,Savia Salud,subsidiado,050010217834
+353,CC,29571310,Nubia,Escobar Paz,F,1966-05-13,3164744158,Savia Salud,subsidiado,050010217852
+354,CC,38257253,Leidy,Beltrán Loaiza,F,1956-11-30,3212143015,Savia Salud,subsidiado,050010217846
+355,CC,37877889,Gloria,Osorio Durán,F,1952-02-18,3095744036,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+356,CC,27263018,Edith,Bermúdez Parra,F,1950-08-01,3219656274,Sura,contributivo,050010217857
+357,CC,42919791,Isabel,Solano Camargo,F,1944-08-31,3088328164,Savia Salud,subsidiado,050010217843
+358,CC,70242399,Rafael,Muñoz García,M,1944-06-18,3043073013,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217855
+359,CC,24907470,Beatriz,Gamboa Salas,F,1954-02-21,3063488999,Savia Salud,subsidiado,050010217809
+360,CC,70762968,Omar,Salazar Salas,M,1956-01-16,3179900574,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217829
+361,CC,37362969,Carmenza,Suárez Lozano,F,1958-01-07,3042685271,Savia Salud,subsidiado,050010217824
+362,CC,23811180,Rosa,Ramírez Rincón,F,1942-05-05,3112252039,Savia Salud,subsidiado,050010217807
+363,CC,13467284,David,Erazo Mantilla,M,1950-04-04,3034673776,Savia Salud,subsidiado,050010217837
+364,CC,70973416,Antonio,Pérez Ramírez,M,1958-03-31,3032181766,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217814
+365,CC,23661902,Irma,Valencia Bravo,F,1943-04-10,3157949357,Savia Salud,subsidiado,050010217828
+366,CC,28920673,Iris,Herrera Benítez,F,1963-04-15,3101119852,Savia Salud,subsidiado,050010217821
+367,CC,33829535,Luz,Gómez Gil,F,1966-09-28,3169253394,Savia Salud,subsidiado,050010217856
+368,CC,34096966,Lucía,Moreno Mora,F,1949-05-25,3035121872,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217865
+369,CC,70488011,Yesid,Marín Caicedo,M,1962-06-13,3201138167,Savia Salud,subsidiado,050010217837
+370,CC,70091948,Fabio,López Palacios,M,1943-09-20,3001771074,Savia Salud,subsidiado,050010217847
+371,CC,21918384,María,Ramírez González,F,1954-09-02,3086993275,Savia Salud,subsidiado,050010217809
+372,CC,35143998,Andrea,Cáceres Rodríguez,F,1950-10-28,3026843971,Savia Salud,subsidiado,050010217857
+373,CC,38435243,Olga,García Rodríguez,F,1943-09-16,3286906177,Savia Salud,subsidiado,050010217802
+374,CC,70885289,Franklin,Mora Andrade,M,1952-09-20,3245058693,Savia Salud,contributivo,050010217840
+375,CC,71731562,John,Córdoba Castañeda,M,1961-04-12,3036112857,Savia Salud,contributivo,050010217807
+376,CC,22038361,María,Rojas Duarte,F,1949-05-15,3168169507,Savia Salud,subsidiado,050010217804
+377,CC,36415157,Azucena,Ramírez Medina,F,1952-09-28,3225396765,Savia Salud,subsidiado,050010217807
+378,CC,71844093,Pedro,Córdoba Ardila,M,1962-04-06,3164725681,Savia Salud,subsidiado,050010217804
+379,CC,43464151,María,Vargas Gil,F,1965-09-08,3081820461,Savia Salud,subsidiado,050010217815
+380,CC,22116609,Astrid,Vergara Cifuentes,F,1953-01-08,3264744505,Savia Salud,subsidiado,050010217823
+381,CC,43566078,Yenny,Rodríguez Suárez,F,1949-03-20,3189905385,Savia Salud,subsidiado,050010217844
+382,CC,42306238,María,González Bonilla,F,1964-11-10,3299093495,Savia Salud,subsidiado,050010217854
+383,CC,41737519,Elena,Rangel Rodríguez,F,1953-08-03,3214823537,Savia Salud,subsidiado,050010217865
+384,CC,28760018,Lorena,Obando Morales,F,1952-12-16,3137496181,Savia Salud,subsidiado,050010217809
+385,CC,39524491,Flor,Salas Arenas,F,1964-10-12,3002791428,Savia Salud,subsidiado,050010217850
+386,CC,43974480,Cecilia,Marín Fuentes,F,1957-06-11,3148338642,Savia Salud,subsidiado,050010217839
+387,CC,32670949,Mónica,Osorio Monroy,F,1953-12-04,3129460784,Savia Salud,subsidiado,050010217857
+388,CC,21398780,Carmen,Vélez Mosquera,F,1956-01-31,3032903538,Savia Salud,contributivo,050010217853
+389,CC,25781896,Eugenia,Tovar Campo,F,1932-01-30,3121713243,Savia Salud,subsidiado,050010217807
+390,CC,26957959,Mariela,Sierra Murillo,F,1962-03-30,3228698321,Savia Salud,subsidiado,050010217826
+391,CC,37996455,Nubia,Gallego Caballero,F,1952-10-15,3199790185,Savia Salud,subsidiado,050010217834
+392,CC,21107927,María,Rodríguez Olaya,F,1957-06-15,3114230224,Savia Salud,subsidiado,050010217855
+393,CC,70967002,Leonardo,López Suárez,M,1966-03-10,3127313096,Savia Salud,subsidiado,050010217855
+394,CC,21619193,Patricia,Álvarez Hernández,F,1964-10-20,3161713449,Savia Salud,subsidiado,050010217833
+395,CC,71320073,Nelson,Sánchez Cárdenas,M,1957-07-22,3067722065,Savia Salud,contributivo,050010217813
+396,CC,6327365,Andrés,Medina Muñoz,M,1961-07-10,3255475421,Savia Salud,subsidiado,050010217839
+397,CC,40607367,Alba,Ortiz Rojas,F,1961-10-05,3156570068,Savia Salud,subsidiado,050010217802
+398,CC,71195408,Javier,Barbosa Arroyo,M,1963-10-25,3258427760,Savia Salud,contributivo,050010217830
+399,CC,30422409,Ana,Mena Martínez,F,1956-01-30,3022308630,Savia Salud,subsidiado,050010217809
+400,CC,24686450,Lucía,Patiño Padilla,F,1966-01-17,3263471130,Savia Salud,subsidiado,050010217860
+401,CC,6274003,Edgar,Rincón Marín,M,1934-02-20,3298031872,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217831
+402,CC,33390665,María,Navarro Bedoya,F,1965-08-09,3122376199,Savia Salud,subsidiado,050010217861
+403,CC,70152972,Eduardo,Sánchez Muñoz,M,1956-11-17,3121339965,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217842
+404,CC,8156222,Roberto,López Carvajal,M,1932-08-24,3184173901,Savia Salud,subsidiado,050010217865
+405,CC,39449905,Kelly,Zambrano Arias,F,1963-08-18,3295485902,Savia Salud,subsidiado,050010217852
+406,CC,36098052,Nubia,Rojas Ortiz,F,1963-05-31,3063894095,Savia Salud,subsidiado,050010217834
+407,CC,30728926,Angélica,González Molina,F,1930-11-28,3244312987,Savia Salud,subsidiado,050010217809
+408,CC,33892096,Nubia,Gómez Gómez,F,1963-08-08,3239686121,Savia Salud,subsidiado,050010217856
+409,CC,28706159,Mariana,Rosero Bolaños,F,1965-05-01,3067831121,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217834
+410,CC,30886366,Luz,Sepúlveda Ospina,F,1963-01-20,3259358782,Savia Salud,subsidiado,050010217838
+411,CC,70871245,Jaime,Díaz Morales,M,1957-09-26,3144196244,Savia Salud,subsidiado,050010217857
+412,CC,27837634,Diana,Rodríguez Narváez,F,1961-02-01,3004212160,Savia Salud,subsidiado,050010217845
+413,CC,34594266,Luz,López Páez,F,1962-04-22,3043044176,Savia Salud,subsidiado,050010217802
+414,CC,70874407,Arley,López Marín,M,1957-10-29,3026249465,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217840
+415,CC,7215234,Carlos,Herrera Cruz,M,1959-12-06,3207932070,Savia Salud,subsidiado,050010217833
+416,CC,71858989,Jorge,Herrera Cruz,M,1963-09-21,3129840702,Savia Salud,subsidiado,050010217851
+417,CC,27372996,Clara,Ramírez Pérez,F,1950-12-21,3012070038,Savia Salud,subsidiado,050010217861
+418,CC,70250604,Miguel,Jiménez Moreno,M,1960-11-24,3211568713,Savia Salud,subsidiado,050010217845
+419,CC,71304251,Carlos,Figueroa Cifuentes,M,1961-04-15,3176745289,Savia Salud,subsidiado,050010217861
+420,CC,70587777,Luis,Arango Marín,M,1943-04-29,3294591249,Savia Salud,subsidiado,050010217804
+421,CC,24711011,María,García Anaya,F,1956-10-09,3132881924,Savia Salud,subsidiado,050010217828
+422,CC,71023305,Luis,Delgado Narváez,M,1952-05-29,3043839939,Savia Salud,contributivo,050010217820
+423,CC,11447528,Germán,Toro García,M,1955-07-09,3182245076,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217865
+424,CC,13442273,Eduardo,González Pinzón,M,1954-09-11,3171396943,Savia Salud,subsidiado,050010217833
+425,CC,34645299,Rosalba,Moreno Orozco,F,1963-08-02,3074914005,Savia Salud,subsidiado,050010217818
+426,CC,39778574,Paola,Morales Díaz,F,1950-02-23,3257252403,Savia Salud,subsidiado,050010217861
+427,CC,71935594,Enrique,Sánchez Rodríguez,M,1938-03-21,3265164844,Savia Salud,subsidiado,050010217821
+428,CC,5955255,Jhon,Niño Méndez,M,1957-06-17,3143101839,Savia Salud,subsidiado,050010217804
+429,CC,26786805,Vanessa,Restrepo Pérez,F,1964-03-16,3069040445,Savia Salud,subsidiado,050010217842
+430,CC,31411971,Carmen,López Calderón,F,1948-01-04,3069594039,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217838
+431,CC,22217667,Ana,Soto Gómez,F,1946-07-05,3138033587,Savia Salud,subsidiado,050010217837
+432,CC,36522285,Juliana,Vargas Pérez,F,1961-05-23,3299798516,Savia Salud,subsidiado,050010217834
+433,CC,39836660,Ángela,Torres Serna,F,1963-07-22,3055060377,Savia Salud,subsidiado,050010217861
+434,CC,7628329,Pablo,Cruz Lozano,M,1956-10-17,3293207193,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217807
+435,CC,26029036,Jenny,Arango Osorio,F,1939-12-09,3039860916,Savia Salud,subsidiado,050010217856
+436,CC,70418283,Jaime,Mendoza Barrera,M,1955-03-21,3129482155,Savia Salud,subsidiado,050010217826
+437,CC,38638729,Karina,Fuentes Cantillo,F,1966-07-08,3025801733,Savia Salud,subsidiado,050010217852
+438,CC,70747921,José,García González,M,1965-09-11,3259036708,Savia Salud,contributivo,050010217807
+439,CC,6009624,Aldemar,Arias Zapata,M,1963-02-06,3224216357,Savia Salud,contributivo,050010217811
+440,CC,37063908,Lorena,Correa Sandoval,F,1962-08-06,3075830805,Savia Salud,subsidiado,050010217854
+441,CC,70569285,John,Rojas Reyes,M,1959-04-02,3213199546,Savia Salud,subsidiado,050010217860
+442,CC,11922235,Martín,Cárdenas Cruz,M,1965-06-29,3123200657,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217842
+443,CC,70793261,Jorge,Parra Giraldo,M,1960-09-21,3054662244,Savia Salud,subsidiado,050010217831
+444,CC,27572794,Diana,Agudelo García,F,1952-07-22,3292304939,Savia Salud,subsidiado,050010217847
+445,CC,43239821,Paola,Rodríguez Montes,F,1957-02-10,3178701622,Savia Salud,subsidiado,050010217829
+446,CC,32128820,Fernanda,Flórez Gaviria,F,1958-07-01,3043931002,Savia Salud,subsidiado,050010217851
+447,CC,3364330,Germán,Vargas Barrera,M,1961-03-14,3277141214,Savia Salud,subsidiado,050010217807
+448,CC,70384948,Fernando,Morales López,M,1959-11-21,3136836745,Savia Salud,subsidiado,050010217809
+449,CC,70394033,Alfonso,Bedoya Muñoz,M,1962-07-14,3239398818,Savia Salud,subsidiado,050010217818
+450,CC,71133746,Manuel,Vargas Carrillo,M,1964-09-04,3048379006,Savia Salud,contributivo,050010217828
+451,CC,32118656,Lucero,Ordóñez Castellanos,F,1960-08-06,3184117715,Savia Salud,subsidiado,050010217815
+452,CC,14094451,Raúl,Castillo Álvarez,M,1960-11-14,3265751368,Savia Salud,subsidiado,050010217807
+453,CC,28687986,Mabel,Mantilla Becerra,F,1963-02-22,3209514360,Savia Salud,subsidiado,050010217802
+454,CC,71812832,Antonio,Martínez Henao,M,1962-11-29,3268276223,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217849
+455,CC,31745410,María,Melo Díaz,F,1958-05-16,3025581593,Savia Salud,contributivo,050010217857
+456,CC,5326835,Jorge,González Castaño,M,1944-08-12,3285265310,Savia Salud,subsidiado,050010217861
+457,CC,26414022,Andrea,Pérez Mosquera,F,1953-10-04,3164476961,Savia Salud,subsidiado,050010217854
+458,CC,37069979,Luz,García Alarcón,F,1952-09-23,3295362240,Savia Salud,subsidiado,050010217823
+459,CC,40908823,Adriana,Vargas Pérez,F,1956-03-01,3207205996,Savia Salud,subsidiado,050010217833
+460,CC,5401052,Gabriel,Gómez Molina,M,1962-10-03,3224926346,Savia Salud,subsidiado,050010217865
+461,CC,40272296,Marina,Montoya Romero,F,1932-10-01,3086172302,Savia Salud,subsidiado,050010217809
+462,CC,42530609,Yineth,Martínez Uribe,F,1954-04-14,3243980920,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217826
+463,CC,70617195,Carlos,Martínez López,M,1966-09-13,3119449864,Savia Salud,subsidiado,050010217808
+464,CC,31430620,Marcela,Ramos Moreno,F,1962-10-08,3025193944,Savia Salud,contributivo,050010217826
+465,CC,40297293,Andrea,Hernández Montes,F,1962-08-06,3019481652,Savia Salud,subsidiado,050010217855
+466,CC,31583781,Verónica,Gutiérrez Castellanos,F,1964-06-15,3102815807,Savia Salud,subsidiado,050010217808
+467,CC,24594468,Nelly,Melo Alarcón,F,1963-12-29,3203684136,Savia Salud,subsidiado,050010217829
+468,CC,42332990,Alexandra,Moreno Castillo,F,1960-05-04,3047103294,Savia Salud,subsidiado,050010217857
+469,CC,40812729,Beatriz,Martínez Jiménez,F,1954-03-10,3283335114,Savia Salud,subsidiado,050010217861
+470,CC,43809337,Luz,Camargo Moreno,F,1960-12-17,3123360543,Savia Salud,subsidiado,050010217807
+471,CC,34728777,Ana,Gutiérrez Garzón,F,1953-09-07,3229949598,Savia Salud,subsidiado,050010217802
+472,CC,70695735,Gustavo,Morales Rivera,M,1958-07-06,3261744559,Savia Salud,subsidiado,050010217857
+473,CC,70286365,José,Ortega Barrera,M,1937-01-07,3267810570,Savia Salud,subsidiado,050010217802
+474,CC,12837225,Jaime,Acevedo Caicedo,M,1966-08-27,3222684453,Savia Salud,subsidiado,050010217811
+475,CC,40761538,Elsa,Leal Sierra,F,1963-01-09,3089895470,Savia Salud,subsidiado,050010217845
+476,CC,30689260,Graciela,Pérez Díaz,F,1960-06-14,3122303359,Savia Salud,subsidiado,050010217843
+477,CC,42514903,Mayerly,Valencia Rivera,F,1960-01-29,3109195858,Savia Salud,subsidiado,050010217809
+478,CC,22073349,Luz,Escobar Camargo,F,1962-10-15,3154951481,Savia Salud,contributivo,050010217847
+479,CC,71457823,Andrés,Gutiérrez Martínez,M,1954-11-02,3025869539,Savia Salud,subsidiado,050010217802
+480,CC,23521973,Fernanda,Moreno Fernández,F,1954-09-03,3206432080,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217829
+481,CC,21455634,Ruth,Salazar Rincón,F,1958-04-01,3245272568,Savia Salud,subsidiado,050010217859
+482,CC,36238787,Derly,Gil López,F,1954-01-04,3289819385,Savia Salud,subsidiado,050010217844
+483,CC,24307433,Yulieth,Cruz Rivas,F,1954-05-05,3091900057,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217818
+484,CC,27135091,Patricia,Acosta Obando,F,1938-03-20,3104258867,Savia Salud,subsidiado,050010217833
+485,CC,71646397,Johan,Perea Barreto,M,1950-05-18,3148226311,Savia Salud,subsidiado,050010217840
+486,CC,7639355,Jhonatan,Camacho Martínez,M,1965-04-11,3051977314,Savia Salud,subsidiado,050010217843
+487,CC,30138836,Aura,Zapata García,F,1958-01-08,3248412617,Savia Salud,subsidiado,050010217861
+488,CC,42239130,Patricia,Montenegro Rodríguez,F,1966-11-08,3205609787,Savia Salud,subsidiado,050010217820
+489,CC,22899337,Martha,Arévalo Alfonso,F,1965-02-09,3045317977,Savia Salud,contributivo,050010217857
+490,CC,24267639,Paola,Domínguez León,F,1956-02-12,3158980840,Savia Salud,subsidiado,050010217811
+491,CC,29387748,Lorena,Rincón Cruz,F,1956-06-04,3156948437,Savia Salud,subsidiado,050010217810
+492,CC,40361744,Blanca,González Pinto,F,1965-10-06,3156189752,Savia Salud,subsidiado,050010217857
+493,CC,14711371,Diego,Morales Díaz,M,1952-07-20,3223078222,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217859
+494,CC,12104889,Juan,Fernández Prada,M,1960-11-09,3141592163,Savia Salud,subsidiado,050010217802
+495,CC,35036426,Andrea,Zambrano Gaviria,F,1956-02-28,3048587608,Savia Salud,subsidiado,050010217853
+496,CC,30762122,Esperanza,Rangel Maldonado,F,1954-06-13,3033092198,Savia Salud,subsidiado,050010217831
+497,CC,15641630,Leonardo,Guevara Cardona,M,1955-02-14,3273015958,Savia Salud,subsidiado,050010217802
+498,CC,33800553,Luz,Salazar Restrepo,F,1962-07-03,3108664393,Savia Salud,subsidiado,050010217811
+499,CC,11079699,David,Rojas Salazar,M,1963-08-03,3156432085,Savia Salud,subsidiado,050010217834
+500,CC,24872180,Yanet,Ángel Pérez,F,1955-11-04,3273984411,Nueva EPS,contributivo,050010217809
+501,CC,71551806,Marco,Jiménez Parra,M,1966-05-15,3071958797,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217808
+502,CC,21006559,Mayra,Buitrago Polo,F,1947-06-12,3031756075,Savia Salud,subsidiado,050010217804
+503,CC,7637556,Luis,Ramos Torres,M,1960-12-24,3215495702,Savia Salud,contributivo,050010217845
+504,CC,12613306,Gabriel,Gómez Mejía,M,1952-12-05,3107532931,Savia Salud,subsidiado,050010217855
+505,CC,8967595,Hernando,Hoyos Escobar,M,1944-09-14,3014523557,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217842
+506,CC,22713222,Catherine,Díaz Vásquez,F,1952-12-29,3252851323,Savia Salud,subsidiado,050010217821
+507,CC,28689077,Andrea,Castro Henao,F,1956-05-30,3238773050,Savia Salud,contributivo,050010217854
+508,CC,10419380,William,Osorio López,M,1963-01-22,3289547761,Savia Salud,subsidiado,050010217837
+509,CC,71057835,Felipe,Velásquez Jaimes,M,1958-06-26,3085982025,Savia Salud,subsidiado,050010217811
+510,CC,9073256,John,Castro Murillo,M,1953-10-03,3071374859,Savia Salud,subsidiado,050010217830
+511,CC,3411725,Hernán,Jiménez Sepúlveda,M,1953-12-30,3066183588,Savia Salud,subsidiado,050010217847
+512,CC,39874591,Ana,Ángel Bustos,F,1960-10-27,3227335588,Savia Salud,contributivo,050010217822
+513,CC,34144878,Deyanira,Rodríguez Parra,F,1960-05-22,3033838547,Savia Salud,subsidiado,050010217808
+514,CC,70101115,Luis,Camargo Orozco,M,1950-08-17,3163530880,Savia Salud,contributivo,050010217811
+515,CC,36766193,Julieth,Pinzón Rodríguez,F,1962-05-02,3057891929,Savia Salud,subsidiado,050010217842
+516,CC,14667336,Alirio,Angarita Ávila,M,1935-01-16,3068949385,Savia Salud,subsidiado,050010217812
+517,CC,27439827,Marcela,Quiroga Montoya,F,1948-05-05,3259103604,Savia Salud,subsidiado,050010217856
+518,CC,4929417,Rodolfo,Garzón Riascos,M,1950-11-03,3279670283,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217857
+519,CC,40082641,Alba,Vargas Rodríguez,F,1956-07-04,3084417152,Savia Salud,subsidiado,050010217808
+520,CC,11221104,Luis,Vargas Suárez,M,1938-10-31,3202959356,Savia Salud,subsidiado,050010217860
+521,CC,25593378,Ester,Hernández Castro,F,1956-09-23,3028874125,Savia Salud,subsidiado,050010217861
+522,CC,33575488,Alexandra,Ortega Cardona,F,1951-12-20,3019241128,Savia Salud,subsidiado,050010217810
+523,CC,22776643,María,Hernández Jiménez,F,1957-10-15,3222331773,Savia Salud,subsidiado,050010217859
+524,CC,27412407,Ruby,Acevedo Ocampo,F,1960-06-05,3091589766,Savia Salud,subsidiado,050010217807
+525,CC,7599893,Carlos,Tamayo Salcedo,M,1948-09-08,3027348533,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217821
+526,CC,71742634,Óscar,Salamanca Acosta,M,1964-07-06,3084977113,Savia Salud,subsidiado,050010217829
+527,CC,38680383,Cecilia,Bonilla Sánchez,F,1954-09-21,3103151925,Savia Salud,subsidiado,050010217865
+528,CC,22219457,Judith,Díaz Carmona,F,1962-01-31,3031531757,Savia Salud,contributivo,050010217809
+529,CC,42489761,Yolanda,Salas Naranjo,F,1962-04-18,3257459022,Savia Salud,subsidiado,050010217811
+530,CC,42937224,Mary,Murillo Torres,F,1933-02-23,3232322110,Savia Salud,subsidiado,050010217813
+531,CC,25616867,Jenny,Arrieta Cardona,F,1954-02-26,3253651469,Savia Salud,subsidiado,050010217854
+532,CC,36980194,María,Gutiérrez Vega,F,1959-08-01,3288107866,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217849
+533,CC,7097099,Pablo,Ordóñez Rodríguez,M,1964-06-26,3239858718,Savia Salud,contributivo,050010217811
+534,CC,38430939,Teresa,Castro Gutiérrez,F,1965-02-21,3287313757,Savia Salud,subsidiado,050010217861
+535,CC,28342595,Alicia,Salazar Cruz,F,1961-03-11,3181061613,Savia Salud,subsidiado,050010217822
+536,CC,71076979,Álvaro,Sanabria Parada,M,1966-02-09,3138234703,Nueva EPS,contributivo,050010217849
+537,CC,25029384,Claudia,Correa Hernández,F,1937-06-15,3156598572,Savia Salud,subsidiado,050010217853
+538,CC,13574110,Jorge,Hurtado Correa,M,1951-03-10,3154538711,Savia Salud,subsidiado,050010217807
+539,CC,23330253,Cecilia,Bernal Miranda,F,1965-05-11,3134890560,Savia Salud,subsidiado,050010217820
+540,CC,29351453,Lucía,Castillo Jaramillo,F,1956-07-08,3292930399,Savia Salud,subsidiado,050010217804
+541,CC,42161576,Elsy,Garzón Ramírez,F,1953-08-26,3246983255,Savia Salud,subsidiado,050010217850
+542,CC,40473459,Laura,Ortiz Giraldo,F,1957-10-11,3106786756,Savia Salud,subsidiado,050010217833
+543,CC,42432094,Yaneth,Parra Jiménez,F,1952-09-13,3006251515,Savia Salud,subsidiado,050010217857
+544,CC,30206764,Diana,Rojas Mora,F,1957-12-10,3059604197,Savia Salud,subsidiado,050010217832
+545,CC,41931291,Luz,Torres Alvarado,F,1960-12-19,3276533224,Savia Salud,subsidiado,050010217804
+546,CC,71929773,Juan,Andrade Velásquez,M,1958-01-25,3249629788,Savia Salud,subsidiado,050010217844
+547,CC,33849754,Lucía,Rivera Hernández,F,1943-11-30,3185161242,Savia Salud,subsidiado,050010217865
+548,CC,43969804,Ingrid,Ortiz Molina,F,1962-04-19,3277923168,Savia Salud,subsidiado,050010217857
+549,CC,6114847,Albeiro,Fernández Flórez,M,1965-03-14,3217621964,Savia Salud,subsidiado,050010217847
+550,CC,35830267,Flor,Andrade Palacios,F,1961-09-06,3222746817,Savia Salud,subsidiado,050010217818
+551,CC,25758476,Inés,Jaramillo Sánchez,F,1966-10-17,3182946501,Savia Salud,subsidiado,050010217809
+552,CC,8272480,Adolfo,Vega Sánchez,M,1955-03-21,3297361437,Savia Salud,subsidiado,050010217859
+553,CC,70001935,Carlos,Cifuentes Rubio,M,1966-05-30,3194243088,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217810
+554,CC,71514426,Jhon,Rodríguez Manrique,M,1964-03-24,3085059714,Savia Salud,subsidiado,050010217828
+555,CC,70354441,José,Bastidas Palacios,M,1939-03-22,3185919736,Savia Salud,subsidiado,050010217832
+556,CC,23440366,Estefanía,Rojas Lozano,F,1966-04-09,3243873574,Savia Salud,subsidiado,050010217802
+557,CC,24909469,Yaneth,Monsalve Ospino,F,1965-04-14,3208771055,Savia Salud,subsidiado,050010217830
+558,CC,43651359,Patricia,Camargo López,F,1943-03-18,3059689270,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217849
+559,CC,33308096,Marlene,Tamayo Cruz,F,1963-06-11,3223845696,Savia Salud,subsidiado,050010217821
+560,CC,32219935,Esther,Morales Cortés,F,1958-08-11,3288099879,Savia Salud,subsidiado,050010217819
+561,CC,39472643,Lucía,Álvarez Hernández,F,1960-06-22,3105091251,Savia Salud,subsidiado,050010217804
+562,CC,31446704,Astrid,Gómez González,F,1963-11-24,3212658779,Savia Salud,subsidiado,050010217807
+563,CC,8661630,Andrés,Orozco García,M,1965-11-15,3188271882,Savia Salud,contributivo,050010217828
+564,CC,31732828,Ana,Fernández Cifuentes,F,1941-12-27,3262566353,Savia Salud,subsidiado,050010217807
+565,CC,26085040,Fanny,Angulo Rosero,F,1959-02-24,3002635816,Savia Salud,subsidiado,050010217855
+566,CC,40721631,Katerine,Vásquez Pineda,F,1943-10-31,3146237236,Savia Salud,subsidiado,050010217835
+567,CC,40236809,Ana,Gómez Pinto,F,1951-08-19,3089981126,Savia Salud,subsidiado,050010217846
+568,CC,31963504,Daniela,Duque Perdomo,F,1938-02-24,3172298419,Savia Salud,subsidiado,050010217811
+569,CC,14830544,Jorge,Mena Pérez,M,1954-08-26,3146703184,Savia Salud,subsidiado,050010217844
+570,CC,14460419,Erick,Perdomo González,M,1946-07-19,3111815526,Savia Salud,subsidiado,050010217813
+571,CC,70763340,Carlos,Henao Quintero,M,1962-01-28,3058571172,Nueva EPS,contributivo,050010217808
+572,CC,35226083,Pilar,Gil Cuesta,F,1960-03-03,3037930011,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217835
+573,CC,14615118,Alberto,García Nieto,M,1957-08-15,3056550615,Savia Salud,subsidiado,050010217814
+574,CC,71044921,Edwin,Ortiz Jiménez,M,1957-08-15,3147276884,Savia Salud,subsidiado,050010217822
+575,CC,22531441,Luz,Garzón Castillo,F,1957-05-20,3226641767,Savia Salud,subsidiado,050010217808
+576,CC,35801912,Isabel,Vásquez Hoyos,F,1955-07-07,3036503341,Savia Salud,subsidiado,050010217854
+577,CC,42845546,Cristina,Mosquera Arboleda,F,1960-04-10,3247276511,Savia Salud,subsidiado,050010217809
+578,CC,28513909,Viviana,Ochoa Becerra,F,1952-04-15,3235864759,Savia Salud,subsidiado,050010217804
+579,CC,8360307,Andrés,Miranda Vargas,M,1947-01-03,3162408781,Savia Salud,subsidiado,050010217810
+580,CC,40530367,Mónica,Arango Chacón,F,1943-10-25,3074421891,Savia Salud,subsidiado,050010217847
+581,CC,30051879,Katherine,Agudelo Ramírez,F,1933-02-26,3166653554,Savia Salud,subsidiado,050010217809
+582,CC,31973193,Isabel,Calderón Beltrán,F,1963-01-22,3169391471,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+583,CC,13566242,Ramiro,Velasco Barbosa,M,1957-07-07,3226836816,Savia Salud,subsidiado,050010217807
+584,CC,6395943,Hernando,Chaparro Cifuentes,M,1964-08-06,3275649790,Sura,contributivo,050010217834
+585,CC,12408463,Jhon,Calderón Hoyos,M,1958-11-30,3209521371,Savia Salud,subsidiado,050010217836
+586,CC,70611715,Nelson,Orozco Díaz,M,1965-03-29,3199491004,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217815
+587,CC,41946478,Alexandra,Gutiérrez Sánchez,F,1954-07-29,3145823516,Savia Salud,subsidiado,050010217836
+588,CC,25247239,Fanny,Morales Rubio,F,1966-08-09,3037193747,Savia Salud,subsidiado,050010217860
+589,CC,71613692,Libardo,Toro Sánchez,M,1944-08-13,3181848238,Savia Salud,subsidiado,050010217808
+590,CC,33802651,Sandra,Rodríguez Quiroz,F,1961-05-01,3076110852,Savia Salud,subsidiado,050010217819
+591,CC,37642868,Paula,Ruiz Calderón,F,1948-01-14,3192648935,Savia Salud,subsidiado,050010217836
+592,CC,70283451,Rubén,Mesa Forero,M,1962-03-17,3275557579,Savia Salud,subsidiado,050010217856
+593,CC,39365844,Dora,López Martínez,F,1965-04-29,3149124382,Savia Salud,subsidiado,050010217831
+594,CC,25349389,Patricia,Ramos Ramírez,F,1963-07-07,3037809831,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+595,CC,35196437,Margarita,Castellanos Rojas,F,1954-08-22,3093684895,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217812
+596,CC,40976645,Inés,Benítez Hernández,F,1959-05-06,3246157972,Savia Salud,subsidiado,050010217835
+597,CC,33233307,Adriana,Castaño Gómez,F,1958-05-15,3056808556,Savia Salud,subsidiado,050010217834
+598,CC,14508104,Felipe,Martínez Londoño,M,1963-11-18,3141945058,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217828
+599,CC,26966181,María,Cruz Gómez,F,1960-09-22,3173517359,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217821
+600,CC,33882595,Stella,Guevara Ortiz,F,1956-11-05,3204821562,Savia Salud,subsidiado,050010217829
+601,CC,42126448,Isabel,Sierra Peña,F,1946-04-10,3212468459,Savia Salud,subsidiado,050010217804
+602,CC,37870538,Diana,González Morales,F,1961-11-28,3167742757,Savia Salud,subsidiado,050010217860
+603,CC,30517811,Carol,Ruiz Cardona,F,1941-03-10,3076736226,Savia Salud,subsidiado,050010217807
+604,CC,70365428,Carlos,Bernal Ochoa,M,1952-12-02,3195959764,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217807
+605,CC,13839486,Eduar,Díaz Díaz,M,1944-09-25,3169781783,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217809
+606,CC,41240592,Martha,García Duarte,F,1958-08-11,3026115056,Savia Salud,subsidiado,050010217843
+607,CC,23506811,Olga,Burgos Sánchez,F,1955-09-23,3228154325,Savia Salud,subsidiado,050010217807
+608,CC,71238361,Alexander,Pérez Guerrero,M,1965-08-21,3021028594,Savia Salud,subsidiado,050010217804
+609,CC,6586278,Andrés,Morales Restrepo,M,1963-07-08,3157534513,Savia Salud,subsidiado,050010217808
+610,CC,43382709,María,Flórez Torres,F,1963-03-09,3249271774,Savia Salud,subsidiado,050010217839
+611,CC,31130510,María,Valencia Muñoz,F,1961-03-22,3236115680,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217853
+612,CC,38500321,Lida,Caicedo Rubio,F,1952-06-07,3035445097,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217804
+613,CC,27617437,Martha,Rodríguez Zapata,F,1959-10-28,3296545022,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217846
+614,CC,25545193,Blanca,Gutiérrez Pérez,F,1965-03-09,3169946606,Savia Salud,subsidiado,050010217824
+615,CC,8492216,José,Navarro Gallego,M,1964-09-08,3186641793,Savia Salud,subsidiado,050010217802
+616,CC,26709247,María,Aguirre Nieto,F,1954-03-23,3131575848,Savia Salud,contributivo,050010217809
+617,CC,27111458,Cecilia,Bolaños Ballesteros,F,1959-12-28,3164970251,Savia Salud,subsidiado,050010217811
+618,CC,71256931,Gerardo,Moreno Martínez,M,1946-02-04,3045835609,Savia Salud,subsidiado,050010217832
+619,CC,40479608,Liliana,López Salgado,F,1965-08-24,3053155381,Savia Salud,subsidiado,050010217855
+620,CC,3918956,Cristian,Guerrero Cruz,M,1960-03-16,3265707545,Savia Salud,contributivo,050010217821
+621,CC,29285149,María,Montes Camargo,F,1939-05-07,3161410042,Savia Salud,subsidiado,050010217802
+622,CC,23142211,María,Gutiérrez Zuluaga,F,1963-05-29,3002763571,Savia Salud,subsidiado,050010217849
+623,CC,30186269,Clemencia,Burbano Duque,F,1936-03-22,3057799861,Savia Salud,contributivo,050010217836
+624,CC,8607709,Camilo,Bolaños Castillo,M,1960-08-01,3083066573,Savia Salud,subsidiado,050010217808
+625,CC,5558332,Óscar,López Pulido,M,1945-06-08,3113854062,Savia Salud,subsidiado,050010217851
+626,CC,42311610,Laura,Monsalve Palacio,F,1945-01-24,3256712742,Savia Salud,subsidiado,050010217812
+627,CC,39163965,Cecilia,Cortés Ospina,F,1965-04-30,3184269222,Savia Salud,subsidiado,050010217836
+628,CC,9720726,Carlos,Cárdenas Suárez,M,1951-12-17,3134586733,Savia Salud,subsidiado,050010217820
+629,CC,25483810,Karina,Ruiz Díaz,F,1958-06-26,3137314534,Savia Salud,subsidiado,050010217807
+630,CC,37763969,Elvia,Salamanca Meza,F,1954-08-13,3092127387,Savia Salud,subsidiado,050010217859
+631,CC,9181893,Juan,Muñoz García,M,1957-08-23,3204060407,Savia Salud,subsidiado,050010217865
+632,CC,39233671,Cecilia,Loaiza Tovar,F,1959-02-05,3163111578,Savia Salud,subsidiado,050010217854
+633,CC,37634466,Claudia,Estrada Chávez,F,1956-12-08,3067658410,Savia Salud,subsidiado,050010217824
+634,CC,70826716,Andrés,Martínez Quiroga,M,1966-03-17,3009032379,Savia Salud,subsidiado,050010217836
+635,CC,27794030,Kelly,Arteaga Ramírez,F,1959-03-29,3215868193,Savia Salud,subsidiado,050010217846
+636,CC,26124502,Yenny,Mesa Contreras,F,1951-06-29,3096967575,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217854
+637,CC,32512042,Dayana,Gómez Rojas,F,1957-09-15,3191051460,Savia Salud,contributivo,050010217822
+638,CC,29297612,Alexandra,Leal Pérez,F,1953-04-24,3062815782,Savia Salud,subsidiado,050010217865
+639,CC,41684491,Andrea,Villamizar Quintero,F,1959-01-11,3114391156,Savia Salud,subsidiado,050010217807
+640,CC,35640172,Elsa,Serrano Moreno,F,1961-01-30,3247197095,Savia Salud,subsidiado,050010217810
+641,CC,30418327,Adriana,García Sánchez,F,1958-08-25,3147929795,Savia Salud,subsidiado,050010217837
+642,CC,70944733,Antonio,Carrillo Rodríguez,M,1948-09-16,3229406495,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217855
+643,CC,33327545,Dora,Pérez Figueroa,F,1953-11-10,3036308119,Savia Salud,subsidiado,050010217865
+644,CC,23003114,Elizabeth,Galeano Gonzáles,F,1954-07-26,3008120708,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217851
+645,CC,29508026,Elsa,Méndez Márquez,F,1958-01-24,3158379233,Savia Salud,subsidiado,050010217854
+646,CC,15205799,Alejandro,Rivera Delgado,M,1965-07-14,3033149046,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217857
+647,CC,29509962,Jessica,Herrera Vásquez,F,1953-02-13,3238930219,Savia Salud,subsidiado,050010217809
+648,CC,7240387,Óscar,Rodríguez Soto,M,1963-07-18,3051584924,Savia Salud,subsidiado,050010217811
+649,CC,71272213,Carlos,Mena López,M,1963-10-31,3204947337,Savia Salud,contributivo,050010217836
+650,CC,29386991,Leonor,Rodríguez González,F,1958-05-21,3088886494,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217840
+651,CC,11751922,Carlos,Toro Sierra,M,1959-08-05,3072632692,Savia Salud,subsidiado,050010217861
+652,CC,24040605,Diana,Ocampo Díaz,F,1941-05-23,3263528289,Savia Salud,subsidiado,050010217829
+653,CC,31207781,Gloria,Barrera Flórez,F,1957-12-15,3291200744,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217865
+654,CC,40345446,Elizabeth,Bedoya Bohórquez,F,1953-06-09,3161198397,Savia Salud,subsidiado,050010217828
+655,CC,26880517,Patricia,Mejía Mejía,F,1960-12-14,3232472845,Savia Salud,contributivo,050010217807
+656,CC,10029225,Emiro,Rivera Rodríguez,M,1955-08-22,3186759285,Savia Salud,subsidiado,050010217811
+657,CC,41202943,Andrea,Sánchez Loaiza,F,1954-01-02,3298199448,Savia Salud,subsidiado,050010217860
+658,CC,31657775,Piedad,Guerra Quintero,F,1938-03-02,3292203920,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217839
+659,CC,30071258,Rosa,Gutiérrez Pinto,F,1952-11-21,3102234251,Savia Salud,subsidiado,050010217850
+660,CC,29455605,Alejandra,Quiroga López,F,1960-03-13,3271822415,Savia Salud,subsidiado,050010217810
+661,CC,34183085,Fernanda,Vera Guzmán,F,1952-06-11,3277991533,Savia Salud,subsidiado,050010217811
+662,CC,70351016,Diego,Rodríguez Contreras,M,1966-06-08,3233931133,Savia Salud,subsidiado,050010217853
+663,CC,40213829,Erika,Marín Morales,F,1958-10-03,3136445517,Savia Salud,subsidiado,050010217830
+664,CC,12366112,Alfonso,Salamanca González,M,1955-06-03,3151144658,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217828
+665,CC,28858551,Jacqueline,Ramírez Posada,F,1957-11-10,3016606568,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+666,CC,35492874,Carolina,Mejía Angarita,F,1956-06-03,3233756387,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+667,CC,43915296,Natalia,González Perdomo,F,1963-12-07,3269435119,Savia Salud,subsidiado,050010217835
+668,CC,71627978,Juan,Martínez Álvarez,M,1955-09-09,3119354362,Savia Salud,subsidiado,050010217854
+669,CC,24853586,Carmen,Márquez Amaya,F,1964-12-05,3154517999,Savia Salud,subsidiado,050010217811
+670,CC,38163303,Melba,Cardona Chaparro,F,1961-09-15,3264130650,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217807
+671,CC,8101244,William,Gómez González,M,1958-04-18,3173762801,Savia Salud,subsidiado,050010217804
+672,CC,8229225,Elías,Santos Rodríguez,M,1939-03-11,3036347708,Savia Salud,subsidiado,050010217852
+673,CC,70129417,Luis,Serna Ramos,M,1960-12-02,3184885720,Savia Salud,subsidiado,050010217811
+674,CC,70865604,Antonio,Gómez Fernández,M,1964-12-27,3137460840,Savia Salud,subsidiado,050010217839
+675,CC,21210641,Johana,Fernández Rojas,F,1956-10-06,3133490898,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217840
+676,CC,36349863,Jackeline,Camargo Gómez,F,1964-04-28,3087748180,Savia Salud,subsidiado,050010217828
+677,CC,10805731,Antonio,Rojas Rodríguez,M,1957-06-16,3253279281,Savia Salud,subsidiado,050010217810
+678,CC,36975075,Luisa,Gallego Parra,F,1961-05-13,3178963177,Savia Salud,subsidiado,050010217819
+679,CC,41313095,Alejandra,Giraldo Ballesteros,F,1965-04-23,3195437042,Savia Salud,subsidiado,050010217822
+680,CC,33571266,Claudia,Montoya Gil,F,1966-04-02,3029914471,Savia Salud,subsidiado,050010217835
+681,CC,22380405,Marina,Loaiza Medina,F,1966-03-02,3238650606,Savia Salud,contributivo,050010217857
+682,CC,71509012,Guillermo,Pérez Suárez,M,1965-07-13,3245067211,Savia Salud,subsidiado,050010217824
+683,CC,70117685,Alfredo,Cuesta Guerra,M,1946-03-13,3091760984,Savia Salud,subsidiado,050010217851
+684,CC,70792130,José,Méndez Arias,M,1956-09-23,3021971560,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217804
+685,CC,31130173,Patricia,Carvajal Cabrera,F,1948-09-22,3251855597,Savia Salud,subsidiado,050010217820
+686,CC,41573587,Olga,Quintero Orozco,F,1961-09-11,3157778021,Savia Salud,subsidiado,050010217808
+687,CC,25298692,Sandra,Gutiérrez Galvis,F,1963-03-14,3276887739,Savia Salud,subsidiado,050010217807
+688,CC,21555097,Karina,Valencia Sarmiento,F,1962-12-22,3283205289,Savia Salud,subsidiado,050010217860
+689,CC,35212215,Gloria,Muñoz Valencia,F,1955-04-10,3149425060,Savia Salud,subsidiado,050010217853
+690,CC,70395239,Alejandro,Ceballos Sierra,M,1962-03-13,3264687643,Savia Salud,subsidiado,050010217826
+691,CC,71525659,Camilo,Rodríguez Ramírez,M,1941-05-13,3279876490,Savia Salud,subsidiado,050010217807
+692,CC,36762133,María,Buitrago Chaparro,F,1939-01-15,3096259439,Savia Salud,subsidiado,050010217810
+693,CC,26290205,Inés,Figueroa Caicedo,F,1931-10-12,3259420610,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217851
+694,CC,27815129,Daniela,Camargo Parra,F,1944-03-18,3111382686,Savia Salud,subsidiado,050010217809
+695,CC,71437886,David,Beltrán Gómez,M,1964-12-03,3239516557,Savia Salud,subsidiado,050010217821
+696,CC,6039366,Mauricio,Perea Gómez,M,1964-11-20,3014895836,Savia Salud,subsidiado,050010217808
+697,CC,70437356,Francisco,Jiménez Rojas,M,1955-12-14,3048520053,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217813
+698,CC,70417731,Segundo,Jiménez Méndez,M,1961-11-14,3061145555,Savia Salud,subsidiado,050010217820
+699,CC,43936339,Cristina,Bedoya Vásquez,F,1966-11-22,3095544596,Savia Salud,subsidiado,050010217807
+700,CC,31436165,Patricia,Rodríguez Monsalve,F,1953-04-09,3251823117,Savia Salud,subsidiado,050010217865
+701,CC,22844264,Diana,Pineda Palacios,F,1958-10-29,3036483360,Savia Salud,subsidiado,050010217846
+702,CC,70358119,Alex,Ramírez Páez,M,1961-11-16,3105691903,Savia Salud,subsidiado,050010217837
+703,CC,71357000,Junior,Pabón Mejía,M,1964-05-23,3101900870,Savia Salud,subsidiado,050010217802
+704,CC,13142964,Orlando,Pacheco González,M,1965-12-20,3076214249,Savia Salud,subsidiado,050010217856
+705,CC,28606753,María,López Loaiza,F,1964-06-04,3188213146,Savia Salud,contributivo,050010217807
+706,CC,31571540,Yolanda,Muñoz Jiménez,F,1955-09-24,3253976894,Savia Salud,subsidiado,050010217851
+707,CC,11926086,Mauricio,Becerra Espitia,M,1959-07-28,3223119735,Savia Salud,subsidiado,050010217840
+708,CC,26289227,Ana,Torres Bastidas,F,1943-04-12,3225863078,Savia Salud,subsidiado,050010217842
+709,CC,29604126,Isabel,López Molina,F,1955-08-18,3034376098,Savia Salud,subsidiado,050010217861
+710,CC,37771279,Alejandra,Silva Ruiz,F,1943-09-24,3094480768,Savia Salud,subsidiado,050010217815
+711,CC,13892102,David,Villamizar Erazo,M,1958-05-25,3178108067,Savia Salud,contributivo,050010217857
+712,CC,70619131,César,Pérez Navarro,M,1966-08-22,3296058573,Savia Salud,subsidiado,050010217811
+713,CC,36726958,Yolima,Parada Palacios,F,1952-06-08,3034379125,Savia Salud,contributivo,050010217826
+714,CC,32395501,Myriam,Arango Rodríguez,F,1953-06-06,3095831032,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217802
+715,CC,30611594,Alba,García Mejía,F,1962-12-13,3139769505,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217860
+716,CC,21303822,Fernanda,Ortiz Duque,F,1936-12-29,3005852505,Savia Salud,subsidiado,050010217857
+717,CC,36466161,Amanda,Suárez Arteaga,F,1945-12-17,3246759420,Savia Salud,subsidiado,050010217865
+718,CC,34125224,Daniela,Romero Carrillo,F,1957-09-29,3067805131,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217814
+719,CC,37614300,Doris,Rincón Moreno,F,1943-10-28,3101309732,Savia Salud,subsidiado,050010217824
+720,CC,34350682,Marcela,Monsalve Soto,F,1954-12-27,3032530112,Savia Salud,subsidiado,050010217802
+721,CC,42649763,Mariela,Mesa Gil,F,1954-05-25,3205887467,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217840
+722,CC,9149936,David,Hernández Lozano,M,1959-12-09,3171983842,Savia Salud,subsidiado,050010217811
+723,CC,34008747,Marlén,Delgado Contreras,F,1951-09-23,3142666382,Savia Salud,subsidiado,050010217849
+724,CC,15237765,Fabio,Quintero Suárez,M,1961-12-24,3035469762,Savia Salud,subsidiado,050010217824
+725,CC,32674700,Laura,Díaz Álvarez,F,1958-07-10,3011225051,Savia Salud,subsidiado,050010217842
+726,CC,70738404,Jaime,Pérez Herrera,M,1957-02-07,3172268652,Savia Salud,subsidiado,050010217860
+727,CC,21897466,Liliana,Ospina Sierra,F,1953-06-12,3217602103,Savia Salud,subsidiado,050010217844
+728,CC,29454948,Camila,Burbano Quintero,F,1961-11-14,3082020112,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+729,CC,28269021,Liliana,Erazo Marín,F,1961-01-30,3036854612,Savia Salud,subsidiado,050010217807
+730,CC,71374697,José,Bernal Lozano,M,1964-01-17,3026416679,Savia Salud,subsidiado,050010217822
+731,CC,32003390,María,Montoya Rodríguez,F,1956-12-17,3053661909,Savia Salud,subsidiado,050010217810
+732,CC,29847664,Elisa,Benavides Garzón,F,1961-03-31,3052047164,Savia Salud,subsidiado,050010217857
+733,CC,42872511,Carolina,Martínez Ruiz,F,1964-08-25,3188838763,Savia Salud,contributivo,050010217857
+734,CC,70087657,Cristian,Camargo Barrera,M,1950-07-01,3273450508,Savia Salud,subsidiado,050010217811
+735,CC,21666695,Nelly,Rodríguez Arévalo,F,1933-05-31,3042348633,Savia Salud,subsidiado,050010217808
+736,CC,43407844,Lucía,Guzmán Valencia,F,1960-10-25,3234847120,Savia Salud,subsidiado,050010217828
+737,CC,36165092,Olga,Mosquera Arias,F,1958-05-24,3294371098,Savia Salud,subsidiado,050010217838
+738,CC,23547953,Esperanza,Montes Parra,F,1962-11-19,3061454387,Savia Salud,subsidiado,050010217847
+739,CC,5782436,Luis,Cárdenas Guerrero,M,1946-12-21,3087065613,Savia Salud,subsidiado,050010217860
+740,CC,32568671,María,Martínez Jiménez,F,1954-05-20,3004627070,Savia Salud,subsidiado,050010217824
+741,CC,29026747,Ana,Suárez Sánchez,F,1947-04-04,3294755502,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217851
+742,CC,27429184,Gloria,Padilla Cano,F,1958-08-17,3018197218,Savia Salud,subsidiado,050010217859
+743,CC,33021193,Margarita,Delgado Moreno,F,1962-07-16,3198100062,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+744,CC,13350273,Gerson,Mosquera Carvajal,M,1941-12-08,3219908616,Savia Salud,subsidiado,050010217836
+745,CC,11473068,Emilio,Blanco Ramírez,M,1965-05-31,3015222560,Savia Salud,contributivo,050010217834
+746,CC,25125491,Paola,Jaimes Pacheco,F,1959-11-29,3132092296,Savia Salud,subsidiado,050010217850
+747,CC,70756713,José,Villamizar Mosquera,M,1956-06-26,3043173592,Savia Salud,subsidiado,050010217810
+748,CC,39847108,María,Rodríguez Ortiz,F,1962-06-11,3255160082,Savia Salud,contributivo,050010217846
+749,CC,71898190,Luis,Díaz Cardozo,M,1959-03-18,3052679737,Savia Salud,subsidiado,050010217822
+750,CC,14569421,José,Jaimes Córdoba,M,1966-02-18,3282083412,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217842
+751,CC,25943836,Edna,Fonseca Reyes,F,1965-12-27,3193205296,Savia Salud,subsidiado,050010217811
+752,CC,5345735,Jhoan,Muñoz Mendoza,M,1952-03-23,3286038931,Savia Salud,subsidiado,050010217802
+753,CC,33929461,Virginia,Cortés Moreno,F,1950-04-13,3125910372,Savia Salud,subsidiado,050010217850
+754,CC,71379447,Jhon,Agudelo Lara,M,1963-10-23,3071978217,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217849
+755,CC,7305683,Carlos,Rivas Hurtado,M,1958-01-04,3068559270,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217857
+756,CC,37170520,María,Sánchez Ramos,F,1957-07-07,3231390951,Savia Salud,subsidiado,050010217814
+757,CC,71954332,Diego,Trujillo Salgado,M,1945-04-24,3115124636,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217810
+758,CC,12446020,Mario,Santos Rosero,M,1962-10-29,3252343237,Savia Salud,subsidiado,050010217828
+759,CC,37529262,Eugenia,Triana Márquez,F,1952-10-23,3214387828,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217845
+760,CC,8599670,Alexander,Patiño Angulo,M,1954-07-07,3117553868,Savia Salud,subsidiado,050010217824
+761,CC,7928632,David,Montoya Bermúdez,M,1962-01-05,3072345953,Savia Salud,subsidiado,050010217839
+762,CC,3362543,Frank,Contreras Díaz,M,1962-03-29,3052894424,Savia Salud,subsidiado,050010217847
+763,CC,24410641,Karol,Orjuela Fernández,F,1965-10-15,3066803268,Savia Salud,subsidiado,050010217826
+764,CC,30562371,Azucena,Londoño Ceballos,F,1963-08-25,3103107330,Savia Salud,subsidiado,050010217854
+765,CC,40575772,María,Ayala Rivera,F,1952-12-09,3091747567,Savia Salud,contributivo,050010217850
+766,CC,21348252,María,Murcia Rincón,F,1942-09-01,3196871305,Savia Salud,subsidiado,050010217819
+767,CC,25474723,Gloria,Montes Castro,F,1945-09-11,3048168705,Savia Salud,subsidiado,050010217854
+768,CC,31504625,Jenny,Garzón Rivera,F,1948-02-27,3068846693,Nueva EPS,contributivo,050010217860
+769,CC,24618938,Isabel,Gallego Hernández,F,1962-03-05,3018041646,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217850
+770,CC,30688265,Alejandra,Osorio Sánchez,F,1948-12-30,3166920657,Savia Salud,subsidiado,050010217847
+771,CC,39033746,Cindy,Martínez Vallejo,F,1965-12-01,3017748997,Nueva EPS,contributivo,050010217821
+772,CC,9192530,Alberto,Aguirre Mena,M,1966-05-27,3139324342,Savia Salud,subsidiado,050010217809
+773,CC,70553717,Juan,Silva Rojas,M,1947-07-04,3133918978,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217852
+774,CC,10519121,Edilson,Díaz Suárez,M,1957-11-15,3167522222,Savia Salud,subsidiado,050010217813
+775,CC,23806955,Luz,Valderrama Mora,F,1947-09-30,3292049548,Savia Salud,subsidiado,050010217852
+776,CC,30515095,Marcela,Caballero Romero,F,1950-06-21,3261825233,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217815
+777,CC,71987058,Luis,Fonseca Ávila,M,1963-05-25,3081251589,Savia Salud,subsidiado,050010217811
+778,CC,70500261,Yeison,González Mora,M,1964-03-14,3063198781,Savia Salud,subsidiado,050010217831
+779,CC,71423553,Harold,López Mena,M,1965-08-25,3297202625,Savia Salud,subsidiado,050010217804
+780,CC,42526764,Ana,González Navarro,F,1934-06-17,3201665857,Savia Salud,subsidiado,050010217843
+781,CC,34712574,María,Serna Murillo,F,1961-06-12,3144604157,Savia Salud,subsidiado,050010217835
+782,CC,25146015,Liliana,Henao Flórez,F,1948-04-23,3126539510,Savia Salud,subsidiado,050010217813
+783,CC,21173742,Yenny,Valencia Gómez,F,1957-12-29,3181797882,Savia Salud,subsidiado,050010217809
+784,CC,36123363,Camila,Díaz Arango,F,1958-07-29,3048129405,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217808
+785,CC,9904786,Julio,Castro Gómez,M,1965-02-12,3074275846,Savia Salud,subsidiado,050010217811
+786,CC,70740344,Gonzalo,Castro Arias,M,1959-08-14,3134557789,Savia Salud,contributivo,050010217822
+787,CC,26560989,Johana,López Ávila,F,1964-08-31,3118882876,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217831
+788,CC,33759291,Isabel,Gómez Cantillo,F,1957-06-22,3194728676,Savia Salud,subsidiado,050010217837
+789,CC,5852457,Mauricio,Martínez Camacho,M,1954-11-08,3099259879,Savia Salud,subsidiado,050010217811
+790,CC,40196289,Mónica,Romero Durán,F,1966-10-26,3245169798,Savia Salud,subsidiado,050010217808
+791,CC,21475686,Fernanda,Gaitán Betancur,F,1961-08-23,3215730485,Savia Salud,subsidiado,050010217823
+792,CC,29738281,Martha,Bernal Jiménez,F,1963-01-16,3229107772,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217830
+793,CC,31150235,María,Garzón Patiño,F,1956-03-15,3193342164,Savia Salud,subsidiado,050010217807
+794,CC,23353309,Sonia,Orozco Pacheco,F,1957-05-26,3186913625,Savia Salud,subsidiado,050010217861
+795,CC,14435700,Orlando,Acevedo Pérez,M,1966-02-16,3151411825,Savia Salud,subsidiado,050010217811
+796,CC,71035505,Hernando,Padilla Castro,M,1963-07-20,3058186648,Savia Salud,subsidiado,050010217831
+797,CC,9199991,Christian,Correa Angarita,M,1943-03-15,3171016708,Savia Salud,subsidiado,050010217809
+798,CC,8605314,Jhon,Gamboa Zapata,M,1944-02-11,3007486399,Savia Salud,subsidiado,050010217823
+799,CC,43449591,Isabel,Muñoz Pineda,F,1938-01-22,3161598725,Savia Salud,contributivo,050010217818
+800,CC,21397150,Mariana,Caicedo Hernández,F,1960-09-06,3116071947,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217810
+801,CC,35719093,Isabel,Campo Ocampo,F,1963-04-21,3086909158,Savia Salud,subsidiado,050010217808
+802,CC,36813122,Patricia,Rosero Díaz,F,1961-10-13,3004897554,Savia Salud,subsidiado,050010217861
+803,CC,70247393,Juan,Niño Mena,M,1959-01-03,3117152328,Savia Salud,subsidiado,050010217844
+804,CC,42031983,Carmen,Sánchez Suárez,F,1966-03-29,3043073664,Savia Salud,subsidiado,050010217857
+805,CC,71275580,Miguel,Bolívar Loaiza,M,1961-08-13,3281675833,Savia Salud,subsidiado,050010217822
+806,CC,22189991,Marina,Arias Flórez,F,1963-07-29,3009767726,Savia Salud,subsidiado,050010217865
+807,CC,31943708,Heidy,Cáceres Cáceres,F,1951-04-27,3115657043,Savia Salud,subsidiado,050010217812
+808,CC,32248384,Alejandra,Loaiza Alarcón,F,1953-07-08,3058076938,Savia Salud,subsidiado,050010217861
+809,CC,37694031,Marcela,Lozano Acosta,F,1955-07-21,3113162663,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217804
+810,CC,15634388,Alberto,Gutiérrez Delgado,M,1942-10-19,3298996443,Savia Salud,subsidiado,050010217830
+811,CC,7490270,Edisson,Ortega Ruiz,M,1958-04-21,3206218863,Savia Salud,subsidiado,050010217814
+812,CC,33847830,Manuela,Mena Duarte,F,1958-03-12,3072249041,Savia Salud,subsidiado,050010217844
+813,CC,34722966,Mónica,Silva Morales,F,1965-07-11,3058533470,Savia Salud,subsidiado,050010217839
+814,CC,31280394,Zulma,Romero Gutiérrez,F,1960-02-16,3101004848,Savia Salud,subsidiado,050010217844
+815,CC,39823770,Denis,Salas Prieto,F,1961-12-06,3096849822,Savia Salud,subsidiado,050010217831
+816,CC,71807679,Rafael,Moreno Díaz,M,1947-05-16,3054530976,Savia Salud,subsidiado,050010217807
+817,CC,43473445,Daniela,Murillo Cardona,F,1966-07-09,3225835155,Savia Salud,subsidiado,050010217837
+818,CC,32541118,Lucía,Manrique García,F,1965-02-18,3022256695,Savia Salud,subsidiado,050010217815
+819,CC,39447377,Carolina,Meneses Carvajal,F,1961-08-03,3012190129,Savia Salud,subsidiado,050010217809
+820,CC,10245569,Jonathan,Velandia Navarro,M,1960-01-07,3086371637,Savia Salud,subsidiado,050010217865
+821,CC,71974363,Javier,Aguirre Zambrano,M,1954-01-01,3258528961,Savia Salud,subsidiado,050010217824
+822,CC,31704509,Nidia,Niño Nieto,F,1964-08-11,3284413828,Savia Salud,subsidiado,050010217804
+823,CC,23638807,Eugenia,Méndez Giraldo,F,1961-05-04,3207005555,Savia Salud,subsidiado,050010217861
+824,CC,24972627,Rosa,Meza Jaramillo,F,1957-03-27,3022470209,Savia Salud,subsidiado,050010217857
+825,CC,34951289,Yadira,Giraldo Cruz,F,1964-01-04,3292990522,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217834
+826,CC,8637246,David,Mejía Becerra,M,1965-11-28,3169119157,Savia Salud,subsidiado,050010217857
+827,CC,26663417,Natalia,Sierra Alzate,F,1949-02-20,3146406433,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217810
+828,CC,39809155,Helena,Cárdenas Ruiz,F,1949-12-14,3043954140,Savia Salud,subsidiado,050010217807
+829,CC,43969260,María,Hernández González,F,1957-06-07,3141083226,Savia Salud,contributivo,050010217807
+830,CC,10315120,Miguel,Angulo Pabón,M,1941-08-02,3249101571,Savia Salud,subsidiado,050010217857
+831,CC,25146449,Johana,Ortiz Triana,F,1960-08-31,3152747316,Savia Salud,subsidiado,050010217859
+832,CC,24153285,Dary,Giraldo Sierra,F,1954-07-15,3165192777,Savia Salud,subsidiado,050010217845
+833,CC,36830183,Andrea,Guerrero Polo,F,1966-11-07,3059935921,Savia Salud,subsidiado,050010217842
+834,CC,8648111,Isaac,Jiménez Polo,M,1942-10-13,3198472007,Savia Salud,subsidiado,050010217826
+835,CC,70866822,Horacio,Portilla Cortés,M,1960-09-28,3041518883,Savia Salud,subsidiado,050010217828
+836,CC,4617833,Nelson,Cerón Bravo,M,1936-05-01,3173450334,Savia Salud,subsidiado,050010217810
+837,CC,34047240,Katherin,Fernández Ruiz,F,1946-03-19,3055852339,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217804
+838,CC,70546664,Jairo,Hernández Parada,M,1945-06-15,3155945266,Savia Salud,subsidiado,050010217807
+839,CC,3308260,Diego,Jiménez Portilla,M,1949-06-08,3035422471,Savia Salud,subsidiado,050010217813
+840,CC,21937909,Marta,Gómez Jiménez,F,1966-10-27,3293637309,Savia Salud,subsidiado,050010217808
+841,CC,8437004,Leonardo,Peña Ramírez,M,1952-10-12,3159483418,Savia Salud,subsidiado,050010217850
+842,CC,42587945,Andrea,Sánchez Forero,F,1957-10-19,3183191013,Savia Salud,subsidiado,050010217843
+843,CC,70458274,Fabián,Palacio Ceballos,M,1943-03-13,3244614153,Savia Salud,subsidiado,050010217802
+844,CC,34596213,Patricia,Quintero Manrique,F,1961-12-16,3175791122,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217807
+845,CC,71562580,Alfredo,Mora Pineda,M,1963-06-21,3216992234,Savia Salud,subsidiado,050010217857
+846,CC,31155901,Ángela,Mejía Romero,F,1962-08-23,3214343557,Savia Salud,subsidiado,050010217857
+847,CC,33707534,Patricia,Gallego Lara,F,1966-09-01,3122197683,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217860
+848,CC,42855585,Lilia,Pineda Solano,F,1964-05-17,3029054067,Savia Salud,subsidiado,050010217832
+849,CC,34534025,Patricia,Mora Mosquera,F,1941-04-18,3176935272,Savia Salud,subsidiado,050010217808
+850,CC,32307016,Olga,Amaya Cuesta,F,1966-01-14,3017896001,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217853
+851,CC,23029534,Marcela,Aguirre Castro,F,1959-04-30,3002586615,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217835
+852,CC,40297752,Lucía,Rueda Castellanos,F,1952-07-11,3148902454,Savia Salud,subsidiado,050010217861
+853,CC,70516364,José,Roa Daza,M,1962-10-27,3018700390,Savia Salud,subsidiado,050010217829
+854,CC,71235604,César,Restrepo Ramírez,M,1941-05-17,3023339691,Savia Salud,subsidiado,050010217829
+855,CC,25981440,Adriana,Franco Rivera,F,1948-06-03,3002206365,Savia Salud,subsidiado,050010217826
+856,CC,27027086,María,Morales Morales,F,1964-11-24,3255726917,Savia Salud,subsidiado,050010217824
+857,CC,35131766,Liliana,Hernández Soto,F,1955-02-22,3142405561,Savia Salud,subsidiado,050010217847
+858,CC,38401634,Angie,Nieto Bolívar,F,1965-03-03,3118079080,Savia Salud,subsidiado,050010217842
+859,CC,15414869,Andrés,Pérez García,M,1957-04-02,3047532427,Savia Salud,subsidiado,050010217859
+860,CC,6483437,Yeison,Velásquez Ortega,M,1952-10-24,3146850850,Savia Salud,subsidiado,050010217831
+861,CC,71647892,Fernando,Gaitán Henao,M,1958-11-23,3147587247,Savia Salud,subsidiado,050010217853
+862,CC,5531375,Julio,Rodríguez Martínez,M,1948-04-22,3089041136,Savia Salud,subsidiado,050010217828
+863,CC,71429976,Fernando,Aguirre Herrera,M,1963-02-12,3131399864,Savia Salud,subsidiado,050010217861
+864,CC,25572908,Viviana,Chávez Álvarez,F,1951-07-16,3011364181,Savia Salud,subsidiado,050010217820
+865,CC,9722582,Álvaro,Carrillo Barrera,M,1949-12-04,3086491580,Savia Salud,subsidiado,050010217860
+866,CC,34331957,Ana,Morales Medina,F,1953-02-09,3008229738,Savia Salud,subsidiado,050010217828
+867,CC,15065302,Víctor,Martínez Mena,M,1947-08-08,3274058080,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217802
+868,CC,22385039,Angie,López Cifuentes,F,1942-09-10,3131766329,Nueva EPS,contributivo,050010217808
+869,CC,71531238,Diego,Arango Solano,M,1951-03-15,3138288345,Savia Salud,subsidiado,050010217847
+870,CC,70693335,José,Velásquez Muñoz,M,1946-12-31,3052748962,Sura,contributivo,050010217810
+871,CC,30083792,Esther,Hernández Rivera,F,1966-04-11,3145809545,Savia Salud,subsidiado,050010217820
+872,CC,36454416,Margarita,Bedoya Romero,F,1951-05-10,3212149441,Savia Salud,subsidiado,050010217842
+873,CC,23155866,Inés,Barbosa Villamizar,F,1952-05-11,3033579226,Savia Salud,subsidiado,050010217861
+874,CC,42741924,Ana,Vega Mena,F,1960-05-10,3238729773,Savia Salud,subsidiado,050010217847
+875,CC,29674902,Alicia,García Triana,F,1952-01-27,3085857660,Savia Salud,contributivo,050010217860
+876,CC,41729897,Johana,Agudelo Jiménez,F,1958-09-19,3272298484,Savia Salud,subsidiado,050010217855
+877,CC,39978809,Lorena,Trujillo Hernández,F,1953-04-25,3265134102,Savia Salud,contributivo,050010217808
+878,CC,22839382,Eliana,Henao Montes,F,1943-07-23,3247393072,Savia Salud,subsidiado,050010217861
+879,CC,33279938,Clara,Quintero Restrepo,F,1952-05-12,3021141349,Savia Salud,subsidiado,050010217865
+880,CC,71478493,Jairo,Castro Díaz,M,1957-04-08,3077544700,Savia Salud,subsidiado,050010217824
+881,CC,37890138,Patricia,Ruiz Gómez,F,1960-12-08,3257045556,Savia Salud,subsidiado,050010217839
+882,CC,13458514,Edwin,Luna Prieto,M,1954-02-15,3214182305,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217842
+883,CC,32326442,Fernanda,Escobar García,F,1961-06-27,3201876247,Savia Salud,subsidiado,050010217857
+884,CC,6502914,Francisco,León Silva,M,1943-09-09,3113054788,Savia Salud,contributivo,050010217838
+885,CC,71703794,Daniel,Bustamante Hoyos,M,1959-08-22,3255062503,Savia Salud,subsidiado,050010217839
+886,CC,31797425,Karen,Ochoa Estrada,F,1944-03-30,3096579509,Savia Salud,subsidiado,050010217814
+887,CC,23801188,Sandra,Prieto Guerrero,F,1948-04-25,3153292954,Nueva EPS,contributivo,050010217860
+888,CC,12729008,Edwin,Torres Velásquez,M,1955-06-10,3098541191,Savia Salud,subsidiado,050010217823
+889,CC,35415763,Daniela,Rodríguez Díaz,F,1966-04-07,3299908353,Savia Salud,subsidiado,050010217835
+890,CC,40972967,Raquel,Garzón Maldonado,F,1963-07-31,3129070801,Savia Salud,subsidiado,050010217865
+891,CC,34245183,Lucía,Muñoz Acosta,F,1948-02-28,3051616429,Sura,contributivo,050010217860
+892,CC,15719659,Leonardo,García Gaitán,M,1957-09-14,3188302925,Savia Salud,subsidiado,050010217865
+893,CC,32712496,Andrea,Ortiz Acevedo,F,1955-08-26,3192650179,Savia Salud,subsidiado,050010217831
+894,CC,37563504,Fernanda,Morales Hernández,F,1960-05-14,3291021114,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217808
+895,CC,70612336,Sebastián,Ramírez Ariza,M,1966-07-29,3119862412,Savia Salud,subsidiado,050010217859
+896,CC,24140631,Angie,Herrera Sanabria,F,1956-06-17,3288382205,Savia Salud,subsidiado,050010217802
+897,CC,43280809,Lucía,Pérez Mosquera,F,1961-03-01,3142025134,Savia Salud,subsidiado,050010217802
+898,CC,33106410,Astrid,Bolívar Cabrera,F,1961-06-13,3299085634,Savia Salud,subsidiado,050010217811
+899,CC,38649112,Yésica,Marín Alvarado,F,1964-10-09,3055303269,Savia Salud,subsidiado,050010217857
+900,CC,34027186,Lucía,Ocampo Gómez,F,1946-07-10,3113558058,Savia Salud,subsidiado,050010217807
+901,CC,70105806,Daniel,Díaz Campo,M,1955-01-05,3225822725,Savia Salud,contributivo,050010217824
+902,CC,71242716,Alberto,Acosta Mosquera,M,1952-01-28,3171899758,Savia Salud,subsidiado,050010217857
+903,CC,35374976,Jazmín,Guzmán Roa,F,1958-04-05,3021908541,Savia Salud,subsidiado,050010217847
+904,CC,32067713,Elena,Cárdenas Mena,F,1957-09-29,3203257939,Savia Salud,subsidiado,050010217861
+905,CC,38829787,Yuly,López Barrios,F,1959-07-31,3157931039,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217847
+906,CC,4541043,Jorge,Mejía Mendoza,M,1954-12-11,3279555057,Savia Salud,subsidiado,050010217810
+907,CC,4253992,Pedro,Cáceres Niño,M,1962-05-18,3109956920,Savia Salud,subsidiado,050010217845
+908,CC,5775151,Daniel,Mercado Bustamante,M,1959-07-22,3142829140,Savia Salud,subsidiado,050010217861
+909,CC,4478037,Geovanny,Rodríguez Arias,M,1951-02-13,3023698536,Savia Salud,subsidiado,050010217807
+910,CC,42888412,Claudia,Ordóñez Bustos,F,1956-10-20,3213349634,Savia Salud,subsidiado,050010217851
+911,CC,27334713,Julieth,Valencia Valderrama,F,1953-11-14,3222259421,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217818
+912,CC,30414451,Luz,Mejía Córdoba,F,1950-02-02,3239125296,Savia Salud,subsidiado,050010217815
+913,CC,4281802,Javier,Marín Mena,M,1960-01-31,3156982072,Savia Salud,subsidiado,050010217835
+914,CC,71900705,Jorge,Muñoz Herrera,M,1957-03-23,3275118249,Savia Salud,subsidiado,050010217828
+915,CC,7451276,Mauricio,Murillo Peña,M,1961-12-30,3232902804,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217854
+916,CC,7351366,Bryan,Restrepo Vásquez,M,1958-09-11,3113018598,Savia Salud,subsidiado,050010217815
+917,CC,11973612,Andrés,Soto Vargas,M,1963-06-17,3194683889,Savia Salud,subsidiado,050010217804
+918,CC,33029337,Claudia,Polo Ramírez,F,1951-08-08,3045094043,Savia Salud,contributivo,050010217807
+919,CC,37250247,Gloria,Ruiz Gómez,F,1944-10-15,3187018878,Savia Salud,subsidiado,050010217835
+920,CC,21121100,Catalina,Ramírez Giraldo,F,1958-08-18,3069952493,Savia Salud,contributivo,050010217853
+921,CC,42682270,Johanna,Ortiz Durán,F,1943-06-27,3124764750,Savia Salud,contributivo,050010217809
+922,CC,70596512,Mateo,López Montenegro,M,1963-04-01,3111006008,Sura,contributivo,050010217855
+923,CC,33155326,Patricia,García Camacho,F,1948-06-27,3029304889,Savia Salud,subsidiado,050010217823
+924,CC,5889453,Humberto,Suárez Mora,M,1953-07-11,3128439996,Savia Salud,subsidiado,050010217811
+925,CC,23048159,Judith,Ospino Gómez,F,1953-08-24,3116965987,Savia Salud,subsidiado,050010217808
+926,CC,5478831,Rafael,Castañeda Quintero,M,1958-01-07,3085428703,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217813
+927,CC,30501273,Raquel,Gómez Vargas,F,1960-11-13,3017356877,Savia Salud,subsidiado,050010217835
+928,CC,37132126,Ruth,Durán Fonseca,F,1958-06-13,3268797070,Savia Salud,subsidiado,050010217829
+929,CC,21035601,Carmen,Ortega Padilla,F,1965-09-14,3065542379,Savia Salud,contributivo,050010217802
+930,CC,70233210,Andrés,Mosquera Rosero,M,1962-05-30,3009190498,Savia Salud,subsidiado,050010217861
+931,CC,36849260,Eliana,Pulido Arboleda,F,1950-09-19,3027858422,Savia Salud,subsidiado,050010217823
+932,CC,21651904,Sofía,Guerrero Ospina,F,1953-03-16,3138378086,Savia Salud,subsidiado,050010217810
+933,CC,36277072,Rocío,Arias Díaz,F,1943-01-05,3185591249,Savia Salud,subsidiado,050010217809
+934,CC,40613982,Patricia,Villegas Rojas,F,1934-09-10,3077721638,Savia Salud,subsidiado,050010217810
+935,CC,70659491,Smith,Rincón García,M,1958-05-16,3223712127,Savia Salud,subsidiado,050010217820
+936,CC,33564304,Carolina,González Velásquez,F,1946-06-20,3024497596,Savia Salud,subsidiado,050010217815
+937,CC,21872059,Diana,Muñoz Restrepo,F,1950-02-21,3104406150,Savia Salud,subsidiado,050010217832
+938,CC,23303976,Ana,León Bonilla,F,1961-07-10,3134448664,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217865
+939,CC,41650411,María,Rodríguez Villa,F,1957-05-14,3295156425,Savia Salud,subsidiado,050010217812
+940,CC,29312194,Alexandra,García Rivas,F,1954-07-05,3071582604,Savia Salud,subsidiado,050010217808
+941,CC,43051356,María,Hernández Acosta,F,1949-06-10,3167238904,Savia Salud,subsidiado,050010217811
+942,CC,3515646,Hugo,Tamayo Páez,M,1963-03-14,3155349748,Savia Salud,subsidiado,050010217835
+943,CC,43850671,Esperanza,Martínez López,F,1943-02-23,3144591533,Savia Salud,subsidiado,050010217844
+944,CC,33595592,Yolima,Rodríguez Gaviria,F,1957-07-22,3252365542,Savia Salud,subsidiado,050010217818
+945,CC,70120990,Raúl,García Salas,M,1961-12-26,3053915451,Savia Salud,subsidiado,050010217856
+946,CC,34060910,Andrea,Vargas Gutiérrez,F,1960-12-09,3262349919,Savia Salud,subsidiado,050010217856
+947,CC,70706556,Iván,Torres Mena,M,1958-11-21,3228291771,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+948,CC,41604226,Mary,García Ramírez,F,1958-09-04,3155778825,Savia Salud,subsidiado,050010217849
+949,CC,37454539,Martha,Rojas Toro,F,1947-02-06,3006085362,Sura,contributivo,050010217860
+950,CC,39534654,Matilde,Pineda García,F,1950-01-18,3067485655,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217843
+951,CC,12020211,Alexander,Suárez Restrepo,M,1949-11-16,3292528988,Savia Salud,subsidiado,050010217814
+952,CC,42868695,Leonor,Velásquez Sánchez,F,1946-02-01,3226960707,Savia Salud,contributivo,050010217851
+953,CC,30730139,Fernanda,Pinzón Gaitán,F,1961-02-11,3094618717,Savia Salud,subsidiado,050010217802
+954,CC,70859165,Arturo,Salcedo Hernández,M,1957-08-23,3243983168,Savia Salud,subsidiado,050010217829
+955,CC,31924822,Graciela,Romero Álvarez,F,1960-01-27,3063325276,Savia Salud,subsidiado,050010217845
+956,CC,26972215,Catalina,Barrera Bautista,F,1954-11-25,3119581481,Savia Salud,subsidiado,050010217802
+957,CC,33234326,Lucía,Correa Fonseca,F,1954-07-28,3245980225,Savia Salud,subsidiado,050010217853
+958,CC,71300815,Esteban,Valencia Sánchez,M,1952-07-16,3137819664,Savia Salud,subsidiado,050010217807
+959,CC,21672551,Paola,Vergara Sánchez,F,1944-11-07,3032490761,Savia Salud,subsidiado,050010217852
+960,CC,40115670,María,Rodríguez Luna,F,1963-10-16,3073112586,Savia Salud,subsidiado,050010217826
+961,CC,71074940,Oswaldo,Rivera Moreno,M,1962-05-21,3241430432,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217824
+962,CC,71865522,Jhon,Rentería Herrera,M,1964-01-21,3292697783,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217837
+963,CC,34471209,Constanza,Molina Rincón,F,1949-11-09,3127040656,Savia Salud,subsidiado,050010217819
+964,CC,5966854,Edgar,Cortés Campo,M,1963-09-17,3048639451,Savia Salud,subsidiado,050010217844
+965,CC,10685944,Hernán,Palacio Caicedo,M,1952-09-08,3048365151,Savia Salud,subsidiado,050010217846
+966,CC,42193935,Erika,Villa Caicedo,F,1958-03-10,3166553787,Savia Salud,subsidiado,050010217831
+967,CC,42455335,Lucía,Córdoba Rivera,F,1961-08-24,3063905182,Savia Salud,contributivo,050010217830
+968,CC,41323977,Ingrid,Moreno Moreno,F,1959-01-31,3094321841,Savia Salud,contributivo,050010217835
+969,CC,70203187,Arbey,Pacheco Bastidas,M,1949-03-13,3262080928,Savia Salud,contributivo,050010217850
+970,CC,29142750,Clara,Ruiz Rangel,F,1950-03-29,3092567900,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217847
+971,CC,70672578,Fabio,Romero Ochoa,M,1945-11-09,3223303411,Savia Salud,subsidiado,050010217835
+972,CC,70751120,Juan,Sanabria Guzmán,M,1958-09-14,3268333470,Savia Salud,subsidiado,050010217810
+973,CC,31199406,Pilar,Salgado Triana,F,1961-02-23,3271316273,Savia Salud,subsidiado,050010217852
+974,CC,24265308,Claudia,Salazar Cuesta,F,1966-03-21,3258369028,Savia Salud,subsidiado,050010217857
+975,CC,23189171,María,Muñoz León,F,1953-06-19,3005008727,Savia Salud,subsidiado,050010217843
+976,CC,21443555,Nancy,Garcés Jaramillo,F,1954-06-01,3244637685,Savia Salud,subsidiado,050010217861
+977,CC,42170114,Rosa,Ríos Mercado,F,1962-03-27,3134003825,Savia Salud,subsidiado,050010217810
+978,CC,41466922,Alejandra,Pérez Forero,F,1956-12-06,3207764375,Savia Salud,subsidiado,050010217808
+979,CC,41447500,Wendy,Guevara Benavides,F,1938-10-02,3215139702,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217838
+980,CC,7131398,Enrique,Escobar Bermúdez,M,1954-07-16,3095872299,Savia Salud,subsidiado,050010217834
+981,CC,9930844,Armando,Ortiz Ballesteros,M,1964-06-08,3164296775,Savia Salud,subsidiado,050010217828
+982,CC,35428038,Adriana,Contreras Vélez,F,1941-02-28,3274459425,Savia Salud,subsidiado,050010217836
+983,CC,11823292,Carlos,Ariza Medina,M,1945-02-13,3275395151,Savia Salud,subsidiado,050010217861
+984,CC,22398635,Jessica,Beltrán Gómez,F,1962-11-15,3227848933,Savia Salud,subsidiado,050010217804
+985,CC,13752406,Julián,López Blanco,M,1957-07-27,3163212461,Savia Salud,contributivo,050010217822
+986,CC,40124825,Linda,García López,F,1952-09-18,3009065479,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217843
+987,CC,34318163,Kelly,Velasco Murcia,F,1945-07-04,3001225067,Savia Salud,subsidiado,050010217810
+988,CC,70253723,Andrés,Peña Rivas,M,1955-10-07,3274724214,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+989,CC,26633961,Fanny,Calderón Henao,F,1957-10-23,3042973131,Savia Salud,subsidiado,050010217811
+990,CC,71672373,Miguel,Buitrago Díaz,M,1957-10-23,3157887631,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+991,CC,29943233,Dora,Mora Vallejo,F,1937-09-14,3144058919,Savia Salud,subsidiado,050010217826
+992,CC,24158315,Adriana,Mora Arteaga,F,1962-03-19,3094940314,Savia Salud,subsidiado,050010217811
+993,CC,4136598,Stiven,Rengifo Sánchez,M,1951-05-19,3263969554,Savia Salud,contributivo,050010217857
+994,CC,23667510,María,Arrieta Jaramillo,F,1935-01-16,3016103231,Savia Salud,subsidiado,050010217831
+995,CC,26439708,Lucila,Monroy Cárdenas,F,1966-09-10,3108410517,Savia Salud,subsidiado,050010217851
+996,CC,27844011,Olga,Herrera Carvajal,F,1942-09-23,3047355023,Savia Salud,subsidiado,050010217836
+997,CC,24264025,María,Oviedo Moreno,F,1951-04-04,3247530814,Savia Salud,subsidiado,050010217807
+998,CC,42561578,Marina,Daza Martínez,F,1955-03-21,3128968729,Savia Salud,subsidiado,050010217811
+999,CC,43685651,María,Pardo Mendoza,F,1958-03-25,3008203669,Savia Salud,subsidiado,050010217824
+1000,CC,34119990,María,González Londoño,F,1954-08-31,3233376741,Savia Salud,contributivo,050010217818
+1001,CC,33860318,Laura,Corredor Ocampo,F,1930-11-16,3212156171,Savia Salud,subsidiado,050010217837
+1002,CC,14727534,Arturo,Giraldo Estrada,M,1962-11-07,3218528820,Savia Salud,contributivo,050010217810
+1003,CC,29365481,Dary,Torres Páez,F,1958-11-20,3136323125,Sura,contributivo,050010217809
+1004,CC,5066577,Jhon,Muñoz Rosero,M,1959-02-11,3185606556,Sura,contributivo,050010217865
+1005,CC,36094133,Paola,Londoño Caro,F,1962-05-16,3121980738,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217837
+1006,CC,71603786,Óscar,Cuéllar Becerra,M,1959-05-18,3166659919,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217828
+1007,CC,37129291,Wendy,Carvajal Pinzón,F,1943-10-01,3176515682,Savia Salud,subsidiado,050010217811
+1008,CC,71628034,Richard,Serna Silva,M,1963-04-19,3186186558,Savia Salud,subsidiado,050010217832
+1009,CC,36431368,Rosario,Sarmiento Hernández,F,1966-10-08,3086190412,Savia Salud,subsidiado,050010217807
+1010,CC,25081807,Ximena,Rodríguez Melo,F,1963-11-19,3036512828,Savia Salud,subsidiado,050010217804
+1011,CC,43205137,Valentina,Álvarez Pérez,F,1956-08-21,3031738856,Nueva EPS,contributivo,050010217804
+1012,CC,41064908,Inés,Londoño Mosquera,F,1964-06-07,3066928938,Savia Salud,subsidiado,050010217857
+1013,CC,7369328,Alexander,Parra Salazar,M,1962-08-03,3269547316,Savia Salud,subsidiado,050010217853
+1014,CC,30166149,Viviana,Ramírez Tamayo,F,1936-08-09,3076556899,Savia Salud,subsidiado,050010217857
+1015,CC,8507253,Enrique,Andrade Zapata,M,1964-07-21,3093420638,Savia Salud,subsidiado,050010217810
+1016,CC,42574242,Patricia,Márquez Palacios,F,1947-04-03,3094718031,Savia Salud,subsidiado,050010217845
+1017,CC,4321914,Javier,Cuéllar García,M,1958-01-19,3057271066,Savia Salud,subsidiado,050010217861
+1018,CC,41228538,Patricia,Bolaños Rengifo,F,1963-08-14,3176259687,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217845
+1019,CC,25696658,Patricia,Monsalve Velandia,F,1959-08-19,3113332475,Nueva EPS,contributivo,050010217807
+1020,CC,11158247,Pedro,Velasco Castellanos,M,1939-07-25,3239435938,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217855
+1021,CC,30675631,Lina,Arango García,F,1954-09-10,3284971408,Savia Salud,subsidiado,050010217808
+1022,CC,40594375,Jessica,Mendoza Londoño,F,1965-05-05,3175557336,Savia Salud,contributivo,050010217857
+1023,CC,22263287,Virginia,Murillo López,F,1948-06-11,3158730332,Savia Salud,subsidiado,050010217807
+1024,CC,40440214,Constanza,Valencia Arboleda,F,1964-06-11,3003800908,Savia Salud,subsidiado,050010217820
+1025,CC,28727487,Liliana,Correa Osorio,F,1951-08-25,3074944612,Savia Salud,subsidiado,050010217835
+1026,CC,26081601,María,Méndez Hurtado,F,1945-05-18,3174461977,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+1027,CC,23999124,Luz,Arias Hernández,F,1961-07-19,3222478850,Savia Salud,subsidiado,050010217852
+1028,CC,8661779,Andrés,Jiménez Ardila,M,1953-12-19,3108019781,Savia Salud,subsidiado,050010217843
+1029,CC,32499546,Laura,Palacio Cárdenas,F,1966-04-22,3067927753,Savia Salud,subsidiado,050010217845
+1030,CC,41223776,Esperanza,Mejía Torres,F,1966-05-30,3057642354,Savia Salud,subsidiado,050010217850
+1031,CC,70916236,Emiro,Forero Salamanca,M,1964-05-18,3066578530,Savia Salud,subsidiado,050010217808
+1032,CC,21179500,Mary,Sánchez Sánchez,F,1947-10-18,3224212616,Savia Salud,subsidiado,050010217859
+1033,CC,36085185,Estela,Estrada Martínez,F,1945-05-13,3232534255,Savia Salud,subsidiado,050010217845
+1034,CC,9236305,Alfredo,Navarro Gómez,M,1943-04-11,3162731965,Savia Salud,subsidiado,050010217811
+1035,CC,31545469,María,Barrios Cardozo,F,1963-05-29,3237025627,Savia Salud,subsidiado,050010217809
+1036,CC,23003233,Yaneth,Cabrera Ortiz,F,1954-02-12,3286923384,Savia Salud,subsidiado,050010217811
+1037,CC,40472615,Esther,Bernal Vallejo,F,1959-05-29,3082877052,Savia Salud,subsidiado,050010217824
+1038,CC,70375589,Gustavo,Ayala González,M,1937-06-12,3074779500,Savia Salud,subsidiado,050010217847
+1039,CC,43693441,Cecilia,Solano Rodríguez,F,1965-04-03,3206448464,Savia Salud,subsidiado,050010217844
+1040,CC,41347332,Gloria,Prieto Ángel,F,1962-12-28,3062755993,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217859
+1041,CC,36132091,Yuli,Beltrán Rueda,F,1963-09-29,3171798568,Savia Salud,subsidiado,050010217834
+1042,CC,33902270,Dolly,Barreto Durán,F,1963-09-23,3067714260,Savia Salud,subsidiado,050010217802
+1043,CC,25330103,Gladys,Agudelo Guerrero,F,1962-01-31,3186329352,Savia Salud,subsidiado,050010217808
+1044,CC,70974799,William,Henao Moreno,M,1956-01-14,3026015981,Savia Salud,subsidiado,050010217802
+1045,CC,11213764,Fredy,Rodríguez Tamayo,M,1966-09-19,3027707567,Savia Salud,subsidiado,050010217821
+1046,CC,71142524,David,Rojas Rodríguez,M,1963-09-22,3203744503,Savia Salud,subsidiado,050010217838
+1047,CC,24457222,Carolina,Vallejo Caicedo,F,1962-07-16,3125567132,Savia Salud,subsidiado,050010217849
+1048,CC,21615794,María,Vargas Torres,F,1959-05-07,3132298100,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217802
+1049,CC,27785390,Luz,Mosquera Ortiz,F,1957-10-04,3194610532,Savia Salud,subsidiado,050010217847
+1050,CC,28498024,Cindy,Duque Mena,F,1951-08-10,3055384834,Nueva EPS,contributivo,050010217853
+1051,CC,5770664,Gerardo,Morales Alvarado,M,1951-04-13,3123834948,Savia Salud,subsidiado,050010217807
+1052,CC,37300800,Marina,Lara Rojas,F,1962-04-10,3137485477,Savia Salud,subsidiado,050010217811
+1053,CC,39667586,Camila,Zambrano Romero,F,1942-01-13,3174491919,Savia Salud,subsidiado,050010217846
+1054,CC,14748548,Jairo,Muñoz Mora,M,1964-09-10,3276887027,Savia Salud,subsidiado,050010217812
+1055,CC,24862894,Dolly,Palacios Rodríguez,F,1962-03-11,3125260976,Savia Salud,contributivo,050010217823
+1056,CC,22222104,Jessica,Ramírez Bolívar,F,1949-12-12,3058412795,Savia Salud,subsidiado,050010217855
+1057,CC,71200126,Luis,Alarcón Calderón,M,1950-04-03,3156356544,Savia Salud,subsidiado,050010217808
+1058,CC,70909536,Dario,Alfonso Hurtado,M,1955-07-20,3265403153,Savia Salud,subsidiado,050010217865
+1059,CC,28464735,Jennifer,Zapata Rubio,F,1944-03-18,3232399317,Savia Salud,contributivo,050010217861
+1060,CC,26275678,Luz,Martínez Guzmán,F,1958-09-10,3203612157,Savia Salud,subsidiado,050010217847
+1061,CC,24370065,Andrea,Correa Serrano,F,1940-08-04,3082152789,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217847
+1062,CC,27174086,Tania,Mesa Alarcón,F,1957-08-01,3173870867,Savia Salud,subsidiado,050010217804
+1063,CC,71359017,Miguel,Velásquez Rojas,M,1954-02-23,3268806325,Savia Salud,subsidiado,050010217852
+1064,CC,70168564,Alfonso,Rivera Oviedo,M,1960-02-06,3065845944,Savia Salud,subsidiado,050010217860
+1065,CC,39068987,Esther,Sarmiento Duque,F,1951-08-06,3226919364,Savia Salud,subsidiado,050010217846
+1066,CC,71381929,Diego,Lozano Ruiz,M,1957-07-12,3165186229,Savia Salud,subsidiado,050010217861
+1067,CC,11789736,Antonio,Castro Caro,M,1961-07-28,3104429764,Savia Salud,subsidiado,050010217833
+1068,CC,13957880,Juan,Beltrán Galeano,M,1959-06-05,3119646374,Savia Salud,subsidiado,050010217829
+1069,CC,24643440,María,Osorio Gómez,F,1966-09-23,3158014222,Savia Salud,subsidiado,050010217815
+1070,CC,33199599,Alejandra,Chávez Angarita,F,1962-07-24,3027789641,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217809
+1071,CC,34680594,María,Ballesteros Rodríguez,F,1960-04-20,3222549496,Savia Salud,subsidiado,050010217865
+1072,CC,24355593,María,Tovar Osorio,F,1932-08-21,3016269246,Savia Salud,subsidiado,050010217865
+1073,CC,21244155,Nelly,Sierra Calderón,F,1965-10-21,3015700794,Savia Salud,subsidiado,050010217857
+1074,CC,33844613,Eugenia,Fuentes Vargas,F,1948-06-02,3157966534,Savia Salud,subsidiado,050010217807
+1075,CC,4572221,Carlos,Guevara Castillo,M,1966-01-23,3056289087,Savia Salud,contributivo,050010217807
+1076,CC,26581548,Lorena,Giraldo Gómez,F,1953-07-24,3256062153,Savia Salud,subsidiado,050010217860
+1077,CC,71541315,Juan,Perdomo Ortiz,M,1956-09-28,3118650012,Savia Salud,subsidiado,050010217804
+1078,CC,29966875,Eugenia,Patiño Buitrago,F,1956-02-03,3101125918,Savia Salud,subsidiado,050010217815
+1079,CC,27714683,Clara,Tovar Parra,F,1959-06-07,3123243229,Savia Salud,subsidiado,050010217813
+1080,CC,3429868,Andrés,Gonzáles Luna,M,1963-05-08,3244832902,Savia Salud,contributivo,050010217844
+1081,CC,11137858,Edward,Morales Medina,M,1962-11-28,3187895226,Savia Salud,subsidiado,050010217851
+1082,CC,42971811,Eugenia,Pedraza Gómez,F,1949-05-03,3169758784,Savia Salud,subsidiado,050010217810
+1083,CC,21915702,Andrea,Ramos Jaramillo,F,1959-06-04,3176308045,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217850
+1084,CC,34918157,Rosalba,Villamizar Luna,F,1963-06-12,3236289942,Savia Salud,subsidiado,050010217804
+1085,CC,36025680,Libia,Cáceres Blanco,F,1956-12-06,3022294065,Savia Salud,subsidiado,050010217814
+1086,CC,21713503,Inés,Guzmán Gómez,F,1966-04-11,3268855952,Savia Salud,subsidiado,050010217810
+1087,CC,7065645,Luis,Rosero Castro,M,1960-08-13,3254181642,Savia Salud,subsidiado,050010217850
+1088,CC,23893459,María,Gaviria Díaz,F,1966-06-19,3207804305,Sura,contributivo,050010217861
+1089,CC,71151633,Carlos,López Benítez,M,1958-07-13,3254599314,Savia Salud,subsidiado,050010217840
+1090,CC,26820028,Fernanda,Molina Ríos,F,1966-05-03,3039842344,Savia Salud,subsidiado,050010217820
+1091,CC,14734941,Carlos,Camargo Rojas,M,1963-04-09,3204721169,Savia Salud,subsidiado,050010217811
+1092,CC,30435675,Yulieth,Díaz González,F,1956-10-25,3239023607,Savia Salud,subsidiado,050010217814
+1093,CC,27924746,Clemencia,Durán Beltrán,F,1959-05-11,3096793471,Savia Salud,subsidiado,050010217812
+1094,CC,33560393,Paula,Gómez Galvis,F,1957-02-18,3198112192,Savia Salud,subsidiado,050010217811
+1095,CC,25361059,Diana,Arias Jiménez,F,1965-06-14,3192821780,Savia Salud,subsidiado,050010217829
+1096,CC,33621295,Mabel,Pérez Arenas,F,1949-11-06,3175680162,Savia Salud,subsidiado,050010217810
+1097,CC,23130693,Jessica,Herrera Rueda,F,1955-12-10,3228025186,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217807
+1098,CC,71944822,Nicolás,Ruiz Henao,M,1960-12-30,3082564704,Savia Salud,subsidiado,050010217865
+1099,CC,70539149,Manuel,Prada Mendoza,M,1946-08-07,3162404290,Savia Salud,contributivo,050010217857
+1100,CC,43997397,Patricia,Guevara Ángel,F,1939-08-04,3077533424,Savia Salud,subsidiado,050010217865
+1101,CC,8794526,Gabriel,Niño Miranda,M,1962-03-01,3109368072,Savia Salud,subsidiado,050010217810
+1102,CC,36360608,Marcela,Serrano Cano,F,1965-07-22,3032882076,Savia Salud,subsidiado,050010217854
+1103,CC,71043018,Jorge,Delgado Díaz,M,1960-01-10,3149704271,Savia Salud,subsidiado,050010217860
+1104,CC,10047593,Guillermo,Pérez Caicedo,M,1944-12-20,3063296214,Savia Salud,subsidiado,050010217815
+1105,CC,15148673,Juan,Pérez Saavedra,M,1962-07-22,3274186851,Savia Salud,subsidiado,050010217845
+1106,CC,41255769,Stella,Galeano Rodríguez,F,1937-05-29,3269820761,Savia Salud,subsidiado,050010217836
+1107,CC,71907746,Arturo,Cardona Rodríguez,M,1965-11-30,3084572248,Savia Salud,subsidiado,050010217818
+1108,CC,25141241,Yudy,Salazar Pérez,F,1963-09-15,3106527991,Savia Salud,contributivo,050010217830
+1109,CC,71787155,Jairo,Galvis Gutiérrez,M,1955-07-16,3265963453,Savia Salud,subsidiado,050010217847
+1110,CC,70952631,José,Martínez Escobar,M,1966-08-26,3203366096,Savia Salud,contributivo,050010217861
+1111,CC,40905127,Diana,Benavides Salcedo,F,1961-03-31,3077666786,Savia Salud,subsidiado,050010217843
+1112,CC,22252985,Liliana,Rojas Carmona,F,1953-03-08,3168417884,Savia Salud,subsidiado,050010217831
+1113,CC,39282161,Martha,Delgado Rendón,F,1961-03-19,3281233304,Savia Salud,subsidiado,050010217812
+1114,CC,70325579,Luis,Torres Castillo,M,1964-01-07,3131779866,Savia Salud,subsidiado,050010217840
+1115,CC,70970235,Ángel,López Rivera,M,1945-02-19,3117962294,Savia Salud,contributivo,050010217852
+1116,CC,34388755,Adriana,Cardona Gómez,F,1960-06-02,3137760093,Savia Salud,subsidiado,050010217861
+1117,CC,40520902,Gilma,Jiménez Arango,F,1959-08-12,3249944679,Savia Salud,subsidiado,050010217807
+1118,CC,30522396,Mercedes,Barbosa Arias,F,1954-01-23,3267475940,Savia Salud,subsidiado,050010217861
+1119,CC,21061911,Tatiana,García Jiménez,F,1954-01-04,3132302350,Savia Salud,subsidiado,050010217808
+1120,CC,35642499,Mabel,González Correa,F,1931-09-24,3101789605,Savia Salud,subsidiado,050010217865
+1121,CC,71070060,Luis,Vargas Muñoz,M,1951-10-29,3296741541,Savia Salud,subsidiado,050010217802
+1122,CC,22503869,Claudia,Álvarez Rodríguez,F,1945-07-08,3139039406,Savia Salud,contributivo,050010217808
+1123,CC,42231588,Sandra,Guzmán Ángel,F,1939-02-18,3039186460,Savia Salud,subsidiado,050010217857
+1124,CC,5742387,Carlos,Ramírez Hernández,M,1958-02-27,3104548789,Savia Salud,subsidiado,050010217808
+1125,CC,5148243,Alberto,Paz Fuentes,M,1966-07-10,3076145396,Savia Salud,contributivo,050010217831
+1126,CC,31007904,María,Hernández Álvarez,F,1961-08-18,3232098611,Savia Salud,subsidiado,050010217845
+1127,CC,33170424,María,Zapata Bedoya,F,1950-12-21,3034742634,Savia Salud,subsidiado,050010217843
+1128,CC,35104535,Luisa,Guerrero Mejía,F,1962-04-07,3056420832,Savia Salud,contributivo,050010217826
+1129,CC,7963725,Andrés,Moreno Sánchez,M,1943-03-10,3155271298,Savia Salud,subsidiado,050010217811
+1130,CC,70861320,Augusto,Solano Guzmán,M,1962-06-16,3083748451,Savia Salud,contributivo,050010217859
+1131,CC,42171332,Diana,Herrera Ramírez,F,1964-01-04,3157629085,Savia Salud,subsidiado,050010217855
+1132,CC,23800116,Carolina,Bedoya Bedoya,F,1964-03-29,3138341144,Savia Salud,subsidiado,050010217855
+1133,CC,41570459,Jenny,Peña Barrera,F,1944-08-07,3036955514,Savia Salud,subsidiado,050010217811
+1134,CC,71056984,Rafael,Ortega Rivas,M,1960-11-13,3019963418,Savia Salud,subsidiado,050010217807
+1135,CC,13388893,Alexander,Maldonado Lozano,M,1960-09-17,3223698311,Savia Salud,subsidiado,050010217844
+1136,CC,33061086,Ángela,Betancur Villegas,F,1954-08-19,3216697129,Savia Salud,subsidiado,050010217837
+1137,CC,32490911,Lina,García Pérez,F,1942-10-09,3217325489,Savia Salud,subsidiado,050010217808
+1138,CC,24108353,Maira,Vergara Gómez,F,1965-05-22,3211045900,Savia Salud,subsidiado,050010217821
+1139,CC,70603497,Luis,Martínez Cuesta,M,1962-01-31,3127572355,Nueva EPS,contributivo,050010217865
+1140,CC,14790334,Enrique,Uribe González,M,1949-10-23,3114591079,Savia Salud,subsidiado,050010217821
+1141,CC,31634561,Maritza,Duarte Guzmán,F,1939-03-03,3248194052,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217860
+1142,CC,71293518,Luis,Domínguez Luna,M,1961-12-26,3048318163,Savia Salud,subsidiado,050010217839
+1143,CC,70853765,Daniel,González Trujillo,M,1937-10-28,3187735706,Sura,contributivo,050010217811
+1144,CC,70681084,Edison,Mejía Gutiérrez,M,1939-10-16,3071984626,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217807
+1145,CC,14243588,Felipe,Serrano Herrera,M,1962-06-30,3152148172,Savia Salud,subsidiado,050010217857
+1146,CC,31878062,Nury,Gómez Sierra,F,1943-07-22,3058521118,Savia Salud,subsidiado,050010217822
+1147,CC,70965001,Jorge,Herrera Bernal,M,1964-11-21,3068974552,Savia Salud,subsidiado,050010217847
+1148,CC,41988263,Doris,Gil Rojas,F,1954-01-14,3111632605,Savia Salud,subsidiado,050010217819
+1149,CC,25955446,Mery,Ramírez González,F,1961-05-11,3014649451,Savia Salud,subsidiado,050010217809
+1150,CC,21122240,María,Murillo Torres,F,1960-09-09,3079549532,Savia Salud,subsidiado,050010217839
+1151,CC,40500043,Stella,Gil Calderón,F,1954-10-05,3298475758,Savia Salud,subsidiado,050010217845
+1152,CC,30241715,Olga,Ríos Romero,F,1947-03-21,3002990488,Savia Salud,contributivo,050010217849
+1153,CC,10376128,Johan,Hernández Gutiérrez,M,1961-12-04,3044398755,Savia Salud,subsidiado,050010217813
+1154,CC,13732952,Rafael,Duarte Ramírez,M,1963-10-02,3256625440,Savia Salud,subsidiado,050010217807
+1155,CC,70926042,Jesús,Castro Rodríguez,M,1946-10-14,3066011681,Savia Salud,subsidiado,050010217853
+1156,CC,34736797,Alicia,Bohórquez Fuentes,F,1939-05-23,3165753823,Nueva EPS,contributivo,050010217836
+1157,CC,22945699,Elena,Vanegas Mena,F,1955-08-19,3187586250,Savia Salud,subsidiado,050010217823
+1158,CC,10562961,Francisco,Gómez Duque,M,1960-08-20,3166614777,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217833
+1159,CC,43476092,Geraldine,Soto Rodríguez,F,1948-03-22,3124641449,Savia Salud,subsidiado,050010217839
+1160,CC,33541774,Patricia,Suárez Parra,F,1957-03-30,3201885375,Savia Salud,subsidiado,050010217826
+1161,CC,43314836,Liliana,Bejarano Cardona,F,1962-01-04,3238292438,Savia Salud,contributivo,050010217824
+1162,CC,14124256,David,Martínez García,M,1966-07-07,3196067561,Savia Salud,subsidiado,050010217815
+1163,CC,71438778,Julio,Gómez Aguilar,M,1957-10-28,3151115676,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+1164,CC,13398944,Alexis,Bastidas Arias,M,1963-09-27,3137857100,Savia Salud,subsidiado,050010217857
+1165,CC,41514792,Luz,Vásquez Ruiz,F,1956-01-24,3032270048,Savia Salud,subsidiado,050010217845
+1166,CC,21421817,Beatriz,Cabrera Aguirre,F,1950-08-03,3049572027,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217810
+1167,CC,38353673,Valentina,Amaya Galindo,F,1937-01-18,3088949972,Savia Salud,subsidiado,050010217830
+1168,CC,34067221,Paola,Posada Ariza,F,1947-09-06,3163251779,Savia Salud,subsidiado,050010217809
+1169,CC,71757034,Carlos,Torres Medina,M,1962-01-26,3238590975,Savia Salud,subsidiado,050010217843
+1170,CC,37013898,Adriana,Hernández López,F,1960-01-14,3151925746,Savia Salud,subsidiado,050010217865
+1171,CC,23661470,Lady,Ruiz Pérez,F,1962-10-17,3286434740,Savia Salud,subsidiado,050010217860
+1172,CC,24394288,Blanca,García Gaitán,F,1962-06-27,3104586950,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217831
+1173,CC,43739801,Helena,Cifuentes Correa,F,1935-07-30,3249929197,Savia Salud,subsidiado,050010217834
+1174,CC,38626029,Angélica,Garzón Buitrago,F,1958-05-27,3196808480,Savia Salud,subsidiado,050010217829
+1175,CC,33231544,Elena,Ardila Polo,F,1964-06-12,3074905149,Savia Salud,subsidiado,050010217826
+1176,CC,22859146,María,Gómez Benavides,F,1932-01-25,3279148023,Savia Salud,subsidiado,050010217809
+1177,CC,34040750,Olga,Rojas Ariza,F,1948-10-10,3256528235,Savia Salud,subsidiado,050010217826
+1178,CC,37490318,Marina,Rodríguez Morales,F,1928-03-15,3148104743,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217851
+1179,CC,29874170,Paola,Escobar Duarte,F,1951-02-27,3213212205,Savia Salud,subsidiado,050010217802
+1180,CC,35711332,María,Rivera Pacheco,F,1963-10-21,3049982675,Savia Salud,subsidiado,050010217833
+1181,CC,26275527,Blanca,Montenegro Salazar,F,1950-12-05,3232854851,Savia Salud,contributivo,050010217809
+1182,CC,22684452,Danna,Vera Vargas,F,1956-05-05,3065952790,Savia Salud,contributivo,050010217830
+1183,CC,36707579,Paola,Martínez Muñoz,F,1966-08-15,3102656618,Savia Salud,subsidiado,050010217808
+1184,CC,43310657,Marlene,Castrillón García,F,1950-11-23,3185484693,Savia Salud,subsidiado,050010217807
+1185,CC,71503507,Jesús,Calderón González,M,1946-08-18,3172595249,Savia Salud,subsidiado,050010217857
+1186,CC,42722905,Yuly,Pérez Vélez,F,1946-05-18,3017844954,Savia Salud,subsidiado,050010217834
+1187,CC,8125425,Emilio,Ramírez Domínguez,M,1958-07-16,3104569232,Savia Salud,subsidiado,050010217839
+1188,CC,36929123,Nelly,Sánchez Ramírez,F,1955-04-22,3096194736,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217802
+1189,CC,23278174,Olga,Becerra Mosquera,F,1946-10-20,3258908506,Savia Salud,subsidiado,050010217865
+1190,CC,28838485,Johana,Montenegro Barragán,F,1964-01-30,3112366482,Savia Salud,subsidiado,050010217808
+1191,CC,32050703,Manuela,Ortiz Fernández,F,1966-06-12,3232282774,Savia Salud,subsidiado,050010217811
+1192,CC,29097385,Patricia,Rentería Ortiz,F,1965-11-23,3233926558,Savia Salud,contributivo,050010217822
+1193,CC,70216735,Edilson,Mejía Navarro,M,1966-11-06,3177409817,Savia Salud,subsidiado,050010217831
+1194,CC,33440678,Patricia,Moreno Valencia,F,1965-12-08,3034985388,Savia Salud,subsidiado,050010217857
+1195,CC,34808970,Daniela,Ruiz Velásquez,F,1966-06-07,3072894786,Savia Salud,subsidiado,050010217845
+1196,CC,32852968,Irma,Sandoval Ospina,F,1964-03-12,3049941465,Savia Salud,contributivo,050010217804
+1197,CC,9387257,Carlos,Montoya Méndez,M,1961-06-15,3224954443,Savia Salud,subsidiado,050010217832
+1198,CC,38546507,Janeth,Muñoz López,F,1952-08-05,3076519082,Savia Salud,subsidiado,050010217819
+1199,CC,43013609,Graciela,Murillo Rojas,F,1942-01-19,3235600871,Savia Salud,subsidiado,050010217820
+1200,CC,71863164,Antonio,Gonzáles Salcedo,M,1962-03-16,3174352932,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217807
+1201,CC,26962214,Isabel,Sanabria Cortés,F,1938-12-19,3211282820,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217802
+1202,CC,33425061,Lucía,Pérez Peña,F,1953-03-03,3041545836,Savia Salud,subsidiado,050010217808
+1203,CC,71869448,Jaime,Garzón Caicedo,M,1963-03-09,3156427175,Savia Salud,subsidiado,050010217861
+1204,CC,28559677,Melba,Castro Rojas,F,1949-02-11,3151204716,Savia Salud,subsidiado,050010217826
+1205,CC,36153366,Erika,Gutiérrez Pérez,F,1964-10-04,3228802901,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217812
+1206,CC,26091361,Patricia,Castaño Cruz,F,1953-11-14,3053195494,Savia Salud,subsidiado,050010217857
+1207,CC,23673939,Rosalba,Herrera Puentes,F,1953-07-29,3113053956,Savia Salud,subsidiado,050010217802
+1208,CC,70446559,Abel,Pinto Ortiz,M,1952-05-07,3136933097,Savia Salud,subsidiado,050010217857
+1209,CC,9784131,Juan,Mosquera Henao,M,1959-10-08,3043877229,Savia Salud,subsidiado,050010217834
+1210,CC,23211688,Paula,Guzmán Vargas,F,1962-09-12,3011330242,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217819
+1211,CC,40766954,Liliana,Ospina Melo,F,1953-08-21,3208208739,Savia Salud,subsidiado,050010217824
+1212,CC,43925577,Laura,Lozano Vergara,F,1961-07-11,3178694242,Savia Salud,subsidiado,050010217837
+1213,CC,7150589,Cristian,Miranda Rincón,M,1965-08-26,3134659633,Savia Salud,subsidiado,050010217836
+1214,CC,34592839,Angie,Valencia Ramos,F,1960-07-26,3166062180,Savia Salud,subsidiado,050010217810
+1215,CC,11003257,Jorge,Castañeda Jiménez,M,1963-07-11,3098620252,Savia Salud,subsidiado,050010217853
+1216,CC,31381643,Hilda,Mendoza González,F,1966-09-04,3228352135,Savia Salud,subsidiado,050010217861
+1217,CC,70089247,José,Bernal Murcia,M,1953-12-19,3258147286,Savia Salud,subsidiado,050010217809
+1218,CC,41317634,Yésica,López Velásquez,F,1960-04-13,3195285962,Savia Salud,subsidiado,050010217819
+1219,CC,7146982,Manuel,Triana Molina,M,1965-04-25,3248420187,Savia Salud,subsidiado,050010217815
+1220,CC,71632102,Héctor,Ortiz Díaz,M,1959-12-21,3047084713,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217819
+1221,CC,33261520,María,Hernández Angarita,F,1943-07-10,3151352836,Savia Salud,subsidiado,050010217856
+1222,CC,5349013,Abel,Montes Ocampo,M,1945-02-02,3134330005,Savia Salud,subsidiado,050010217865
+1223,CC,27055151,Diana,Moreno Calderón,F,1962-05-08,3207984444,Savia Salud,subsidiado,050010217802
+1224,CC,39880462,Concepción,Jiménez Muñoz,F,1966-06-01,3242354790,Savia Salud,subsidiado,050010217836
+1225,CC,8966068,Alberto,Ramírez Sierra,M,1957-07-21,3264669889,Savia Salud,subsidiado,050010217835
+1226,CC,9637904,Libardo,López Cardozo,M,1963-04-29,3257175579,Savia Salud,subsidiado,050010217804
+1227,CC,71805826,Reinaldo,Fonseca Delgado,M,1961-04-16,3015953921,Savia Salud,subsidiado,050010217846
+1228,CC,40555681,Nidia,Sánchez Carmona,F,1958-02-16,3177488023,Savia Salud,subsidiado,050010217811
+1229,CC,31123452,Lucía,Mendoza Sarmiento,F,1953-09-13,3275137323,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217808
+1230,CC,26309441,Gloria,Sánchez Rojas,F,1955-11-02,3154079104,Savia Salud,subsidiado,050010217810
+1231,CC,39727000,Esther,Ríos Díaz,F,1961-12-02,3031877076,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217814
+1232,CC,25863006,Doris,García Puentes,F,1946-02-08,3055029899,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217809
+1233,CC,27690069,Angélica,Ocampo López,F,1956-05-18,3248140149,Sura,contributivo,050010217828
+1234,CC,8240585,José,Salcedo Salazar,M,1963-02-10,3267156152,Savia Salud,subsidiado,050010217837
+1235,CC,22841149,María,Martínez Cruz,F,1959-04-20,3095373635,Savia Salud,subsidiado,050010217810
+1236,CC,22031208,Alba,Gómez Daza,F,1955-01-26,3252791115,Savia Salud,subsidiado,050010217834
+1237,CC,71667497,Álvaro,Rodríguez Torres,M,1960-02-07,3268748468,Savia Salud,subsidiado,050010217813
+1238,CC,70342453,Camilo,Leal Narváez,M,1965-02-03,3154152435,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217804
+1239,CC,30867468,Maribel,Jaramillo Blanco,F,1949-01-11,3135692596,Savia Salud,subsidiado,050010217809
+1240,CC,11766779,Milton,Quintero Andrade,M,1943-10-14,3041342751,Savia Salud,subsidiado,050010217829
+1241,CC,27787484,Cecilia,Perdomo Montenegro,F,1953-11-12,3217630348,Savia Salud,subsidiado,050010217865
+1242,CC,22777897,Nubia,Castro García,F,1948-03-31,3161744863,Savia Salud,subsidiado,050010217820
+1243,CC,35840483,Adela,González Duarte,F,1960-06-14,3118949330,Savia Salud,subsidiado,050010217852
+1244,CC,23930603,Yamile,Rojas Velasco,F,1954-11-16,3294143821,Savia Salud,subsidiado,050010217810
+1245,CC,43500002,Mónica,Ayala Rivera,F,1960-08-13,3048626002,Savia Salud,contributivo,050010217837
+1246,CC,10282893,Edwin,Salazar Zuluaga,M,1953-03-05,3275824731,Savia Salud,subsidiado,050010217853
+1247,CC,27399071,Rosa,Ortiz Rojas,F,1958-03-18,3021823407,Savia Salud,subsidiado,050010217855
+1248,CC,31207700,Eugenia,Sierra Santos,F,1959-12-10,3092027881,Savia Salud,subsidiado,050010217809
+1249,CC,29790127,Luz,Rojas Carvajal,F,1948-11-28,3052976345,Savia Salud,subsidiado,050010217834
+1250,CC,28438790,Carmen,Sandoval Ortiz,F,1962-03-07,3233659666,Savia Salud,subsidiado,050010217831
+1251,CC,29410014,María,Bolívar Silva,F,1949-07-15,3022436138,Savia Salud,subsidiado,050010217804
+1252,CC,26590240,Aura,Contreras Martínez,F,1946-03-24,3233074163,Savia Salud,subsidiado,050010217809
+1253,CC,26508710,Rosa,Ramírez Fernández,F,1954-04-26,3133903565,Savia Salud,subsidiado,050010217845
+1254,CC,24433038,Marta,Hernández Sánchez,F,1961-11-29,3295139981,Savia Salud,subsidiado,050010217815
+1255,CC,24887403,Elsa,Rodríguez Ángel,F,1964-12-21,3091690504,Sura,contributivo,050010217820
+1256,CC,35938842,Nancy,Moreno Hernández,F,1960-01-27,3081190621,Savia Salud,subsidiado,050010217834
+1257,CC,70915443,Alfredo,Córdoba Lozano,M,1947-04-14,3265701840,Savia Salud,contributivo,050010217850
+1258,CC,33374812,María,Cabrera Álvarez,F,1938-11-15,3296436983,Savia Salud,subsidiado,050010217865
+1259,CC,37526585,Yazmín,Cuesta Bedoya,F,1964-04-29,3044104347,Savia Salud,subsidiado,050010217809
+1260,CC,70571235,Richard,Ríos Arévalo,M,1948-07-27,3288503435,Savia Salud,contributivo,050010217857
+1261,CC,11263482,William,Rojas Acevedo,M,1956-06-24,3039849253,Savia Salud,subsidiado,050010217854
+1262,CC,11269544,Luis,Arroyo Mosquera,M,1965-11-07,3113220584,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+1263,CC,34774807,Amparo,Flórez Leal,F,1957-06-22,3043284567,Savia Salud,subsidiado,050010217861
+1264,CC,40538594,María,Sánchez Martínez,F,1944-11-04,3015878008,Savia Salud,subsidiado,050010217830
+1265,CC,70734476,Ernesto,Álvarez Castaño,M,1965-01-13,3095827213,Savia Salud,subsidiado,050010217810
+1266,CC,32112620,Sandra,Duarte Vargas,F,1959-10-31,3159895717,Savia Salud,subsidiado,050010217804
+1267,CC,70368839,Gustavo,Valencia Figueroa,M,1966-05-08,3023648549,Savia Salud,subsidiado,050010217804
+1268,CC,42443275,Mariana,Cárdenas Martínez,F,1960-07-15,3139524322,Savia Salud,subsidiado,050010217840
+1269,CC,43281240,Johana,Rojas Salcedo,F,1940-07-10,3043399249,Savia Salud,subsidiado,050010217847
+1270,CC,25759459,Hilda,Pinto Álvarez,F,1948-11-14,3088894580,Savia Salud,subsidiado,050010217857
+1271,CC,42979287,Luz,Martínez Rengifo,F,1954-07-03,3147388044,Savia Salud,subsidiado,050010217823
+1272,CC,24506493,Patricia,Gómez Romero,F,1942-11-30,3146210027,Savia Salud,subsidiado,050010217865
+1273,CC,40016043,Mariela,Franco Hoyos,F,1958-04-08,3155532419,Savia Salud,subsidiado,050010217859
+1274,CC,70662144,José,Calderón Jiménez,M,1966-01-14,3286851561,Savia Salud,subsidiado,050010217859
+1275,CC,26855971,Matilde,Acevedo Rengifo,F,1957-10-22,3212500249,Savia Salud,subsidiado,050010217834
+1276,CC,70399766,Diego,Prada Anaya,M,1962-08-12,3253266346,Savia Salud,subsidiado,050010217812
+1277,CC,39288012,Rosa,Ruiz Sierra,F,1948-08-27,3089467973,Savia Salud,subsidiado,050010217826
+1278,CC,70529808,William,Palacios Parra,M,1961-02-06,3108588067,Savia Salud,contributivo,050010217809
+1279,CC,11570678,Rafael,Hernández López,M,1956-06-10,3055321795,Savia Salud,subsidiado,050010217813
+1280,CC,26422519,Yina,Ochoa Soto,F,1939-04-26,3057262919,Savia Salud,subsidiado,050010217851
+1281,CC,26969095,Mercedes,Díaz Hernández,F,1964-01-21,3254674395,Savia Salud,subsidiado,050010217857
+1282,CC,28044619,Marina,Arango Flórez,F,1948-06-21,3276465935,Savia Salud,subsidiado,050010217843
+1283,CC,71799574,Carlos,Arrieta Carmona,M,1963-08-05,3272428335,Savia Salud,subsidiado,050010217807
+1284,CC,71389526,Wilson,Lozano Martínez,M,1944-08-03,3113090765,Savia Salud,subsidiado,050010217843
+1285,CC,71604753,David,Castrillón Quintero,M,1942-06-23,3193121315,Savia Salud,subsidiado,050010217833
+1286,CC,39855738,Inés,Galvis Bernal,F,1952-03-24,3266932524,Savia Salud,subsidiado,050010217859
+1287,CC,31148765,María,López Castaño,F,1950-07-10,3243509326,Savia Salud,subsidiado,050010217865
+1288,CC,8084786,Hernán,Sierra Hernández,M,1951-10-01,3129838703,Savia Salud,contributivo,050010217856
+1289,CC,25301320,Gina,Pineda Navarro,F,1938-07-11,3002118589,Savia Salud,subsidiado,050010217830
+1290,CC,43966234,Margarita,Gómez Ramírez,F,1947-12-22,3207154558,Savia Salud,subsidiado,050010217822
+1291,CC,27446998,Dayana,Rodríguez Ramírez,F,1958-07-05,3156637701,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217847
+1292,CC,5807792,Juan,Marín Pérez,M,1940-08-27,3194433948,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217820
+1293,CC,29930657,Marcela,García Ortega,F,1953-04-22,3064566491,Savia Salud,subsidiado,050010217802
+1294,CC,43297565,Mercedes,Ramírez Londoño,F,1964-11-26,3284500631,Savia Salud,contributivo,050010217844
+1295,CC,13841542,Steven,Parra Campo,M,1953-06-23,3247497994,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217833
+1296,CC,31688887,Andrea,Gutiérrez Arias,F,1963-03-17,3248747264,Savia Salud,subsidiado,050010217843
+1297,CC,7880003,Fernando,Hernández Alzate,M,1956-12-09,3013136608,Savia Salud,contributivo,050010217807
+1298,CC,23430844,Alejandra,Rueda Bedoya,F,1956-11-10,3009125135,Savia Salud,subsidiado,050010217804
+1299,CC,5686149,Dario,Muñoz Parra,M,1964-01-01,3135994026,Savia Salud,subsidiado,050010217811
+1300,CC,28105911,Ximena,Díaz Gómez,F,1966-01-20,3261515979,Savia Salud,subsidiado,050010217826
+1301,CC,71409193,Edinson,Gómez Salcedo,M,1943-05-18,3016559276,Savia Salud,subsidiado,050010217819
+1302,CC,3348412,Javier,Morales Moreno,M,1957-03-19,3285809962,Savia Salud,subsidiado,050010217808
+1303,CC,71950845,Jeferson,Rivas Arias,M,1965-02-16,3207626647,Savia Salud,subsidiado,050010217818
+1304,CC,22845626,Yolanda,Vera Gómez,F,1958-01-14,3091366642,Savia Salud,contributivo,050010217808
+1305,CC,7635983,Juan,Hernández Gómez,M,1946-07-17,3067451273,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217860
+1306,CC,37897826,Margarita,Quiroz García,F,1966-02-21,3152784687,Savia Salud,subsidiado,050010217824
+1307,CC,14078116,Milton,Paz Niño,M,1960-03-25,3017360697,Savia Salud,subsidiado,050010217815
+1308,CC,31017556,María,León Mosquera,F,1959-07-18,3277391254,Savia Salud,subsidiado,050010217818
+1309,CC,12005156,Emilio,Peña Restrepo,M,1945-03-02,3028577585,Savia Salud,subsidiado,050010217850
+1310,CC,71766907,Juan,Gutiérrez Barragán,M,1962-05-24,3001441847,Savia Salud,subsidiado,050010217813
+1311,CC,28133208,Carmen,Medina Molina,F,1946-10-12,3183798989,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217814
+1312,CC,14580715,Daniel,Duarte Montoya,M,1966-08-02,3272508329,Savia Salud,subsidiado,050010217834
+1313,CC,9677617,Ricardo,Velásquez Ayala,M,1949-02-09,3112330376,Savia Salud,subsidiado,050010217811
+1314,CC,6027717,Julián,Ortiz Castillo,M,1952-07-14,3114370227,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217821
+1315,CC,32336577,Ligia,Ospina Rincón,F,1954-12-22,3133472560,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217812
+1316,CC,33756521,Cielo,Castillo Nieto,F,1947-11-03,3146305479,Savia Salud,subsidiado,050010217835
+1317,CC,37851933,Gladys,Parra Ramírez,F,1965-04-14,3267617847,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217853
+1318,CC,71561040,Alberto,Mora Díaz,M,1961-02-15,3229274261,Savia Salud,subsidiado,050010217840
+1319,CC,27134231,Ingrid,Arias Giraldo,F,1964-11-11,3179401584,Savia Salud,subsidiado,050010217804
+1320,CC,14726058,Javier,Osorio Morales,M,1937-07-19,3169252873,Savia Salud,subsidiado,050010217865
+1321,CC,29522717,Diana,Muñoz Hurtado,F,1953-07-11,3182635530,Savia Salud,contributivo,050010217844
+1322,CC,71405576,Andrés,Rojas Hernández,M,1958-02-22,3019010470,Savia Salud,subsidiado,050010217811
+1323,CC,28950168,María,Velandia Solano,F,1960-01-09,3118987025,Savia Salud,subsidiado,050010217845
+1324,CC,5284566,Fernando,Flórez Agudelo,M,1963-05-11,3034597552,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217814
+1325,CC,15660334,Óscar,Jaramillo Salazar,M,1962-05-10,3014356371,Savia Salud,subsidiado,050010217861
+1326,CC,26227780,Valentina,Gómez Escobar,F,1966-03-30,3173731036,Savia Salud,subsidiado,050010217809
+1327,CC,71908620,Leonardo,Castro Patiño,M,1955-05-13,3054922108,Savia Salud,subsidiado,050010217861
+1328,CC,37256073,María,Gaitán Garcés,F,1951-06-15,3172155332,Savia Salud,subsidiado,050010217857
+1329,CC,4921022,Julio,Mejía Suárez,M,1940-01-14,3123553563,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217811
+1330,CC,30548522,Emilce,Acevedo Álvarez,F,1964-06-06,3165541610,Savia Salud,subsidiado,050010217865
+1331,CC,29347924,Natalia,Gómez López,F,1951-06-06,3051883129,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217840
+1332,CC,25908941,Blanca,Osorio Espitia,F,1966-05-03,3123464169,Savia Salud,subsidiado,050010217865
+1333,CC,28427357,Leidy,Ramos Álvarez,F,1962-03-23,3088652651,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217836
+1334,CC,70119774,Felix,Montes Herrera,M,1933-03-14,3242678947,Savia Salud,subsidiado,050010217810
+1335,CC,71016590,Enrique,Fonseca Quintero,M,1965-10-09,3012528091,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217804
+1336,CC,31700169,Paola,Rodríguez Sánchez,F,1965-06-26,3073708999,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217809
+1337,CC,32851011,Luz,Franco Morales,F,1962-08-02,3176366334,Savia Salud,subsidiado,050010217839
+1338,CC,34120982,Claudia,Camargo Beltrán,F,1952-07-10,3101228434,Savia Salud,subsidiado,050010217824
+1339,CC,39737200,Elisa,Vargas Torres,F,1954-04-12,3091329099,Savia Salud,subsidiado,050010217804
+1340,CC,70066202,Carlos,Rueda Quiroz,M,1962-11-10,3052388011,Savia Salud,subsidiado,050010217819
+1341,CC,27357378,Esther,Sánchez Ceballos,F,1950-10-18,3292688708,Savia Salud,subsidiado,050010217828
+1342,CC,36554840,Dina,Gómez Murcia,F,1965-09-03,3242617054,Savia Salud,subsidiado,050010217820
+1343,CC,71665428,Alonso,Orozco Rodríguez,M,1934-07-03,3058192003,Savia Salud,contributivo,050010217865
+1344,CC,36023739,Mercedes,Rodríguez Silva,F,1966-10-30,3102572245,Savia Salud,subsidiado,050010217802
+1345,CC,6762879,René,Garcés Cárdenas,M,1960-12-19,3198943816,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217826
+1346,CC,14940933,Jorge,López Alzate,M,1966-09-17,3194033949,Savia Salud,subsidiado,050010217824
+1347,CC,33144549,Nataly,Ruiz Sarmiento,F,1946-02-06,3014117994,Savia Salud,subsidiado,050010217811
+1348,CC,30658688,Ofelia,Sarmiento Posada,F,1953-08-07,3085347431,Savia Salud,subsidiado,050010217853
+1349,CC,25383088,Sandra,Rosero Franco,F,1962-03-30,3289498893,Savia Salud,subsidiado,050010217820
+1350,CC,33180395,Maritza,Moreno Suárez,F,1959-01-04,3023750706,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217857
+1351,CC,31791268,Yaneth,Muñoz Camacho,F,1963-10-16,3067688374,Savia Salud,subsidiado,050010217813
+1352,CC,70498582,Mateo,Rueda Restrepo,M,1958-12-21,3071679163,Savia Salud,subsidiado,050010217857
+1353,CC,71821103,Luis,Herrera Vergara,M,1947-09-22,3052611327,Savia Salud,subsidiado,050010217842
+1354,CC,70885405,Alfredo,Flórez Silva,M,1945-09-22,3292767067,Savia Salud,subsidiado,050010217832
+1355,CC,4575116,Javier,Rodríguez Prieto,M,1963-03-30,3133731160,Savia Salud,subsidiado,050010217811
+1356,CC,36203316,Ángela,Arboleda Santos,F,1956-04-05,3217538608,Savia Salud,subsidiado,050010217861
+1357,CC,43155451,Cristina,González Castro,F,1966-07-18,3266708008,Savia Salud,subsidiado,050010217815
+1358,CC,15337150,Esneider,Arias Duque,M,1958-05-01,3297595516,Savia Salud,subsidiado,050010217829
+1359,CC,43109315,Karen,Hernández Prada,F,1957-05-01,3265355153,Savia Salud,subsidiado,050010217804
+1360,CC,42577727,Marta,Lozano Díaz,F,1956-03-21,3133753253,Savia Salud,subsidiado,050010217861
+1361,CC,4907942,Darwin,Castro Hernández,M,1948-02-01,3262137659,Savia Salud,subsidiado,050010217821
+1362,CC,30235565,Lucía,Bohórquez Martínez,F,1958-04-04,3017605205,Savia Salud,subsidiado,050010217865
+1363,CC,39605676,Leidy,Hernández Gallego,F,1964-02-03,3025946143,Savia Salud,subsidiado,050010217840
+1364,CC,70870008,César,Valencia Marín,M,1948-10-14,3214433414,Savia Salud,subsidiado,050010217807
+1365,CC,71534382,Juan,Agudelo Polo,M,1961-12-07,3149475662,Savia Salud,subsidiado,050010217813
+1366,CC,71612298,Andrés,Molina García,M,1957-10-09,3008816087,Nueva EPS,contributivo,050010217852
+1367,CC,33401773,Nancy,López Tovar,F,1963-05-21,3109070787,Savia Salud,subsidiado,050010217815
+1368,CC,38269516,Antonia,López Luna,F,1958-02-18,3228304487,Savia Salud,subsidiado,050010217842
+1369,CC,15298874,Nelson,Medina Moreno,M,1955-05-07,3244084542,Savia Salud,subsidiado,050010217804
+1370,CC,9857548,Alberto,González Reyes,M,1951-06-04,3039778806,Savia Salud,subsidiado,050010217834
+1371,CC,31504046,María,Pedraza Salgado,F,1959-03-07,3269061089,Savia Salud,subsidiado,050010217861
+1372,CC,71379250,Jesús,Lara Quintero,M,1959-08-12,3042447411,Savia Salud,subsidiado,050010217855
+1373,CC,4158021,Hernán,Sánchez Gaitán,M,1963-04-12,3143205559,Savia Salud,subsidiado,050010217854
+1374,CC,28970806,Luz,Garcés Guevara,F,1966-05-07,3011863511,Savia Salud,contributivo,050010217807
+1375,CC,38042845,Yolanda,Guerrero Jaimes,F,1948-03-26,3009187989,Savia Salud,subsidiado,050010217846
+1376,CC,39116406,María,Ibarra González,F,1942-04-06,3066369730,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217861
+1377,CC,30759693,Gloria,Soto Cerón,F,1947-06-08,3195922157,Savia Salud,contributivo,050010217843
+1378,CC,29069757,Estefanía,Torres Perdomo,F,1939-06-02,3205810181,Savia Salud,subsidiado,050010217856
+1379,CC,13608019,Humberto,Rojas Restrepo,M,1946-08-15,3272816750,Savia Salud,subsidiado,050010217857
+1380,CC,21447376,Sandra,Osorio Salazar,F,1951-05-29,3294693408,Savia Salud,subsidiado,050010217807
+1381,CC,6682444,Carlos,González Soto,M,1957-06-22,3117195298,Savia Salud,contributivo,050010217814
+1382,CC,21735400,Constanza,Pinzón Silva,F,1947-03-24,3273925363,Savia Salud,subsidiado,050010217810
+1383,CC,21964964,Marlén,Restrepo Mora,F,1948-07-02,3254641307,Savia Salud,subsidiado,050010217802
+1384,CC,70782476,Cristhian,Jiménez Gutiérrez,M,1950-04-24,3285273344,Savia Salud,contributivo,050010217807
+1385,CC,11699281,Cristian,Arteaga Jiménez,M,1940-11-24,3078325797,Savia Salud,subsidiado,050010217851
+1386,CC,43450925,Inés,López Herrera,F,1963-08-06,3267528250,Savia Salud,subsidiado,050010217840
+1387,CC,30874516,María,Osorio Martínez,F,1958-07-02,3258449494,Savia Salud,subsidiado,050010217839
+1388,CC,40328946,Olga,Barrera Navarro,F,1960-05-21,3045467835,Savia Salud,subsidiado,050010217823
+1389,CC,26309767,Jessica,Rodríguez Alarcón,F,1966-10-02,3033011044,Savia Salud,subsidiado,050010217846
+1390,CC,71793113,Ferney,Quiroz Franco,M,1957-06-13,3202800105,Savia Salud,subsidiado,050010217839
+1391,CC,71564141,Felipe,Espinosa Guerrero,M,1937-06-20,3005410344,Savia Salud,subsidiado,050010217832
+1392,CC,33918632,Maira,Melo Parra,F,1934-10-03,3223184708,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217815
+1393,CC,8566235,Carlos,Martínez Salamanca,M,1955-02-11,3283519942,Savia Salud,subsidiado,050010217857
+1394,CC,42022093,Ana,Núñez Ríos,F,1955-06-17,3185323304,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217834
+1395,CC,43467736,Milena,Estrada Giraldo,F,1954-02-27,3236345313,Savia Salud,subsidiado,050010217850
+1396,CC,15714082,Iván,Ramírez Zambrano,M,1950-07-29,3077675100,Savia Salud,subsidiado,050010217851
+1397,CC,39584447,Karen,Londoño Henao,F,1962-02-16,3124321377,Savia Salud,subsidiado,050010217804
+1398,CC,36375752,Yolanda,Pérez Amaya,F,1958-06-10,3179610672,Savia Salud,subsidiado,050010217818
+1399,CC,23656778,Angélica,Guerrero Bohórquez,F,1947-02-20,3209995407,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217837
+1400,CC,25960351,Diana,Delgado Giraldo,F,1931-04-11,3255422736,Savia Salud,subsidiado,050010217861
+1401,CC,30719631,Marcela,Pérez Fernández,F,1951-09-13,3078568409,Savia Salud,subsidiado,050010217846
+1402,CC,28908527,Gilma,Bernal Martínez,F,1966-08-23,3254323502,Savia Salud,subsidiado,050010217804
+1403,CC,27802612,Yéssica,Peña Martínez,F,1956-09-21,3015749928,Savia Salud,subsidiado,050010217857
+1404,CC,6638797,Andrés,Sánchez Rodríguez,M,1962-04-22,3219304360,Savia Salud,subsidiado,050010217836
+1405,CC,37601623,Mercedes,Garzón Toro,F,1961-09-17,3262077536,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217857
+1406,CC,71477188,Felipe,Díaz Díaz,M,1963-12-26,3108611645,Savia Salud,contributivo,050010217865
+1407,CC,70416071,Eduardo,Castillo Arboleda,M,1963-09-20,3275402617,Savia Salud,subsidiado,050010217809
+1408,CC,34481981,Elisa,Romero Ramos,F,1965-09-26,3145256855,Savia Salud,subsidiado,050010217853
+1409,CC,28949523,Cecilia,González López,F,1955-07-28,3072392551,Savia Salud,subsidiado,050010217856
+1410,CC,24347904,Silvia,Gómez González,F,1962-10-28,3085885820,Savia Salud,subsidiado,050010217824
+1411,CC,11274905,Dario,Trujillo Ruiz,M,1965-05-17,3141504872,Savia Salud,subsidiado,050010217815
+1412,CC,11172803,Jaime,López Jaramillo,M,1965-03-04,3282066004,Savia Salud,subsidiado,050010217859
+1413,CC,24128340,María,Rojas Caicedo,F,1957-03-19,3029562176,Savia Salud,subsidiado,050010217865
+1414,CC,25486272,Jazmín,Pérez Bolaños,F,1949-06-29,3093918961,Savia Salud,contributivo,050010217809
+1415,CC,29016821,Fabiola,Ortega Gómez,F,1949-11-11,3086206353,Savia Salud,subsidiado,050010217826
+1416,CC,33291998,María,Arias Arango,F,1937-09-08,3133807000,Savia Salud,subsidiado,050010217846
+1417,CC,21583688,Luz,Hernández Gamboa,F,1955-11-27,3201215500,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217802
+1418,CC,41836574,María,González Pabón,F,1958-09-17,3257666499,Savia Salud,subsidiado,050010217843
+1419,CC,34078596,María,Correa Vásquez,F,1959-03-22,3259552145,Savia Salud,subsidiado,050010217846
+1420,CC,30110395,Claudia,Ospina Soto,F,1950-05-15,3242463962,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217832
+1421,CC,39916167,Alba,Martínez Vargas,F,1935-10-18,3233847087,Savia Salud,contributivo,050010217804
+1422,CC,70526586,Enrique,Contreras Orjuela,M,1958-10-21,3076594885,Savia Salud,contributivo,050010217815
+1423,CC,23008733,Elcy,Romero Aguirre,F,1966-04-13,3077434512,Savia Salud,subsidiado,050010217804
+1424,CC,71252724,Fabio,Alzate Obando,M,1939-11-21,3211261861,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217853
+1425,CC,31058940,Laura,Gaviria Rojas,F,1942-10-23,3044468943,Savia Salud,contributivo,050010217819
+1426,CC,9196305,Juan,Díaz Ramírez,M,1962-11-23,3186058099,Savia Salud,subsidiado,050010217822
+1427,CC,26883449,Gladys,Ávila González,F,1957-08-06,3114262439,Savia Salud,subsidiado,050010217809
+1428,CC,70319354,Steven,Vergara Muñoz,M,1953-01-19,3273744394,Savia Salud,subsidiado,050010217857
+1429,CC,70120983,José,Guevara Sánchez,M,1945-08-08,3026779794,Savia Salud,subsidiado,050010217846
+1430,CC,71662423,Alberto,Ramírez Hernández,M,1965-01-18,3285763327,Nueva EPS,contributivo,050010217809
+1431,CC,35477404,Josefina,Rivera Restrepo,F,1943-05-15,3052864736,Savia Salud,subsidiado,050010217832
+1432,CC,37283388,Carmen,Herrera Ojeda,F,1963-01-17,3018474183,Savia Salud,subsidiado,050010217837
+1433,CC,37276795,Marta,Chaparro Gómez,F,1959-03-29,3061201203,Savia Salud,subsidiado,050010217818
+1434,CC,70403074,José,Silva León,M,1949-09-21,3262029732,Nueva EPS,contributivo,050010217834
+1435,CC,5269641,Leonardo,Valencia Hernández,M,1960-08-22,3073262455,Savia Salud,subsidiado,050010217835
+1436,CC,71720108,Augusto,Rodríguez Fajardo,M,1956-12-18,3135393638,Savia Salud,subsidiado,050010217822
+1437,CC,15408810,Carlos,Mora Rodríguez,M,1966-09-15,3055198380,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217832
+1438,CC,43509535,María,Luna Gómez,F,1943-04-07,3187202353,Savia Salud,subsidiado,050010217845
+1439,CC,14311226,Henry,Gómez Ariza,M,1962-09-18,3206855358,Savia Salud,subsidiado,050010217857
+1440,CC,35318279,Marcela,Bedoya Romero,F,1955-03-15,3051390867,Savia Salud,subsidiado,050010217829
+1441,CC,70478031,Fredy,Quintero Flórez,M,1956-08-27,3145704730,Savia Salud,subsidiado,050010217811
+1442,CC,32851208,Verónica,Pérez Arango,F,1965-09-22,3191295571,Savia Salud,subsidiado,050010217826
+1443,CC,40784090,Andrea,Londoño García,F,1949-01-13,3042270524,Savia Salud,subsidiado,050010217826
+1444,CC,39670207,Jennifer,Márquez Hernández,F,1947-03-31,3279035158,Savia Salud,subsidiado,050010217857
+1445,CC,43322457,Mónica,López Narváez,F,1965-10-03,3114493492,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217850
+1446,CC,23706663,Mercedes,Sánchez Medina,F,1959-05-25,3264407351,Savia Salud,subsidiado,050010217838
+1447,CC,31127330,Alba,Valencia Torres,F,1964-07-23,3291947194,Savia Salud,contributivo,050010217808
+1448,CC,35766690,Sandra,Contreras Palacio,F,1962-07-08,3139061431,Savia Salud,subsidiado,050010217847
+1449,CC,22937448,Jennifer,Bohórquez Torres,F,1965-07-13,3231739636,Savia Salud,subsidiado,050010217815
+1450,CC,37826186,Gloria,Mendoza Prieto,F,1958-08-30,3112800589,Savia Salud,subsidiado,050010217860
+1451,CC,70892664,Humberto,Uribe Mena,M,1953-05-28,3103886764,Savia Salud,subsidiado,050010217824
+1452,CC,21168751,Marta,Contreras Velásquez,F,1959-05-31,3045569456,Savia Salud,subsidiado,050010217815
+1453,CC,38228309,Vanessa,Delgado Valencia,F,1953-10-21,3104327502,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217821
+1454,CC,70742253,Edgar,Bravo Granados,M,1955-10-28,3289624432,Savia Salud,subsidiado,050010217811
+1455,CC,39227065,Rosa,Álvarez López,F,1942-12-20,3112289163,Savia Salud,subsidiado,050010217861
+1456,CC,22182314,Tatiana,Lara Burbano,F,1965-01-29,3289720814,Savia Salud,subsidiado,050010217847
+1457,CC,33365536,María,Escobar García,F,1944-12-12,3182545393,Savia Salud,subsidiado,050010217802
+1458,CC,40890635,Isabel,Loaiza Londoño,F,1960-05-21,3238547377,Savia Salud,subsidiado,050010217804
+1459,CC,71542807,Diego,Vargas Salas,M,1943-04-10,3049787502,Savia Salud,subsidiado,050010217826
+1460,CC,29261647,Yanet,Betancur González,F,1939-08-23,3064756641,Savia Salud,subsidiado,050010217829
+1461,CC,70518845,Alonso,Castaño Valencia,M,1965-10-09,3091164182,Savia Salud,subsidiado,050010217860
+1462,CC,71434222,Javier,Valencia Arias,M,1964-03-01,3175596794,Savia Salud,subsidiado,050010217842
+1463,CC,13025387,Arnulfo,Roa González,M,1956-02-03,3216427905,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217834
+1464,CC,35312777,Viviana,Pinto Pérez,F,1963-05-13,3093524736,Savia Salud,subsidiado,050010217844
+1465,CC,70448772,Luis,Cárdenas Arias,M,1961-09-15,3148389961,Savia Salud,subsidiado,050010217802
+1466,CC,31460503,Sandra,Ramírez González,F,1964-11-03,3232963404,Savia Salud,subsidiado,050010217810
+1467,CC,70007555,Andrey,Prieto Camargo,M,1953-10-30,3268330819,Savia Salud,subsidiado,050010217830
+1468,CC,11247359,Rubén,Rodríguez Serrano,M,1963-07-22,3199828958,Savia Salud,subsidiado,050010217835
+1469,CC,41016620,Paola,Moreno López,F,1966-08-02,3258593873,Savia Salud,subsidiado,050010217811
+1470,CC,40874113,Luz,Vargas García,F,1941-10-08,3201574720,Savia Salud,subsidiado,050010217844
+1471,CC,34280628,Ruby,Carvajal Guerra,F,1956-10-01,3221824346,Savia Salud,subsidiado,050010217851
+1472,CC,40956885,Yenifer,González Salamanca,F,1944-04-19,3014545141,Nueva EPS,contributivo,050010217857
+1473,CC,36758862,María,Núñez Figueroa,F,1953-02-19,3105497386,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217802
+1474,CC,24009250,Valentina,Daza Correa,F,1951-09-27,3252844100,Savia Salud,subsidiado,050010217839
+1475,CC,27858067,Emilia,Suárez Montoya,F,1949-09-22,3037988354,Savia Salud,subsidiado,050010217833
+1476,CC,15882047,Gilberto,Castillo Erazo,M,1944-04-07,3057607185,Savia Salud,subsidiado,050010217861
+1477,CC,34407879,Nancy,Jiménez Romero,F,1958-09-04,3264099874,Savia Salud,contributivo,050010217814
+1478,CC,32545525,María,Vergara Arango,F,1948-03-15,3048361092,Savia Salud,subsidiado,050010217808
+1479,CC,22433392,Myriam,Camargo Fernández,F,1952-07-07,3091358165,Savia Salud,subsidiado,050010217833
+1480,CC,24079595,Yolanda,Duarte Torres,F,1949-03-05,3224096438,Savia Salud,subsidiado,050010217861
+1481,CC,22252217,Lucía,Jiménez Bermúdez,F,1953-04-02,3242018239,Savia Salud,subsidiado,050010217832
+1482,CC,22228205,Lizeth,Carrillo Campo,F,1961-04-22,3082835508,Savia Salud,contributivo,050010217821
+1483,CC,22465231,Gloria,Hoyos Suárez,F,1962-06-20,3103656249,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217843
+1484,CC,24849835,Vanessa,Trujillo Becerra,F,1960-03-06,3268364826,Savia Salud,contributivo,050010217809
+1485,CC,9758133,Robinson,Cifuentes Mendoza,M,1962-10-28,3291458816,Savia Salud,subsidiado,050010217861
+1486,CC,43085968,Mery,Gómez Mora,F,1966-07-04,3123784911,Savia Salud,subsidiado,050010217802
+1487,CC,71313025,Alejandro,Villegas Garcés,M,1945-12-15,3151097348,Savia Salud,subsidiado,050010217832
+1488,CC,39000575,Patricia,Guerra Camacho,F,1954-02-01,3163240783,Savia Salud,subsidiado,050010217804
+1489,CC,22543145,Lucía,Arrieta Rentería,F,1958-04-12,3126063587,Savia Salud,subsidiado,050010217815
+1490,CC,71772028,Fernando,Flórez Correa,M,1950-06-01,3151705733,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217837
+1491,CC,10956688,Camilo,Vargas Salas,M,1953-03-13,3245494274,Savia Salud,subsidiado,050010217847
+1492,CC,39660971,Johana,Duque Osorio,F,1959-01-27,3238195045,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217804
+1493,CC,71123240,Felipe,Anaya Erazo,M,1962-08-14,3199995516,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217832
+1494,CC,42049278,Eugenia,Ibarra Valencia,F,1954-01-30,3031271955,Savia Salud,subsidiado,050010217852
+1495,CC,25028106,Marcela,Arboleda Pérez,F,1950-06-20,3108128793,Sin EPS - población pobre no asegurada (Distrito de Medellín),no asegurado,050010217865
+1496,CC,70049919,Neider,Zapata Murillo,M,1959-11-21,3172627311,Savia Salud,subsidiado,050010217834
+1497,CC,37500955,Luz,Mercado Medina,F,1957-07-30,3143721998,Savia Salud,subsidiado,050010217854
+1498,CC,11894780,Mauricio,Rodríguez Rodríguez,M,1952-05-24,3082123269,Savia Salud,subsidiado,050010217861
+1499,CC,23460551,Danna,Sánchez Cardozo,F,1959-11-05,3226596250,Savia Salud,subsidiado,050010217807
+1500,CC,12398602,Sebastián,Gallego López,M,1961-09-15,3112002062,Savia Salud,subsidiado,050010217810
+1501,CC,22192211,Viviana,Torres Sánchez,F,1965-08-29,3264844834,Savia Salud,subsidiado,050010217854
+1502,CC,35932685,Daniela,Rivera Silva,F,1957-12-29,3207240878,Savia Salud,contributivo,050010217809
+1503,CC,26945757,Luz,Martínez Galvis,F,1966-07-31,3112876806,Savia Salud,subsidiado,050010217807

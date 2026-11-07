@@ -1,0 +1,22 @@
+# Núcleo
+python-dotenv>=1.0
+httpx>=0.27
+holidays>=0.50
+Faker>=25.0
+
+# Canal Telegram (gratis)
+python-telegram-bot>=21.0
+
+# Voz (gratis): texto a voz con voz colombiana y respaldo
+edge-tts>=6.1
+gTTS>=2.5
+
+# Canal WhatsApp (opcional)
+fastapi>=0.110
+uvicorn>=0.29
+
+# Pruebas
+pytest>=8.0
+
+# Opcional: voz a texto SIN internet ni cuenta (más lento en CPU). Descomente para instalar:
+# faster-whisper>=1.0

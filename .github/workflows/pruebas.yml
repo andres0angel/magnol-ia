@@ -1,0 +1,24 @@
+name: Pruebas
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+      - name: Pruebas automáticas
+        run: python -m pytest -q
+      - name: Comprensión con frases de adultos mayores (solo reglas)
+        run: python scripts/evaluar_nlu.py
+      - name: Generar la agenda simulada
+        run: python scripts/generar_datos.py --desde 2026-11-12

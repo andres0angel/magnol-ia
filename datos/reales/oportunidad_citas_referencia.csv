@@ -1,0 +1,12 @@
+servicio,dias_maximos_norma,fuente_norma,dias_observados,fuente_observado
+medicina general,3,Circular 038 de 2025 / Res. 408 de 2018,3.0,"Metrosalud 2023 (días calendario), Informe de empalme — la IPS que simula el MVP"
+medicina general,3,Circular 038 de 2025 / Res. 408 de 2018,4.39,"EPS SOS, carta de desempeño I semestre 2025 (otra red, referencia nacional)"
+odontologia general,3,Decreto 019 de 2012 art. 123,3.3,"Metrosalud 2023 (días calendario), Informe de empalme"
+odontologia general,3,Decreto 019 de 2012 art. 123,4.22,"EPS SOS, carta de desempeño I semestre 2025"
+ginecologia,10,Circular 038 de 2025 (promedio nacional 5 años),14.5,"Metrosalud 2023 (días calendario), Informe de empalme"
+ginecologia,10,Circular 038 de 2025 (promedio nacional 5 años),47,"Defensoría/Supersalud citado por El Colombiano, ago 2025"
+medicina interna,15,Circular 038 de 2025 / Res. 408 de 2018,40-60,"IETS citado por Corte Constitucional, Auto 1174 de 2025 (especialistas en general)"
+cirugia general,10,Circular 038 de 2025,7.8,"Metrosalud 2023 (días calendario), Informe de empalme"
+psiquiatria,10,Circular 038 de 2025 / Res. 256 de 2016,,
+pediatria,5,Circular 038 de 2025,6.0,"Metrosalud 2023 (días calendario), Informe de empalme"
+pediatria,5,Circular 038 de 2025,77,"Defensoría/Supersalud citado por El Colombiano, ago 2025"

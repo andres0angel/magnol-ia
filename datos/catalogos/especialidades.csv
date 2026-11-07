@@ -1,0 +1,17 @@
+codigo,nombre,disponible,solo_unidad_hospitalaria,requiere_orden,duracion_min,dias_espera_objetivo,generico,portafolio_metrosalud,sinonimos
+medicina_general,medicina general,1,0,0,20,2,0,1,medicina general|médico general|medica general|doctor general|doctora general|el general|consulta general|doctor normal|médico normal|control de la presión|el de la presión|la de la presión|la presión|presión alta|diabetes|el azúcar|control de azúcar|formulen|formular|fórmula de|me formule|el que me toque|la que me toque|me siento maluco|chequeo|revisión general
+medicina_general_generico,medicina general,1,0,0,20,2,1,1,médico|médica|doctor|doctora|la consulta|un control|el control|de control
+odontologia,odontología,1,0,0,30,2,0,1,odontología|odontólogo|odontóloga|odontologo|dentista|los dientes|el diente|un diente|la muela|una muela|las muelas|muela|muelas|la plancha|caja de dientes|la dentadura|prótesis dental|limpieza dental|calza
+medicina_interna,medicina interna,1,1,1,20,25,0,1,medicina interna|internista|el especialista de medicina interna
+optometria,optometría,1,1,0,20,10,0,1,optometría|optómetra|optometra|la vista|los ojos|el de los ojos|la de los ojos|las gafas|los lentes|los anteojos|examen de la vista|no veo bien
+nutricion,nutrición,1,1,1,30,12,0,1,nutrición|nutricionista|la dieta|nutrióloga|nutriologo
+psicologia,psicología,1,1,1,40,15,0,1,psicología|psicólogo|psicóloga|sicólogo|sicóloga|sicologo
+ginecologia,ginecología,1,1,1,20,10,0,1,ginecología|ginecólogo|ginecóloga|jinecologo
+cardiologia,cardiología,0,1,1,20,40,0,0,cardiología|cardiólogo|cardióloga|el del corazón|la del corazón
+ortopedia,ortopedia,0,1,1,20,40,0,1,ortopedia|ortopedista|el de los huesos|la de los huesos|traumatólogo
+dermatologia,dermatología,0,1,1,20,40,0,0,dermatología|dermatólogo|dermatóloga|el de la piel|la de la piel
+oftalmologia,oftalmología,0,1,1,20,40,0,0,oftalmología|oftalmólogo|oftalmóloga|la catarata|las cataratas
+urologia,urología,0,1,1,20,40,0,1,urología|urólogo|la próstata
+neurologia,neurología,0,1,1,20,40,0,0,neurología|neurólogo|neuróloga
+reumatologia,reumatología,0,1,1,20,40,0,0,reumatología|reumatólogo|reumatóloga
+fisioterapia,fisioterapia,0,1,1,30,20,0,1,fisioterapia|fisioterapeuta|terapia física|las terapias

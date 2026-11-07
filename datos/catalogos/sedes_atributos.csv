@@ -1,0 +1,55 @@
+codigo_habilitacion_sede,nombre_corto,tipo,uh_referencia,ofrece_citas,nota
+050010217802,Unidad Hospitalaria de Belén,UH,050010217802,1,
+050010217804,Unidad Hospitalaria de Manrique,UH,050010217804,1,
+050010217807,Unidad Hospitalaria Doce de Octubre,UH,050010217807,1,
+050010217808,Unidad Hospitalaria de Castilla,UH,050010217808,1,
+050010217809,Unidad Hospitalaria de San Javier,UH,050010217809,1,
+050010217810,Unidad Hospitalaria de San Cristóbal,UH,050010217810,1,
+050010217811,Unidad Hospitalaria de San Antonio de Prado,UH,050010217811,1,
+050010217857,Unidad Hospitalaria de Santa Cruz,UH,050010217857,1,
+050010217861,Unidad Hospitalaria Nuevo Occidente,UH,050010217861,1,
+050010217865,Unidad Hospitalaria de Buenos Aires,UH,050010217865,1,
+050010217812,Centro de Salud Altavista,CS,050010217802,1,"UH más cercana en línea recta (3.3 km), con coordenadas reales"
+050010217813,Centro de Salud Guayabal,CS,050010217802,1,"UH más cercana en línea recta (3.3 km), con coordenadas reales"
+050010217814,Centro de Salud Trinidad,CS,050010217802,1,"UH más cercana en línea recta (1.3 km), con coordenadas reales"
+050010217815,Centro de Salud Belén Rincón,CS,050010217802,1,"UH más cercana en línea recta (1.9 km), con coordenadas reales"
+050010217818,Centro de Salud Salvador,CS,050010217865,1,"UH más cercana en línea recta (0.9 km), con coordenadas reales"
+050010217819,Centro de Salud Santa Elena,CS,050010217865,1,"UH más cercana en línea recta (7.2 km), con coordenadas reales"
+050010217820,Centro de Salud Enciso,CS,050010217865,1,"UH más cercana en línea recta (1.1 km), con coordenadas reales"
+050010217821,Centro de Salud Loreto,CS,050010217865,1,"UH más cercana en línea recta (1.0 km), con coordenadas reales"
+050010217822,Centro de Salud Villatina,CS,050010217865,1,"UH más cercana en línea recta (1.5 km), con coordenadas reales"
+050010217823,Centro de Salud Sol de Oriente,CS,050010217865,1,"UH más cercana en línea recta (1.5 km), con coordenadas reales"
+050010217824,Centro de Salud San Lorenzo,CS,050010217865,1,"UH más cercana en línea recta (1.4 km), con coordenadas reales"
+050010217826,Centro de Salud Carpinelo,CS,050010217857,1,"UH más cercana en línea recta (2.2 km), con coordenadas reales"
+050010217828,Centro de Salud San Blas,CS,050010217804,1,"UH más cercana en línea recta (2.0 km), con coordenadas reales"
+050010217829,Centro de Salud El Raizal,CS,050010217804,1,"UH más cercana en línea recta (1.1 km), con coordenadas reales"
+050010217830,Centro de Salud Moravia,CS,050010217804,1,"UH más cercana en línea recta (2.0 km), con coordenadas reales"
+050010217831,Centro de Salud Aranjuez,CS,050010217857,1,"UH más cercana en línea recta (1.0 km), con coordenadas reales"
+050010217832,Centro de Salud Villa del Socorro,CS,050010217857,1,"UH más cercana en línea recta (0.7 km), con coordenadas reales"
+050010217833,Centro de Salud Popular,CS,050010217857,1,"UH más cercana en línea recta (1.3 km), con coordenadas reales"
+050010217834,Centro de Salud Pablo Sexto,CS,050010217857,1,"UH más cercana en línea recta (1.5 km), con coordenadas reales"
+050010217835,Centro de Salud Civitón,CS,050010217861,1,"UH más cercana en línea recta (2.2 km), con coordenadas reales"
+050010217836,Centro de Salud Picachito,CS,050010217807,1,"UH más cercana en línea recta (0.7 km), con coordenadas reales"
+050010217837,Centro de Salud Santander,CS,050010217807,1,"UH más cercana en línea recta (0.8 km), con coordenadas reales"
+050010217838,Centro de Salud San Camilo,CS,050010217807,1,"UH más cercana en línea recta (1.8 km), con coordenadas reales"
+050010217839,Centro de Salud El Triunfo,CS,050010217807,1,"UH más cercana en línea recta (1.0 km), con coordenadas reales"
+050010217840,Centro de Salud Robledo,CS,050010217808,1,"UH más cercana en línea recta (2.8 km), con coordenadas reales"
+050010217842,Centro de Salud Alfonso López,CS,050010217808,1,"UH más cercana en línea recta (1.3 km), con coordenadas reales"
+050010217843,Centro de Salud Santa Rosa de Lima,CS,050010217809,1,"UH más cercana en línea recta (1.8 km), con coordenadas reales"
+050010217844,Centro de Salud Estadio,CS,050010217802,1,"UH más cercana en línea recta (2.9 km), con coordenadas reales"
+050010217845,Centro de Salud Luis Javier García,CS,050010217809,1,"UH más cercana en línea recta (1.5 km), con coordenadas reales"
+050010217846,Centro de Salud La Loma,CS,050010217810,1,"UH más cercana en línea recta (1.1 km), con coordenadas reales"
+050010217847,Centro de Salud Villa Laura,CS,050010217809,1,"UH más cercana en línea recta (0.9 km), con coordenadas reales"
+050010217849,Centro de Salud Palmitas,CS,050010217810,1,"UH más cercana en línea recta (9.6 km), con coordenadas reales"
+050010217850,Centro de Salud Margaritas,CS,050010217861,1,"UH más cercana en línea recta (1.1 km), con coordenadas reales"
+050010217851,Centro de Salud El Limonar,CS,050010217811,1,"UH más cercana en línea recta (1.8 km), con coordenadas reales"
+050010217852,Centro de Salud Poblado,CS,050010217802,1,"UH más cercana en línea recta (3.4 km), con coordenadas reales"
+050010217853,Centro de Salud Llanaditas,CS,050010217804,1,"UH más cercana en línea recta (1.5 km), con coordenadas reales"
+050010217854,Centro de Salud Santo Domingo,CS,050010217857,1,"UH más cercana en línea recta (2.0 km), con coordenadas reales"
+050010217855,Centro de Salud La Cruz,CS,050010217804,1,"UH más cercana en línea recta (1.8 km), con coordenadas reales"
+050010217856,Centro de Salud Campo Valdés,CS,050010217804,1,"UH más cercana en línea recta (0.9 km), con coordenadas reales"
+050010217859,Centro de Salud Manantial de Vida,CS,050010217861,1,"UH más cercana en línea recta (1.2 km), con coordenadas reales"
+050010217860,Centro de Salud La Esperanza,CS,050010217809,1,"UH más cercana en línea recta (1.0 km), con coordenadas reales"
+050010217801,,,,0,sede administrativa
+050010217862,,,,0,unidad de salud mental (fuera del alcance del MVP)
+050010217863,,,,0,centro integral mujer y familia (fuera del alcance del MVP)

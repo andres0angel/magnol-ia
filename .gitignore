@@ -1,0 +1,9 @@
+.env
+datos/magnolia.db*
+# Conversaciones de las pruebas: pueden tener datos de personas reales (Ley 1581), no se suben
+datos/bitacoras/
+bitacora_*.csv
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
