@@ -186,3 +186,6 @@ id,split,contexto,frase,intencion,especialidad,fecha,franja,opcion,documento
 185,entrevistas,esperando_fecha,temprano en la mañana,informar,,,manana,,
 186,entrevistas,inicio,quiero saber para cuándo me quedó la cita,consultar,,,,,
 187,entrevistas,inicio,necesito sacarle una cita a mi mamá que no sabe usar el celular,agendar,,,,,
+188,real,inicio,buenas tardes es para saber cuales son las citas que tengo en el momento,consultar,,,,,
+189,real,inicio,qué citas tengo,consultar,,,,,
+190,real,inicio,cuántas citas tengo pendientes,consultar,,,,,

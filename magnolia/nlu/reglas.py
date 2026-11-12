@@ -64,7 +64,7 @@ REPROGRAMAR = _r(
 )
 CONSULTAR = _r(
     r"\bcuando (es|tengo|me toca|seria|quedo)\b", r"\ba que hora(s)? (es|tengo|quedo)\b", r"\bque dia (es|quedo|tengo)\b",
-    r"\btengo (una )?cita", r"\btengo citas\b", r"\bcitas? pendiente", r"\bproxima cita\b", r"\bmis citas\b",
+    r"\btengo (una )?cita", r"\btengo citas\b", r"\bcitas? que tengo\b", r"\b(cuales|que|cuantas) (son )?(las |mis )?citas\b", r"\bcitas? pendiente", r"\bproxima cita\b", r"\bmis citas\b",
     r"\bconfirm\w*\b", r"\bpara (que|cuando) (dia )?(quedo|tengo|es)\b", r"\bquedo (la|mi) cita\b",
     r"\bsaber (de|si tengo|cuando)\b.*\bcita", r"\bdonde es (la|mi) cita\b", r"\ba donde tengo que ir\b",
     r"\b(fecha|hora|dia) de (mi|la) cita\b", r"\bcuando era\b", r"\ba que hora(s)? tengo que ir\b", r"\bme recuerda\b",
