@@ -90,6 +90,18 @@ class BotTelegram:
             await update.message.reply_text(f"🗣️ Le entendí: «{texto}»")
         await self._responder(update, ctx, texto, es_voz=True)
 
+    async def error(self, update: object, ctx: ContextTypes.DEFAULT_TYPE) -> None:
+        from telegram.error import Conflict, NetworkError
+
+        e = ctx.error
+        if isinstance(e, Conflict):
+            log.warning("Hay OTRO bot encendido con este mismo token (otra pestaña de Colab u otro computador). "
+                        "Apague el otro: Telegram solo le entrega los mensajes a uno.")
+        elif isinstance(e, NetworkError):
+            log.warning("Problema de red con Telegram (%s); se reintenta solo.", e)
+        else:
+            log.exception("Error inesperado", exc_info=e)
+
     def ejecutar(self) -> None:
         if not config.telegram_token:
             raise SystemExit("Falta TELEGRAM_TOKEN en el archivo .env (créelo con @BotFather en Telegram).")
@@ -99,6 +111,7 @@ class BotTelegram:
         app.add_handler(CommandHandler("olvidar", self.olvidar))
         app.add_handler(MessageHandler(filters.VOICE | filters.AUDIO, self.voz))
         app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, self.texto))
+        app.add_error_handler(self.error)
         log.info("Magnol-IA en Telegram | voz a texto: %s | texto a voz: %s | LLM: %s",
                  self.stt.modo, self.tts.modo, "sí" if config.llm_activo else "no (solo reglas)")
         print("Bot de Telegram corriendo. Ctrl+C para detener.")
