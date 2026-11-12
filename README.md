@@ -106,7 +106,7 @@ Los datos clínicos reales no se usan porque son reservados por ley. Fuentes, su
 
 ## 4. Resultados de las pruebas
 
-**72 pruebas automáticas** (`pytest`), que también corren en GitHub en cada cambio: flujos completos, cancelaciones que liberan el cupo, reprogramación atómica, órdenes, urgencias, cuidadores, festivos, reservas simultáneas, webhook de WhatsApp (verificación, firma HMAC, mensajes repetidos), conversión a nota de voz OGG/Opus, el LLM y la voz a texto contra una API simulada (incluido qué pasa si se cae o se agota la cuota) y que la agenda respete los datos reales (horarios, UH más cercana, reparto de EPS y edades).
+**75 pruebas automáticas** (`pytest`), que también corren en GitHub en cada cambio: flujos completos, cancelaciones que liberan el cupo, reprogramación atómica, órdenes, urgencias, cuidadores, festivos, reservas simultáneas, webhook de WhatsApp (verificación, firma HMAC, mensajes repetidos), conversión a nota de voz OGG/Opus, el LLM y la voz a texto contra una API simulada (incluido qué pasa si se cae o se agota la cuota) y que la agenda respete los datos reales (horarios, UH más cercana, reparto de EPS y edades).
 
 **Comprensión (solo reglas, sin LLM):**
 
@@ -146,6 +146,9 @@ Los datos clínicos reales no se usan porque son reservados por ley. Fuentes, su
 | 43527891 | doña María Ofelia (74, Savia Salud) | Ya tiene cita de medicina general (no duplica, ofrece cambiarla) y una **orden vigente de medicina interna** |
 | 8345678 | don José Aníbal (81, Nueva EPS) | Tiene **dos citas**: muestra cómo elegir cuál cancelar o cambiar |
 | 32456789 | doña Rosa Elena (68, Sura) | Sin citas ni órdenes: agendar desde cero; pedir especialista sin orden |
+| **123** | doña Luz Marina (70) | Cédula fácil: sin citas ni órdenes, para agendar desde cero |
+| **000** | don Jesús Antonio (77) | Cédula fácil: tiene una cita de medicina general (consultar, cambiar, cancelar) |
+| **12345** | doña Gloria Inés (66) | Cédula fácil: orden vigente de medicina interna |
 
 **Scripts útiles:**
 
@@ -219,6 +222,6 @@ datos/
   sinteticos/          copia en CSV de la data generada (para abrir en Excel)
   pruebas/             frases etiquetadas de adultos mayores
 docs/GUIA_PRUEBAS.md   qué probar, consentimiento y tabla de observación
-tests/                 72 pruebas automáticas
+tests/                 75 pruebas automáticas
 .github/workflows/     las pruebas corren solas en GitHub en cada cambio
 ```

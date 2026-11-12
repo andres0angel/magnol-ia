@@ -170,3 +170,13 @@ def test_cedula_real_en_la_demo_sugiere_una_de_prueba(charla):
     respuesta = charla("1000640329")
     assert "No encontré esa cédula" in respuesta
     assert "32456789" in respuesta
+
+
+def test_cedulas_fijas_faciles(charla):
+    charla("hola")
+    assert "Luz Marina" in charla("uno dos tres")
+
+
+def test_cedula_000(charla):
+    charla("hola")
+    assert "Jesús Antonio" in charla("000")

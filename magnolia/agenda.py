@@ -51,7 +51,9 @@ class Agenda:
 
     # ---------- pacientes
     def paciente_por_documento(self, documento: str) -> Paciente | None:
-        f = self.con.execute("SELECT * FROM pacientes WHERE documento=?", (documento.lstrip("0"),)).fetchone()
+        f = self.con.execute("SELECT * FROM pacientes WHERE documento=?", (documento,)).fetchone()
+        if not f and documento.lstrip("0"):
+            f = self.con.execute("SELECT * FROM pacientes WHERE documento=?", (documento.lstrip("0"),)).fetchone()
         return self._paciente(f)
 
     def paciente(self, paciente_id: int) -> Paciente | None:

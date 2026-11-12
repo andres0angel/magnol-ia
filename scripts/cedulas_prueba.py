@@ -22,7 +22,7 @@ from magnolia.catalogo import nombre as nombre_especialidad  # noqa: E402
 from magnolia.config import config  # noqa: E402
 from magnolia.db import conectar  # noqa: E402
 
-DEMO = ("43527891", "8345678", "32456789")
+DEMO = ("43527891", "8345678", "32456789", "123", "000", "12345")
 
 
 def edad(nacimiento: str, hoy: date) -> int:
@@ -88,8 +88,8 @@ def main() -> None:
             print(f"\n{quien}")
             actual = quien
         print(f"  {doc:>10}  {nombre} ({anios} años, {sede})\n              → {prueba}")
-    print("\nReservadas para la demo en clase: 43527891 (doña María Ofelia), 8345678 (don José Aníbal), "
-          "32456789 (doña Rosa Elena).")
+    print("\nCédulas fijas (siempre iguales; las comparte todo el equipo): 123 (sin citas), 000 (tiene una cita), "
+          "12345 (orden de medicina interna).\nReservadas para la demo en clase: 43527891, 8345678 y 32456789.")
 
 
 if __name__ == "__main__":

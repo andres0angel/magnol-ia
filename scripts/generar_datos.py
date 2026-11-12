@@ -68,6 +68,13 @@ DEMO = [
          eps="Nueva EPS", regimen="subsidiado", sede="050010217808", telefono="3157894561"),
     dict(documento="32456789", nombres="Rosa Elena", apellidos="Cardona Muñoz", sexo="F", edad=68,
          eps="Sura", regimen="contributivo", sede="050010217804", telefono="3006543217"),
+    # Cédulas fáciles de recordar para probar (siempre iguales)
+    dict(documento="123", nombres="Luz Marina", apellidos="Ospina Vélez", sexo="F", edad=70,
+         eps="Savia Salud", regimen="subsidiado", sede="050010217833", telefono="3012345678"),     # sin citas ni órdenes
+    dict(documento="000", nombres="Jesús Antonio", apellidos="Henao Patiño", sexo="M", edad=77,
+         eps="Savia Salud", regimen="subsidiado", sede="050010217820", telefono="3023456789"),     # una cita de medicina general
+    dict(documento="12345", nombres="Gloria Inés", apellidos="Mejía Arango", sexo="F", edad=66,
+         eps="Savia Salud", regimen="contributivo", sede="050010217821", telefono="3034567890"),   # orden de medicina interna
 ]
 
 
@@ -276,6 +283,8 @@ def generar(args) -> None:
             ordenes.append((len(ordenes) + 1, p["id"], esp, emision.isoformat(), (emision + timedelta(days=90)).isoformat(), "activa"))
     ordenes.append((len(ordenes) + 1, 1, "medicina_interna", (desde - timedelta(days=10)).isoformat(),
                     (desde + timedelta(days=80)).isoformat(), "activa"))  # demo: doña María tiene orden de medicina interna
+    ordenes.append((len(ordenes) + 1, 6, "medicina_interna", (desde - timedelta(days=5)).isoformat(),
+                    (desde + timedelta(days=85)).isoformat(), "activa"))  # cédula 12345: doña Gloria
     con.executemany("INSERT INTO ordenes VALUES (?,?,?,?,?,?)", ordenes)
 
     # --- Citas ya programadas (por call center) para ~15 % de los pacientes y para los demo
@@ -298,6 +307,7 @@ def generar(args) -> None:
     reservar_cupo(1, "050010217815", "medicina_general", 3, time(8, 20))     # doña María
     reservar_cupo(2, "050010217808", "odontologia", 5, time(9, 0))           # don José: dos citas
     reservar_cupo(2, "050010217808", "medicina_general", 9, time(14, 0))
+    reservar_cupo(5, "050010217820", "medicina_general", 4, time(9, 0))      # cédula 000: don Jesús
     for p in pacientes[len(DEMO):]:
         if rng.random() < 0.15:
             esp = rng.choices(["medicina_general", "odontologia"], weights=[0.75, 0.25])[0]

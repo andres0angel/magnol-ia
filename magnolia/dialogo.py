@@ -240,7 +240,7 @@ class GestorDialogo:
             return Respuesta("Los datos no coinciden. Dígame otra vez el número de cédula, número por número.")
 
         if s.estado in ("pedir_documento", "confirmar_identidad"):
-            doc = i.documento or (re.search(r"\b(\d{5,11})\b", normalizar(i.texto)) or [None, None])[1]
+            doc = i.documento or (re.search(r"\b(\d{3,11})\b", normalizar(i.texto)) or [None, None])[1]
             if not doc:
                 if i.intencion in NEGOCIO:
                     s.pendiente = i
