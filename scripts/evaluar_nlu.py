@@ -33,7 +33,7 @@ def _pred_campo(interp, campo: str) -> str:
 
 def main() -> None:
     p = argparse.ArgumentParser()
-    p.add_argument("--split", choices=["todas", "desarrollo", "prueba", "posterior", "real"], default="todas")
+    p.add_argument("--split", choices=["todas", "desarrollo", "prueba", "posterior", "entrevistas", "real"], default="todas")
     p.add_argument("--motor", choices=["reglas", "llm", "hibrido"], default="reglas")
     p.add_argument("--errores", action="store_true")
     p.add_argument("--csv", help="guardar resultados detallados en este CSV")

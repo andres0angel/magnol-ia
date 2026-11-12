@@ -1,8 +1,8 @@
 especialidad,dias_espera_objetivo,dias_espera_simulados,parametro_T,cupos_totales
-medicina_general,2,1.82,2,122904
-odontologia,2,2.1,2,75228
-medicina_interna,25,24.44,24,5160
-optometria,10,10.11,11,5256
-nutricion,12,12,11,3424
-psicologia,15,14.67,16,2387
-ginecologia,10,10.22,10,5064
+medicina_general,2,1.96,2,122790
+odontologia,2,1.98,2,75154
+medicina_interna,25,24.78,24,5160
+optometria,10,10.33,12,5184
+nutricion,12,11.56,11,3440
+psicologia,15,14.56,16,2387
+ginecologia,10,9.44,10,5112

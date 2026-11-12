@@ -1,7 +1,7 @@
 # Magnol-IA · MVP
 
-[![Pruebas](https://github.com/USUARIO/REPO/actions/workflows/pruebas.yml/badge.svg)](https://github.com/USUARIO/REPO/actions/workflows/pruebas.yml)
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USUARIO/REPO/blob/main/Magnol-IA_Colab.ipynb)
+[![Pruebas](https://github.com/andres0angel/magnol-ia/actions/workflows/pruebas.yml/badge.svg)](https://github.com/andres0angel/magnol-ia/actions/workflows/pruebas.yml)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andres0angel/magnol-ia/blob/main/Magnol-IA_Colab.ipynb)
 
 Asistente de voz para que **adultos mayores saquen, consulten, cambien y cancelen citas médicas mandando notas de voz**, como le hablarían a una persona. Grupo 13, Creación de Empresas de Base Tecnológica.
 
@@ -13,7 +13,7 @@ Asistente de voz para que **adultos mayores saquen, consulten, cambien y cancele
 |---|---|---|
 | **Colab** (recomendado) | Cualquiera, sin instalar nada | Toque el botón *Abrir en Colab* de arriba y ejecute las celdas en orden. Permite conversar por texto con respuesta en audio. |
 | **Un bot para todo el equipo** | Probar notas de voz entre varias personas | Una persona enciende el bot desde Colab (paso 8); las demás le escriben o le mandan notas de voz desde Telegram, cada una con **sus propias cédulas** (paso 5). |
-| **En su computador** | Quien quiera modificar el código | `git clone https://github.com/USUARIO/REPO.git` y siga la [sección 5](#5-instalación-en-su-computador-unos-10-minutos). |
+| **En su computador** | Quien quiera modificar el código | `git clone https://github.com/andres0angel/magnol-ia.git` y siga la [sección 5](#5-instalación-en-su-computador-unos-10-minutos). |
 
 Qué probar y cómo hacerlo con adultos mayores: [`docs/GUIA_PRUEBAS.md`](docs/GUIA_PRUEBAS.md).
 
@@ -50,6 +50,9 @@ Cada respuesta llega como texto y también como nota de voz, con voz colombiana 
 | Hipótesis ajustada (E3): el problema **sobrecarga a los cuidadores** | Un hijo o hija puede pedir la cita "para mi mamá" dando la cédula de ella. |
 | Canvas: **paga la IPS**; el adulto mayor es el usuario | La agenda es una simulación de la de Metrosalud. En producción, esa pieza se reemplaza por la integración con el software de citas de la IPS cliente. |
 | Hipótesis del canal telefónico como cuello de botella | Cada cancelación libera el cupo al instante ("así ese espacio le sirve a otra persona") y la bitácora mide turnos y minutos hasta agendar. |
+| Entrevistas: *"hablan muy rápido y no tuvieron paciencia"*, *"uno llama y no entiende nada de lo que le dicen"* | Voz más lenta, frases cortas, máximo dos opciones y "¿me repite?" en cualquier momento, sin que nadie se impaciente. |
+| Entrevistas: llamar todos los días a las 7 a. m. o madrugar a hacer fila | Atiende a cualquier hora, sin espera, desde la casa. |
+| Entrevistas: citas de especialista canceladas que nadie vuelve a agendar | Entiende *"me la cancelaron, necesito que me la vuelvan a dar"* como un pedido de agendar (no de cancelar) y usa la orden vigente si la persona no recuerda la especialidad. |
 
 **¿Por qué Telegram y no WhatsApp?** Desde el **1 de octubre de 2026** Meta cobra cada respuesta que envía un negocio dentro de la ventana de 24 horas ("mensajes de servicio") y deja de entregarlas si la cuenta no tiene un método de pago registrado. Telegram es gratis y acepta notas de voz igual. El adaptador de WhatsApp **ya está hecho y probado** con mensajes simulados (`magnolia/canales/whatsapp.py`): usa el mismo núcleo. En un piloto real, ese costo lo asume la IPS, que es el cliente que paga.
 
@@ -67,7 +70,7 @@ El sistema no entrena un modelo propio: el reconocimiento de voz y el LLM ya vie
 | **Real (calibración)** | **Días de espera de la propia Metrosalud** (2023), consultorios y unidades odontológicas, citas incumplidas | Informe de empalme de Metrosalud (oct-2023) |
 | **Real (calibración)** | Edad y sexo de los pacientes (pirámide DANE 2026 de Medellín, 60+) y su EPS y régimen (75 % Savia Salud subsidiado, 10 % contributivo, 15 % población pobre no asegurada) | DANE; informe de empalme de Metrosalud |
 | **Sintético** | 1.503 adultos mayores, unos 240 médicos y odontólogos, ~220.000 cupos (40 días hábiles sin festivos), órdenes de remisión y citas existentes | `scripts/generar_datos.py` (Faker es_CO, reproducible con semilla) |
-| **Prueba** | 173 frases etiquetadas, dichas como las diría un adulto mayor paisa ("se me cayó la plancha", "dale pues", "ni de riesgos") | `datos/pruebas/frases_adultos_mayores.csv` |
+| **Prueba** | 187 frases etiquetadas, dichas como las diría un adulto mayor paisa ("se me cayó la plancha", "dale pues", "ni de riesgos"); 14 de ellas adaptadas de las entrevistas del Entregable 3 | `datos/pruebas/frases_adultos_mayores.csv` |
 
 Los datos clínicos reales no se usan porque son reservados por ley. Fuentes, supuestos y hallazgos al detalle en [`datos/reales/FUENTES.md`](datos/reales/FUENTES.md).
 
@@ -104,7 +107,7 @@ Los datos clínicos reales no se usan porque son reservados por ley. Fuentes, su
 
 ## 4. Resultados de las pruebas
 
-**69 pruebas automáticas** (`pytest`), que también corren en GitHub en cada cambio: flujos completos, cancelaciones que liberan el cupo, reprogramación atómica, órdenes, urgencias, cuidadores, festivos, reservas simultáneas, webhook de WhatsApp (verificación, firma HMAC, mensajes repetidos), conversión a nota de voz OGG/Opus, el LLM y la voz a texto contra una API simulada (incluido qué pasa si se cae o se agota la cuota) y que la agenda respete los datos reales (horarios, UH más cercana, reparto de EPS y edades).
+**70 pruebas automáticas** (`pytest`), que también corren en GitHub en cada cambio: flujos completos, cancelaciones que liberan el cupo, reprogramación atómica, órdenes, urgencias, cuidadores, festivos, reservas simultáneas, webhook de WhatsApp (verificación, firma HMAC, mensajes repetidos), conversión a nota de voz OGG/Opus, el LLM y la voz a texto contra una API simulada (incluido qué pasa si se cae o se agota la cuota) y que la agenda respete los datos reales (horarios, UH más cercana, reparto de EPS y edades).
 
 **Comprensión (solo reglas, sin LLM):**
 
@@ -113,8 +116,9 @@ Los datos clínicos reales no se usan porque son reservados por ley. Fuentes, su
 | Desarrollo | 64 | 100 % | 96,9 % |
 | Prueba | 63 | 100 % | 96,8 % |
 | **Frases nuevas escritas después de congelar las reglas** | 46 | **76,1 %** | 71,7 % |
+| **Frases tomadas de las entrevistas del Entregable 3** | 14 | **92,9 %** | 92,9 % |
 
-> ⚠️ **Hay que leer esto con honestidad.** El 100 % es optimista: la misma persona escribió las frases y las reglas. El número realista es el **76 %** con frases nunca vistas. De los 11 errores, **8 fueron casos en que las reglas mismas dijeron "no sé"**, que son justo los que el modo híbrido envía al LLM. Esas fallas se corrigieron después, así que ese conjunto ya no es ciego. **La métrica de verdad saldrá de probar con adultos mayores reales** (ver la sección 7).
+> ⚠️ **Hay que leer esto con honestidad.** El 100 % es optimista: la misma persona escribió las frases y las reglas. El número realista es el **76 %** con frases nunca vistas. De los 11 errores, **8 fueron casos en que las reglas mismas dijeron "no sé"**, que son justo los que el modo híbrido envía al LLM. Con las frases adaptadas de las entrevistas reales, el único error fue grave: *"me la cancelaron, necesito que me la vuelvan a dar"* se entendía como un pedido de cancelar. Ya está corregido (y por eso esos dos conjuntos ya no son ciegos). **La métrica de verdad saldrá de probar con adultos mayores reales** (ver la sección 7).
 
 ---
 
@@ -124,7 +128,7 @@ Los datos clínicos reales no se usan porque son reservados por ley. Fuentes, su
 2. **ffmpeg** (para las notas de voz): en Windows ejecute `winget install --id Gyan.FFmpeg -e` y abra una terminal nueva (en Mac: `brew install ffmpeg`).
 3. **Descargue e instale el proyecto:**
    ```
-   git clone https://github.com/USUARIO/REPO.git magnolia-mvp
+   git clone https://github.com/andres0angel/magnol-ia.git magnolia-mvp
    cd magnolia-mvp
    py -m pip install -r requirements.txt
    copy .env.ejemplo .env
@@ -216,6 +220,6 @@ datos/
   sinteticos/          copia en CSV de la data generada (para abrir en Excel)
   pruebas/             frases etiquetadas de adultos mayores
 docs/GUIA_PRUEBAS.md   qué probar, consentimiento y tabla de observación
-tests/                 69 pruebas automáticas
+tests/                 70 pruebas automáticas
 .github/workflows/     las pruebas corren solas en GitHub en cada cambio
 ```

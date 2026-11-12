@@ -38,3 +38,15 @@ def test_no_se_no_es_negar():
         assert reglas.interpretar("eh no sé", ctx).intencion != "negar"
         assert reglas.interpretar("no me acuerdo", ctx).intencion != "negar"
     assert reglas.interpretar("no señora", "esperando_confirmacion").intencion == "negar"
+
+
+def test_me_la_cancelaron_es_volver_a_agendar_no_cancelar():
+    # Frase de la entrevista ENT-002: la IPS le canceló la cita y necesita otra
+    from datetime import date
+
+    from magnolia.nlu import reglas
+
+    r = reglas.interpretar("me habían dado una cita y me la cancelaron, necesito que me la vuelvan a dar", "inicio",
+                           date(2026, 11, 12))
+    assert r.intencion == "agendar"
+    assert reglas.interpretar("quiero cancelar mi cita", "inicio", date(2026, 11, 12)).intencion == "cancelar"

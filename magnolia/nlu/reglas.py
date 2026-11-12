@@ -51,6 +51,11 @@ CANCELAR = _r(
     r"\bno puedo ir\b", r"\bno voy a poder asistir\b", r"\bya no la necesito\b", r"\bdesagend",
     r"\b(ya )?no necesito (ir|la cita|esa cita)\b",
 )
+# "Me la cancelaron" cuenta lo que hizo la IPS, no es un pedido de cancelar (entrevista ENT-002)
+CANCELADA_POR_OTROS = re.compile(
+    r"\b(me|nos|le|les) (la |las |lo )?cancelaron\b|\bse (me )?cancelo\b|\bfue cancelada\b|\bme (la )?anularon\b")
+VOLVER_A_AGENDAR = _r(r"\bvuelvan a (dar|asignar|agendar)\b", r"\breagend", r"\bvolver a (sacar|pedir|agendar)\b",
+                      r"\bme la (den|asignen) (otra vez|de nuevo)\b")
 REPROGRAMAR = _r(
     r"\bcambi\w* (la|mi|esa) cita\b", r"\bcambi\w*me la cita\b", r"\bcambiar(la)?\b.*\b(dia|fecha|hora)\b",
     r"\bmov\w* (la|mi) cita\b", r"\bmuev", r"\bcorr\w* (la|mi) cita\b", r"\bcorrer(la)?\b", r"\baplaz",
@@ -184,8 +189,10 @@ def interpretar(texto: str, contexto: str = "inicio", hoy: date | None = None) -
     #    mencionar "cita" ("tengo una cita y la quiero cancelar").
     if REPROGRAMAR.search(t):
         return decide("reprogramar")
-    if CANCELAR.search(t):
+    if CANCELAR.search(CANCELADA_POR_OTROS.sub(" ", t)):
         return decide("cancelar")
+    if VOLVER_A_AGENDAR.search(t):
+        return decide("agendar", 0.85)
     if CONSULTAR.search(t):
         return decide("consultar")
     if FUERA_ALCANCE.search(t) and not re.search(r"\bcita\b", t):

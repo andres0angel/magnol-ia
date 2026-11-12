@@ -172,3 +172,17 @@ id,split,contexto,frase,intencion,especialidad,fecha,franja,opcion,documento
 171,posterior,esperando_documento,cédula 1.036.456.789,dar_documento,,,,,1036456789
 172,posterior,esperando_documento,siete cero uno dos tres cuatro cinco seis,dar_documento,,,,,70123456
 173,posterior,esperando_documento,el número es 43 210 987,dar_documento,,,,,43210987
+174,entrevistas,inicio,"necesito una cita con el cardiólogo para mi papá, para que le renueve los medicamentos",agendar,cardiologia,,,,
+175,entrevistas,inicio,"es para mi abuela, necesito sacarle una cita con el médico",agendar,medicina_general,,,,
+176,entrevistas,inicio,necesito una cita con medicina interna,agendar,medicina_interna,,,,
+177,entrevistas,inicio,"me habían dado una cita y me la cancelaron, necesito que me la vuelvan a dar",agendar,,,,,
+178,entrevistas,inicio,¿hay citas disponibles o toca esperar a que abran agenda?,agendar,,,,,
+179,entrevistas,inicio,necesito la cita del especialista que me remitieron,agendar,,,,,
+180,entrevistas,inicio,"buenos días, llevo días llamando y no me contestan, necesito una cita con el médico general",agendar,medicina_general,,,,
+181,entrevistas,inicio,"yo no sé manejar esto, ¿me ayuda a pedir una cita?",agendar,,,,,
+182,entrevistas,inicio,quiero hablar con una persona que me explique,humano,,,,,
+183,entrevistas,esperando_opcion,"no le entendí nada, repítame más despacio",repetir,,,,,
+184,entrevistas,esperando_fecha,"lo más pronto posible, mi papá está muy delicado",informar,,asap,,,
+185,entrevistas,esperando_fecha,temprano en la mañana,informar,,,manana,,
+186,entrevistas,inicio,quiero saber para cuándo me quedó la cita,consultar,,,,,
+187,entrevistas,inicio,necesito sacarle una cita a mi mamá que no sabe usar el celular,agendar,,,,,
