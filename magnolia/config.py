@@ -10,9 +10,15 @@ from zoneinfo import ZoneInfo
 RAIZ = Path(__file__).resolve().parent.parent
 
 try:  # python-dotenv es opcional
-    from dotenv import load_dotenv
+    from dotenv import dotenv_values, load_dotenv
 
-    load_dotenv(RAIZ / ".env")
+    _ARCHIVO_ENV = RAIZ / ".env"
+    load_dotenv(_ARCHIVO_ENV)  # las variables del sistema ganan sobre el archivo...
+    # ...salvo que estén vacías: en Colab, una celda ejecutada antes de poner las claves deja TELEGRAM_TOKEN=""
+    # en el entorno, y los programas que se lanzan después lo heredan y ocultarían el token del archivo.
+    for _clave, _valor in dotenv_values(_ARCHIVO_ENV).items():
+        if _valor and not os.environ.get(_clave, "").strip():
+            os.environ[_clave] = _valor
 except ImportError:  # pragma: no cover
     pass
 
