@@ -253,6 +253,10 @@ class GestorDialogo:
                     s.fallos_documento = 0
                     return Respuesta("No encuentro esa cédula en el sistema. Puede ser que la persona no esté inscrita en esta IPS. "
                                      "Si quiere, diga: hablar con una persona.", ["Hablar con una persona"], "no_encontrado")
+                if config.modo_demo:
+                    # En la demo los pacientes son inventados: una cédula real nunca va a aparecer
+                    return Respuesta("No encontré esa cédula. Como esta es una demostración, los pacientes son "
+                                     "inventados: use una cédula de prueba, por ejemplo la 32456789.")
                 return Respuesta("No encontré esa cédula. ¿Me la repite, despacio, número por número?")
             s.candidato_id = p.id
             if config.verificar_nacimiento:

@@ -163,3 +163,10 @@ def test_boton_otro_especialista_usa_la_orden_vigente(charla):
 def test_especialista_sin_nombre_y_sin_orden(charla):
     identificar(charla, "32456789")  # doña Rosa no tiene órdenes
     assert "No veo órdenes vigentes" in charla("me remitieron al especialista")
+
+
+def test_cedula_real_en_la_demo_sugiere_una_de_prueba(charla):
+    charla("hola")
+    respuesta = charla("1000640329")
+    assert "No encontré esa cédula" in respuesta
+    assert "32456789" in respuesta
