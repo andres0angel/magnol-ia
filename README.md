@@ -106,7 +106,7 @@ Los datos clínicos reales no se usan porque son reservados por ley. Fuentes, su
 
 ## 4. Resultados de las pruebas
 
-**71 pruebas automáticas** (`pytest`), que también corren en GitHub en cada cambio: flujos completos, cancelaciones que liberan el cupo, reprogramación atómica, órdenes, urgencias, cuidadores, festivos, reservas simultáneas, webhook de WhatsApp (verificación, firma HMAC, mensajes repetidos), conversión a nota de voz OGG/Opus, el LLM y la voz a texto contra una API simulada (incluido qué pasa si se cae o se agota la cuota) y que la agenda respete los datos reales (horarios, UH más cercana, reparto de EPS y edades).
+**72 pruebas automáticas** (`pytest`), que también corren en GitHub en cada cambio: flujos completos, cancelaciones que liberan el cupo, reprogramación atómica, órdenes, urgencias, cuidadores, festivos, reservas simultáneas, webhook de WhatsApp (verificación, firma HMAC, mensajes repetidos), conversión a nota de voz OGG/Opus, el LLM y la voz a texto contra una API simulada (incluido qué pasa si se cae o se agota la cuota) y que la agenda respete los datos reales (horarios, UH más cercana, reparto de EPS y edades).
 
 **Comprensión (solo reglas, sin LLM):**
 
@@ -219,6 +219,6 @@ datos/
   sinteticos/          copia en CSV de la data generada (para abrir en Excel)
   pruebas/             frases etiquetadas de adultos mayores
 docs/GUIA_PRUEBAS.md   qué probar, consentimiento y tabla de observación
-tests/                 71 pruebas automáticas
+tests/                 72 pruebas automáticas
 .github/workflows/     las pruebas corren solas en GitHub en cada cambio
 ```

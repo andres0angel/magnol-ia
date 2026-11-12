@@ -14,8 +14,12 @@ UMBRAL = 0.7
 CAMPOS = ("especialidad", "fecha", "franja", "hora", "opcion", "documento", "dia_semana")
 
 
-def _suficiente(r: Interpretacion, contexto: str) -> bool:
+def _suficiente(r: Interpretacion, contexto: str, texto: str = "") -> bool:
     if r.intencion == "desconocido" or r.confianza < UMBRAL:
+        return False
+    # "Buenas tardes, es para saber cuáles citas tengo": las reglas solo reconocen el saludo, pero la frase
+    # pide algo más. Un saludo largo se le pasa al LLM (primera prueba real en Telegram).
+    if r.intencion == "saludo" and len(texto.split()) > 4:
         return False
     if contexto == "esperando_documento" and r.intencion == "dar_documento":
         return bool(r.documento)
@@ -24,7 +28,7 @@ def _suficiente(r: Interpretacion, contexto: str) -> bool:
 
 def interpretar(texto: str, contexto: str = "inicio", hoy: date | None = None) -> Interpretacion:
     r = reglas.interpretar(texto, contexto, hoy)
-    if _suficiente(r, contexto):
+    if _suficiente(r, contexto, texto):
         return r
     l = llm.interpretar(texto, contexto, hoy)
     if l is None or l.intencion == "desconocido":

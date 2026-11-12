@@ -86,3 +86,23 @@ def test_voz_a_texto_por_api(monkeypatch, tmp_path):
     audio = tmp_path / "nota.ogg"
     audio.write_bytes(b"OggS-falso")
     assert Transcriptor().transcribir(audio) == "Quiero una cita con el médico."
+
+
+def test_saludo_largo_se_le_pasa_al_llm(monkeypatch):
+    from datetime import date
+
+    from magnolia.nlu import hibrido, llm
+    from magnolia.nlu.tipos import Interpretacion
+
+    llamadas = []
+
+    def falso(texto, contexto, hoy):
+        llamadas.append(texto)
+        return Interpretacion(intencion="consultar", confianza=0.9, fuente="llm")
+
+    monkeypatch.setattr(llm, "interpretar", falso)
+    r = hibrido.interpretar("buenas tardes, quisiera mirar qué tengo programado", "inicio", date(2026, 11, 12))
+    assert r.intencion == "consultar" and llamadas
+    llamadas.clear()
+    assert hibrido.interpretar("buenas tardes", "inicio", date(2026, 11, 12)).intencion == "saludo"
+    assert not llamadas  # un saludo corto no gasta una llamada al LLM
