@@ -1,6 +1,5 @@
 # Magnol-IA · MVP
 
-[![Pruebas](https://github.com/andres0angel/magnol-ia/actions/workflows/pruebas.yml/badge.svg)](https://github.com/andres0angel/magnol-ia/actions/workflows/pruebas.yml)
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andres0angel/magnol-ia/blob/main/Magnol-IA_Colab.ipynb)
 
 Asistente de voz para que **adultos mayores saquen, consulten, cambien y cancelen citas médicas mandando notas de voz**, como le hablarían a una persona. Grupo 13, Creación de Empresas de Base Tecnológica.
