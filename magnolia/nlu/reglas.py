@@ -104,8 +104,16 @@ OTRAS = _r(
 DOCUMENTO = re.compile(r"\b(\d{5,11})\b")
 
 
+GRUPOS_DIGITOS = re.compile(r"\d[\d\s.,-]*\d|\d")
+
+
 def _documento(t: str) -> str | None:
+    """Cédula aunque la dicten por grupos: '29 28 57 72', '2.92.85.772', '32-456-789', 'veintinueve 285 772'."""
     m = DOCUMENTO.search(t)
+    for grupo in GRUPOS_DIGITOS.findall(t):
+        digitos = re.sub(r"\D", "", grupo)
+        if 5 <= len(digitos) <= 11:
+            return digitos
     return m.group(1) if m else None
 
 
@@ -148,6 +156,9 @@ def interpretar(texto: str, contexto: str = "inicio", hoy: date | None = None) -
     # 2. Lo que el diálogo está esperando.
     if contexto == "esperando_documento":
         doc = _documento(t)
+        if not doc and "," in texto:
+            # "veintinueve, doscientos ochenta y cinco, setecientos setenta y dos": cada grupo por aparte
+            doc = _documento(" ".join(normalizar(parte) for parte in texto.split(",")))
         if doc:
             r.documento = doc
             return decide("dar_documento", 0.95)

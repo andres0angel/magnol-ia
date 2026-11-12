@@ -50,3 +50,15 @@ def test_me_la_cancelaron_es_volver_a_agendar_no_cancelar():
                            date(2026, 11, 12))
     assert r.intencion == "agendar"
     assert reglas.interpretar("quiero cancelar mi cita", "inicio", date(2026, 11, 12)).intencion == "cancelar"
+
+
+def test_cedula_dictada_por_grupos():
+    from datetime import date
+
+    from magnolia.nlu import reglas
+
+    for frase in ["2.92.85.772", "29 28 57 72", "29.285.772", "32-456-789", "mi cédula es 43 52 78 91",
+                  "veintinueve, doscientos ochenta y cinco, setecientos setenta y dos"]:
+        r = reglas.interpretar(frase, "esperando_documento", date(2026, 11, 12))
+        assert r.intencion == "dar_documento", frase
+        assert r.documento in {"29285772", "32456789", "43527891"}, (frase, r.documento)
