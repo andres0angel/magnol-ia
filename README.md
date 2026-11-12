@@ -16,6 +16,8 @@ Asistente de voz para que **adultos mayores saquen, consulten, cambien y cancele
 
 Qué probar y cómo hacerlo con adultos mayores: [`docs/GUIA_PRUEBAS.md`](docs/GUIA_PRUEBAS.md).
 
+Cómo está construido y por qué (arquitectura, diagramas y decisiones técnicas): [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md).
+
 ```
 Usuario (nota de voz): "Buenas, necesito una cita con el de la presión"
 Magnol-IA:  Hola, soy Magnol-IA, la asistente de citas médicas de la IPS piloto. […] Dígame el
@@ -221,6 +223,7 @@ datos/
   catalogos/           especialidades.csv · sedes_atributos.csv
   sinteticos/          copia en CSV de la data generada (para abrir en Excel)
   pruebas/             frases etiquetadas de adultos mayores
+docs/ARQUITECTURA.md   arquitectura, diagramas y decisiones técnicas
 docs/GUIA_PRUEBAS.md   qué probar, consentimiento y tabla de observación
 tests/                 75 pruebas automáticas
 .github/workflows/     las pruebas corren solas en GitHub en cada cambio
