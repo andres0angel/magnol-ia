@@ -49,7 +49,7 @@ class Config:
     # Comprensión con LLM (opcional). Cualquier API compatible con OpenAI: Groq, Gemini, OpenRouter...
     llm_api_key: str = field(default_factory=lambda: _env("LLM_API_KEY"))
     llm_base_url: str = field(default_factory=lambda: _env("LLM_BASE_URL", "https://api.groq.com/openai/v1"))
-    llm_modelo: str = field(default_factory=lambda: _env("LLM_MODELO", "llama-3.3-70b-versatile"))
+    llm_modelo: str = field(default_factory=lambda: _env("LLM_MODELO", "openai/gpt-oss-120b"))
     llm_timeout: float = field(default_factory=lambda: float(_env("LLM_TIMEOUT", "8")))
 
     # Voz a texto

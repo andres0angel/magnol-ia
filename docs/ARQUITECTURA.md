@@ -131,7 +131,7 @@ flowchart TD
     NORM --> REG["Reglas<br/>patrones por intención + extractores<br/>de fecha, franja, cédula y especialidad"]
     REG --> Q{"¿Las reglas están seguras?<br/>intención conocida, confianza ≥ 0,7<br/>y no es un saludo largo"}
     Q -- "sí (la mayoría de turnos)" --> OUT["Interpretación"]
-    Q -- "no" --> LLM["LLM (Llama 3.3 70B en Groq)<br/>temperature 0 · salida JSON"]
+    Q -- "no" --> LLM["LLM (GPT-OSS 120B en Groq)<br/>temperature 0 · salida JSON"]
     LLM --> VAL{"¿Respondió algo válido?"}
     VAL -- "sí" --> MERGE["El LLM decide la intención;<br/>las reglas completan fecha y cédula"]
     VAL -- "no (sin clave, sin red, sin cuota)" --> OUT
@@ -382,7 +382,7 @@ flowchart LR
 
 | Mecanismo | Qué mide | Dónde |
 |---|---|---|
-| **75 pruebas automáticas** (pytest) | Flujos completos, reglas de negocio, concurrencia, urgencias, festivos, canales, LLM y voz simulados, y que la data respete las fuentes reales | `tests/` |
+| **76 pruebas automáticas** (pytest) | Flujos completos, reglas de negocio, concurrencia, urgencias, festivos, canales, LLM y voz simulados, y que la data respete las fuentes reales | `tests/` |
 | **Evaluación de comprensión** | % de intención y datos correctos sobre 190 frases etiquetadas: desarrollo, prueba, frases posteriores, **entrevistas** y **pruebas reales** | `scripts/evaluar_nlu.py` |
 | **Métricas de uso** | Tasa de éxito al agendar, turnos y minutos hasta agendar, % no entendido, % que pidió una persona, % por voz, reglas frente a LLM | `scripts/metricas.py` |
 | **Verificación de claves** | Que el token, el LLM y la voz a texto funcionen de verdad | `scripts/verificar_claves.py` (paso 2b) |
@@ -400,5 +400,5 @@ El ciclo de mejora es: **probar con personas → exportar la bitácora → marca
 | Identidad | Nombre (+ año de nacimiento opcional) | Código de un solo uso al celular registrado |
 | Despliegue | Colab o un PC | Servidor en la nube con webhook y monitoreo |
 | Sesiones | Memoria | Redis o base de datos, para sobrevivir reinicios |
-| Comprensión | Reglas + Llama en Groq (gratis) | Igual, con frases reales de los usuarios y límites de pago |
+| Comprensión | Reglas + GPT-OSS 120B en Groq (gratis) | Igual, con frases reales de los usuarios y límites de pago |
 | Extensiones | — | Recordatorios por voz antes de la cita (inasistencia del 17 %), reagendar citas canceladas por la IPS |

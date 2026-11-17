@@ -107,6 +107,33 @@ def _validar(datos: dict, texto: str, hoy: date) -> Interpretacion:
     return r
 
 
+# Si el modelo configurado se retira (Groq retiró llama-3.3-70b-versatile en 2026), se prueban estos en orden
+MODELOS_RESPALDO = ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "llama-3.1-8b-instant"]
+_modelo_activo: str | None = None
+
+
+def _candidatos() -> list[str]:
+    lista = [_modelo_activo] if _modelo_activo else []
+    for m in [config.llm_modelo, *MODELOS_RESPALDO]:
+        if m not in lista:
+            lista.append(m)
+    return lista
+
+
+def _cuerpo(modelo: str, sistema: str, texto: str) -> dict:
+    cuerpo = {
+        "model": modelo,
+        "temperature": 0,
+        "max_tokens": 200,
+        "messages": [{"role": "system", "content": sistema}, {"role": "user", "content": texto}],
+        "response_format": {"type": "json_object"},
+    }
+    if "gpt-oss" in modelo:  # modelos que razonan: poco razonamiento y espacio para él
+        cuerpo["reasoning_effort"] = "low"
+        cuerpo["max_tokens"] = 1024
+    return cuerpo
+
+
 def interpretar(texto: str, contexto: str, hoy: date | None = None) -> Interpretacion | None:
     """Devuelve None si no hay clave o la API falla (el sistema sigue con reglas)."""
     if not config.llm_activo:
@@ -119,25 +146,31 @@ def interpretar(texto: str, contexto: str, hoy: date | None = None) -> Interpret
         descripcion_contexto=DESCRIPCION_CONTEXTO.get(contexto, ""), intenciones=", ".join(INTENCIONES),
         especialidades=esp,
     )
-    cuerpo = {
-        "model": config.llm_modelo,
-        "temperature": 0,
-        "max_tokens": 200,
-        "messages": [{"role": "system", "content": sistema}, {"role": "user", "content": texto}],
-        "response_format": {"type": "json_object"},
-    }
     url = config.llm_base_url.rstrip("/") + "/chat/completions"
     cabeceras = {"Authorization": f"Bearer {config.llm_api_key}"}
     inicio = datetime.now()
+    global _modelo_activo
+    contenido = None
     try:
         with httpx.Client(timeout=config.llm_timeout) as cliente:
-            resp = cliente.post(url, json=cuerpo, headers=cabeceras)
-            if resp.status_code == 400:  # algunos proveedores no aceptan response_format
-                cuerpo.pop("response_format")
+            for modelo in _candidatos():
+                cuerpo = _cuerpo(modelo, sistema, texto)
                 resp = cliente.post(url, json=cuerpo, headers=cabeceras)
-            resp.raise_for_status()
-            contenido = resp.json()["choices"][0]["message"]["content"]
-    except Exception as e:  # red caída, cuota agotada (429), modelo retirado...
+                if resp.status_code == 400 and "response_format" in cuerpo:  # proveedor sin modo JSON
+                    cuerpo.pop("response_format")
+                    resp = cliente.post(url, json=cuerpo, headers=cabeceras)
+                if resp.status_code == 404:  # modelo retirado: probar el siguiente
+                    log.warning("El modelo %s ya no existe en el proveedor; se prueba otro", modelo)
+                    continue
+                resp.raise_for_status()
+                if _modelo_activo != modelo:
+                    log.info("LLM: usando el modelo %s", modelo)
+                    _modelo_activo = modelo
+                contenido = resp.json()["choices"][0]["message"]["content"]
+                break
+            else:
+                raise RuntimeError("ninguno de los modelos configurados está disponible")
+    except Exception as e:  # red caída, cuota agotada (429), clave inválida...
         log.warning("LLM no disponible (%s); se usan solo reglas", e)
         return None
     datos = _extraer_json(contenido or "")

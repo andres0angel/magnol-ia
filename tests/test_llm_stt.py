@@ -106,3 +106,25 @@ def test_saludo_largo_se_le_pasa_al_llm(monkeypatch):
     llamadas.clear()
     assert hibrido.interpretar("buenas tardes", "inicio", date(2026, 11, 12)).intencion == "saludo"
     assert not llamadas  # un saludo corto no gasta una llamada al LLM
+
+
+def test_si_el_modelo_fue_retirado_prueba_otro(monkeypatch):
+    import json as _json
+
+    from magnolia.nlu import llm
+
+    monkeypatch.setattr(llm, "_modelo_activo", None)
+    pedidos = []
+
+    def manejador(req):
+        modelo = _json.loads(req.content)["model"]
+        pedidos.append(modelo)
+        if modelo == "modelo-retirado":
+            return httpx.Response(404, json={"error": {"code": "model_not_found"}})
+        return respuesta_chat({"intencion": "consultar"})
+
+    api_falsa(monkeypatch, manejador)
+    monkeypatch.setattr(config, "llm_modelo", "modelo-retirado")
+    r = llm.interpretar("quisiera mirar qué tengo programado", "inicio")
+    assert r is not None and r.intencion == "consultar"
+    assert pedidos[0] == "modelo-retirado" and pedidos[1] == "openai/gpt-oss-120b"
