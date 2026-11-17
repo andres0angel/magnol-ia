@@ -41,6 +41,16 @@ def main() -> None:
         print("   — sin LLM_API_KEY: el bot solo entiende con reglas")
     else:
         print(f"   modelo: {config.llm_modelo}")
+        try:
+            r = httpx.get(config.llm_base_url.rstrip("/") + "/models",
+                          headers={"Authorization": f"Bearer {config.llm_api_key}"}, timeout=15)
+            if r.status_code in (401, 403):
+                print("   ❌ Groq RECHAZA la clave: está mal copiada o fue revocada (si estuvo publicada en GitHub,\n"
+                      "      Groq la desactiva). Cree una nueva en https://console.groq.com/keys y péguela en el paso 2.")
+                return
+            print(f"   ✅ clave aceptada (HTTP {r.status_code})")
+        except Exception as e:
+            print(f"   ❌ no se pudo contactar a Groq: {e}")
         for frase in FRASES:
             regla = reglas.interpretar(frase, "inicio", config.hoy())
             directo = llm.interpretar(frase, "inicio", config.hoy())

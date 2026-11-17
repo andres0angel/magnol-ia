@@ -50,13 +50,24 @@ class Transcriptor:
                 return self._api(ruta)
             if self.modo == "local":
                 return self._local(ruta)
+        except httpx.HTTPStatusError as e:
+            codigo = e.response.status_code
+            if codigo in (401, 403):
+                log.error("Groq RECHAZÓ la clave LLM_API_KEY (HTTP %s): está mal copiada o fue revocada. "
+                          "Cree una nueva en console.groq.com/keys y póngala en el paso 2.", codigo)
+            elif codigo == 429:
+                log.error("Groq: se agotó la cuota gratuita por ahora (HTTP 429). Se intenta en el computador.")
+            else:
+                log.error("Groq no transcribió el audio (HTTP %s): %s", codigo, e.response.text[:200])
         except Exception as e:
-            log.warning("No se pudo transcribir %s: %s", ruta.name, e)
-            if self.modo == "api":  # si la API falla (sin internet, cuota), intentar local
-                try:
-                    return self._local(ruta)
-                except Exception:
-                    return None
+            log.error("No se pudo transcribir %s: %s", ruta.name, e)
+        if self.modo == "api":  # si la API falla (clave, cuota o red), intentar en el propio computador
+            try:
+                return self._local(ruta)
+            except ImportError:
+                log.error("Tampoco hay voz a texto local: instale faster-whisper (pip install faster-whisper).")
+            except Exception as e:
+                log.error("La voz a texto local también falló: %s", e)
         return None
 
     def _api(self, ruta: Path) -> str | None:
